@@ -25,7 +25,7 @@ class Parser():
 		merged_str = "".join(re.findall(REGEX,temp_str))
 		return merged_str
 
-	def clean_sample(self,aString,language):
+	def clean_sample(self,aString,language,unique):
 		"""Returns consonants after stemming words.
 			Arguments: a string for the sample and the sample's language."""
 		    # creating objects for stemmer, common words and key for punctuation/numbers to be removed
@@ -33,8 +33,17 @@ class Parser():
 		common_words = stopwords.words(language)
 
 		# separates sentence into elements and stores in elemList
-		wordList=aString.split()
+
+		elemList=aString.split()
 		
+		wordList=[]
+		if unique is True:
+			for elem in elemList:
+				if elem not in wordList:
+					wordList.append(elem)
+		else:
+			wordList=elemList
+
 		# stemming first
 		stems=[]
 		for word in wordList:
