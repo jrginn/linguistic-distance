@@ -45,7 +45,7 @@ class Parser():
 		aString = aString.lower()
 
 		# removes punctuation
-		aString = remove_punct(aString)
+		aString = self.remove_punct(aString)
 
 		# separates sentence into elements and stores in elemList
 		elemList = aString.split()
