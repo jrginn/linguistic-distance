@@ -9,6 +9,15 @@ from nltk.corpus import stopwords
 # With reference from https://github.com/vivianofsouza/linguistic-distance
 
 class Parser():
+
+	def remove_punct(self, aString):
+		# regex to remove puncutation/numbers
+		removePunct = re.compile(r"[0-9,@\?\.$%_/:()']")
+
+		aString = re.sub(removePunct, "", aString.lower())
+
+		return aString
+
 	def only_consonants(self,aString):
 		"""Returns only the consonants from a given string.
 			Argument: a string. Output: a string."""
@@ -32,17 +41,24 @@ class Parser():
 		stemmer = SnowballStemmer(str(language))
 		common_words = stopwords.words(language)
 
-		# separates sentence into elements and stores in elemList
+		# lowercases the string
+		aString = aString.lower()
 
-		elemList=aString.split()
-		
+		# removes punctuation
+		aString = remove_punct(aString)
+
+		# separates sentence into elements and stores in elemList
+		elemList = aString.split()
+
+		# removing punctuation/numbers
 		wordList=[]
-		if unique is True:
-			for elem in elemList:
-				if elem not in wordList:
-					wordList.append(elem)
-		else:
-			wordList=elemList
+		for elem in elemList:
+			stripped_elem = self.remove_punct(elem)
+			if(stripped_elem != ""):
+				wordList.append(elem)
+		
+		# if unique, only return non-duplicate words
+		wordList = list(dict.fromkeys(wordList))
 
 		# stemming first
 		stems=[]
