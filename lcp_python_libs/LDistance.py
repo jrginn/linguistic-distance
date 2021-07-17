@@ -13,7 +13,7 @@ from transliterate import translit, get_available_language_codes
 
 class LDistance():
 
-	def ldistance(self,strA, strB):
+	def l_distance(self,strA, strB):
 		
 		#setting up matrix
 		size_x = len(strA) + 1
@@ -41,12 +41,6 @@ class LDistance():
 						matrix[x][y] = c + 1
 		# bottom-right element is l-distance
 		distance = matrix[-1][-1]
-		
-		# printing
-		#for t1 in range(size_x):
-			#for t2 in range(size_y ):
-				#print(int(matrix[t1][t2]), end=" ")
-			#print()
 			
 		#taking into consideration the length of the words
 		length = 0
@@ -66,18 +60,60 @@ class LDistance():
 		distances=[]
 		
 		# aligning pairs
-		for i in range(len(alignment)):
-			idx1 = alignment[i][0]
-			idx2 = alignment[i][1]
-			str1 = list1[idx1]
-			str2 = list2[idx2]
+
+		# Check if not dictionary, if so then 1-1
+		if type(alignment) != dict:
+			for i in range(len(alignment)):
+				idx1 = alignment[i][0]
+				idx2 = alignment[i][1]
+				str1 = list1[idx1]
+				str2 = list2[idx2]
+				print(str1 + "-" + str2)
+				l = self.l_distance(str(str1), str(str2))
+				distances.append(l)
+			return distances
+		else:
+			# check if many-many or 1-many alignments
+			if(type(alignment[list(alignment.keys())[0]] == tuple)):
+				return self.measure_samples_many_many(list1,list2,alignment)
+			else:
+				return self.measure_samples_one_many(list1,list2,alignment)
+	
+	def measure_samples_many_many(self, list1,list2,alignment):
+		"""
+		function that lines up pairs of words between two samples.
+		Parameters: 2 lists of words from each sample, 1 dictionary of tuples manually-created alignment between the two lists
+		Output: a list of the l-d scores.
+		"""
+
+		distances = []
+
+		# align lists of lists in alignments
+		# each element in alignment is a 
+		for align_tuple in alignment.keys():
+			str1 = ""
+			str2 = ""
+
+			# populate string1
+			for i in range(len(align_tuple)):
+				# find the corresponding index in list1, add it to str
+				index = align_tuple[i]
+				str1 += list1[index]
+			
+			# populate string2
+			for i in range(len(align_tuple)):
+				# find the corresponding index in list1, add it to str
+				index = align_tuple[i]
+				str2 += list2[index]
+			
 			print(str1 + "-" + str2)
-			l = self.ldistance(str(str1), str(str2))
-			distances.append(l)
+			l_distance = self.l_distance(str1,str2)
+
+			distances.append(l_distance)
 			
 		return distances
 
-	def measure_samples_dict(self,list1, list2, alignment):
+	def measure_samples_one_many(self,list1, list2, alignment):
 		"""function that lines up pairs of words between the two samples, and calculates their l-distance
 		parameters: 2 lists of words from each sample, 1 list of manually-created alignment between the two lists"""
 		distances=[]
@@ -89,28 +125,29 @@ class LDistance():
 			for x in range(len(alignment[i])):
 				str2 += list2[alignment[i][x]]
 			print(str1 + "-" + str2)
-			l = self.ldistance(str(str1), str(str2))
+			l = self.l_distance(str(str1), str(str2))
 			distances.append(l)
 			
 		return distances
 
+### TESTING ###
+# from Parser import Parser
+# _ld = LDistance()
+# _p = Parser()
 
-#### TESTING SPA-ENG ####
-# ld = LDistance()
+# Testing on 1 - 1
+# _ld = LDistance()
+# _p = Parser()
+
 # engSample = "Guided by the purposes and principles of the Charter of the United Nations, and expressing in particular the need to achieve international cooperation in promoting and encouraging respect for human rights and fundamental freedoms for all without distinction"
-# spaSample = "Guiado por los propósitos y principios de la Carta de las Naciones Unidas, y expresando en particular la necesidad de lograr la cooperación internacional para promover y alentar el respeto de los derechos humanos y las libertades fundamentales para todos sin distinción"
+# spaSample = "Inspirándose en los propósitos y principios de la Carta de las Naciones Unidas y expresando en particular la necesidad de lograr la cooperación internacional en la promoción y el fomento del respeto de los derechos humanos y las libertades fundamentales para todos sin distinción"
 
-# #Removing vowels, punctuation, stemming
-# engWords = ld.clean_sample(engSample, "english")
-# spaWords = ld.clean_sample(spaSample, "spanish")
+# engWords = _p.clean_sample(engSample,"english")
+# spaWords = _p.clean_sample(spaSample,"spanish")
 
-# #Manually transcribing sentence alignment to compare word-to-word
 # print("Spa-Eng Pairs\n")
 # eng_spa_align = [(0,0), (1,1), (2,2), (3,3), (4,5), (5,4), (6, 6), (7,7), (8,8), (9,9), (10, 11), (11, 10), (12, 12), (13, 13), (14, 14), (15, 16), (16, 15), (18, 17), (17, 18), (20, 19)]
-
-
-# #Passing lists of consonant-only words in both languages and their alignment to Ldistnance method
-# measures = ld.measure_samples(engWords, spaWords, eng_spa_align)
+# measures = _ld.measure_samples(engWords,spaWords,eng_spa_align)
 # print("\n")
 # print("English consonants\n")
 # print(engWords)
@@ -127,44 +164,31 @@ class LDistance():
 # for i in range(len(measures)):
 #     avg = avg + measures[i]
 # print(avg/len(measures))
-	
-#### TESTING RUS-ENG ####
-# ld = LDistance()
+
+# Testing on Many - Many
 # engSample = "Guided by the purposes and principles of the Charter of the United Nations, and expressing in particular the need to achieve international cooperation in promoting and encouraging respect for human rights and fundamental freedoms for all without distinction"
-# rusSample = "Руководствуясь целями и принципами Устава Организации Объединенных Наций и выражая в частности необходимость достижения международного сотрудничества в поощрении и поощрении уважения прав человека и основных свобод для всех без различия"
-#rusSample = translit(rusSample, 'ru', reversed=True)
-# engWords = engSample.split()
-# rusWords = rusSample.split()
+# spaSample = "Inspirándose en los propósitos y principios de la Carta de las Naciones Unidas y expresando en particular la necesidad de lograr la cooperación internacional en la promoción y el fomento del respeto de los derechos humanos y las libertades fundamentales para todos sin distinción"
 
-#Removing vowels, punctuation, stemming
-# engWords = ld.clean_sample(engSample, "english")
-# rusWords = ld.clean_sample(rusSample, "russian")
+# engWords = _p.clean_sample(engSample,"english")
+# spaWords = _p.clean_sample(spaSample,"spanish")
 
-
-# transliterating Cyrillic text
-# print("Rus-Eng Pairs\n")
-# translitRus=[]
-# for i in range(len(rusWords)):
-#     l = translit(rusWords[i], 'ru', reversed=True)
-#     translitRus.append(l)
-
-# # running through clean_sample once more - to remove vowels
-# translitString=""
-# for i in range(len(translitRus)):
-#     translitString+=translitRus[i] + " "
-# rusFinal = ld.clean_sample(translitString, "russian")
-    
-# # manual alignment
-# eng_rus_align = [(0,0), (1,1), (2,2), (3,3), (4,6), (5,7), (6,8), (7,7), (8,8), (9,9), (10, 10), (11,11), (12,12), (13,13), (15,14), (14,15), (16,16), (17,17), (19,18)]
-
-# #Passing lists of consonant-only words in both languages and their alignment to Ldistnance method
-# measures = ld.measure_samples(engWords, rusFinal, eng_rus_align)
+# # dummy align data, note use of tuple:tuple dictionary
+# # IMPORTANT: SINGLE ITEM TUPLES NEED TRAILING COMMA 
+# eng_spa_align = {
+# 	(0,1):(1,0),
+# 	(2,):(2,),
+# 	(3,4):(4,),
+# 	(5,):(2,3),
+# 	(5,6,7,8):(2,),
+# }
+# print(type(eng_spa_align))
+# measures = _ld.measure_samples(engWords,spaWords,eng_spa_align)
 # print("\n")
 # print("English consonants\n")
 # print(engWords)
 # print("\n")
-# print("Russian consonants\n")
-# print(rusFinal)
+# print("Spanish consonants\n")
+# print(spaWords)
 # print("\n")
 # print("L-Distance measures per pair of aligned words\n")
 # print(measures)
