@@ -28,7 +28,7 @@ class Parser():
 	
 	def remove_numbers_and_punct(self,aString):
 		# regex to remove puncutation and numbers
-		remove_punct = re.compile(r"[0-9,@\?\.$%_/:()']")
+		remove_punct = re.compile(r"[0-9,@\?\.\$%_/:()']")
 
 		aString = re.sub(remove_punct, "", aString.lower())
 
@@ -71,10 +71,10 @@ class Parser():
 		stems = []
 		for word in aWordList:
 			# need to remove everything except apostrophe since stop words includes those
-			word = re.sub(re.compile(",@\?\.$%_/:()"),"",word)
+			word = re.sub(re.compile("@\?\.\$%_/: \(\) ,"),"",word)
 			stemmed_word = self.stem_word(word,language)
-
-			stems.append(stemmed_word)
+			if stemmed_word != ",":
+				stems.append(stemmed_word)
 		
 		return stems
 	
@@ -149,40 +149,6 @@ class Parser():
 		
 		return parsed_stems
 
-	# def clean_sample(self,aString,language,unique=False):
-	# 	"""Returns consonants after stemming words.
-	# 		Arguments: a string for the sample and the sample's language."""
-	# 	    # creating objects for stemmer, common words and key for punctuation/numbers to be removed
-	# 	stemmer = SnowballStemmer(str(language))
-	# 	common_words = stopwords.words(language)
-
-	# 	# separates sentence into elements and stores in elemList
-
-	# 	# convert to lowercase, remove punctuation / numbers
-	# 	aString = self.remove_numbers_and_punct(aString.lower())
-
-	# 	wordList = aString.split()
-
-	# 	if unique:
-	# 	# if unique, then want to only return unique words	
-	# 		wordList = list(dict.fromkeys(wordList))
-
-	# 	# stemming first
-	# 	stems=[]
-	# 	for word in wordList:
-	# 		if word not in common_words:
-	# 			w = stemmer.stem(word)
-	# 			stems.append(w)
-
-	# 	# now removing punctuation, numbers, vowels and storing in wordList
-	# 	# need a string to call only_consonants
-	# 	parsed_stems = []
-	# 	for stem in stems:
-	# 		stripped_str  = self.only_consonants(stem)
-	# 		if(stripped_str != ""):
-	# 			parsed_stems.append(stripped_str)
-
-	# 	return parsed_stems 
 
 
 # _p = Parser()
