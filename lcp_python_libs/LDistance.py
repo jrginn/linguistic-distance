@@ -127,44 +127,44 @@ class LDistance():
 			
 		return distances
 
-### TESTING ###
-from Parser import Parser
-_ld = LDistance()
-_p = Parser()
+# ### TESTING ###
+# from Parser import Parser
+# _ld = LDistance()
+# _p = Parser()
 
-engSample = "Reaffirming that the enhancement of international cooperation in the field of human rights is essential for the full achievement of the purposes of the United Nations and that human rights and fundamental freedoms are the birthright of all human beings"
-gerSample = "Bekräftigend, dass die Verbesserung der internationalen Zusammenarbeit im Bereich der Menschenrechte für die volle Verwirklichung der Ziele der Vereinten Nationen von wesentlicher Bedeutung ist und dass die Menschenrechte und Grundfreiheiten das Geburtsrecht aller Menschen sind, den Schutz und die Förderung dieser Rechte und Freiheiten"
+# engSample = "Reaffirming that the enhancement of international cooperation in the field of human rights is essential for the full achievement of the purposes of the United Nations and that human rights and fundamental freedoms are the birthright of all human beings"
+# gerSample = "Bekräftigend, dass die Verbesserung der internationalen Zusammenarbeit im Bereich der Menschenrechte für die volle Verwirklichung der Ziele der Vereinten Nationen von wesentlicher Bedeutung ist und dass die Menschenrechte und Grundfreiheiten das Geburtsrecht aller Menschen sind, den Schutz und die Förderung dieser Rechte und Freiheiten"
 
-engWords = _p.clean_sample(engSample, "english")
+# engWords = _p.clean_sample(engSample, "english")
 
-gerWords = _p.clean_sample(gerSample, "german")
-
- 
-
-eng_ger_dict = {
-    (0,):(0,),
-    (1,):(1,),
-    (2,):(2,),
-    (3,):(3,),
-    (4,):(4,),
-    (5,6):(1,),
-    (5,7):(1,),
-    (5,8):(1,),
-    (5,):(1,),
-}
-measures = _ld.measure_samples_many_many(engWords, gerWords, eng_ger_dict)
+# gerWords = _p.clean_sample(gerSample, "german")
 
  
 
-print("\n")
-print("L-distance measures")
-print(measures)
-print("\n")
-print("Average")
-avg = 0
-for i in range(len(measures)):
-    avg = avg + measures[i]
-print(avg/len(measures))
+# eng_ger_dict = {
+#     (0,):(0,),
+#     (1,):(1,),
+#     (2,):(2,),
+#     (3,):(3,),
+#     (4,):(4,),
+#     (5,6):(1,),
+#     (5,7):(1,),
+#     (5,8):(1,),
+#     (5,):(1,),
+# }
+# measures = _ld.measure_samples_many_many(engWords, gerWords, eng_ger_dict)
+
+ 
+
+# print("\n")
+# print("L-distance measures")
+# print(measures)
+# print("\n")
+# print("Average")
+# avg = 0
+# for i in range(len(measures)):
+#     avg = avg + measures[i]
+# print(avg/len(measures))
 
 # Testing on 1 - 1
 # _ld = LDistance()
