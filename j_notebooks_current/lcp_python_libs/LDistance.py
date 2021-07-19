@@ -1,10 +1,13 @@
 import re # to use in regular expressions
+import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
+import pandas as pd
 import nltk 
-# from nltk.translate import Alignment
+from nltk.translate import Alignment
 from nltk.stem.snowball import SnowballStemmer # to stem words, doesn't work well
 from nltk.corpus import stopwords # to remove common words
-# from transliterate import translit, get_available_language_codes
+from transliterate import translit, get_available_language_codes
 
 # This class contains all of the code to calculate L distances.
 
@@ -76,7 +79,7 @@ class LDistance():
 			else:
 				return self.measure_samples_one_many(list1,list2,alignment)
 	
-	def measure_samples_many_many(self, list1,list2,alignment_dict):
+	def measure_samples_many_many(self, list1,list2,alignment):
 		"""
 		function that lines up pairs of words between two samples.
 		Parameters: 2 lists of words from each sample, 1 dictionary of tuples manually-created alignment between the two lists
@@ -87,20 +90,20 @@ class LDistance():
 
 		# align lists of lists in alignments
 		# each element in alignment is a 
-		for tuple_key in alignment_dict.keys():
+		for align_tuple in alignment.keys():
 			str1 = ""
 			str2 = ""
 
 			# populate string1
-			for i in range(len(tuple_key)):
+			for i in range(len(align_tuple)):
 				# find the corresponding index in list1, add it to str
-				index = tuple_key[i]
+				index = align_tuple[i]
 				str1 += list1[index]
 			
 			# populate string2
-			for i in range(len(alignment_dict[tuple_key])):
+			for i in range(len(align_tuple)):
 				# find the corresponding index in list1, add it to str
-				index = alignment_dict[tuple_key][i]
+				index = align_tuple[i]
 				str2 += list2[index]
 			
 			print(str1 + "-" + str2)
@@ -128,43 +131,9 @@ class LDistance():
 		return distances
 
 ### TESTING ###
-from Parser import Parser
-_ld = LDistance()
-_p = Parser()
-
-engSample = "Reaffirming that the enhancement of international cooperation in the field of human rights is essential for the full achievement of the purposes of the United Nations and that human rights and fundamental freedoms are the birthright of all human beings"
-gerSample = "Bekräftigend, dass die Verbesserung der internationalen Zusammenarbeit im Bereich der Menschenrechte für die volle Verwirklichung der Ziele der Vereinten Nationen von wesentlicher Bedeutung ist und dass die Menschenrechte und Grundfreiheiten das Geburtsrecht aller Menschen sind, den Schutz und die Förderung dieser Rechte und Freiheiten"
-
-engWords = _p.clean_sample(engSample, "english")
-
-gerWords = _p.clean_sample(gerSample, "german")
-
- 
-
-eng_ger_dict = {
-    (0,):(0,),
-    (1,):(1,),
-    (2,):(2,),
-    (3,):(3,),
-    (4,):(4,),
-    (5,6):(1,),
-    (5,7):(1,),
-    (5,8):(1,),
-    (5,):(1,),
-}
-measures = _ld.measure_samples_many_many(engWords, gerWords, eng_ger_dict)
-
- 
-
-print("\n")
-print("L-distance measures")
-print(measures)
-print("\n")
-print("Average")
-avg = 0
-for i in range(len(measures)):
-    avg = avg + measures[i]
-print(avg/len(measures))
+# from Parser import Parser
+# _ld = LDistance()
+# _p = Parser()
 
 # Testing on 1 - 1
 # _ld = LDistance()

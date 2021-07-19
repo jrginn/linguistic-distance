@@ -71,9 +71,8 @@ class Parser():
 		stems = []
 		for word in aWordList:
 			# need to remove everything except apostrophe since stop words includes those
-			word = re.sub(re.compile("@\?\.\$%_/: \(\) ,'"),"",word)
+			word = re.sub(re.compile("@\?\.\$%_/: \(\) ,"),"",word)
 			stemmed_word = self.stem_word(word,language)
-			# temporary fix
 			if stemmed_word != ",":
 				stems.append(stemmed_word)
 		

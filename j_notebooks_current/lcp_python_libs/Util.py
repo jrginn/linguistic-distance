@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
+from lang_trans.arabic import buckwalter
 #### This class is to hold all utilities needed, such as graphing.
 
 class Util:
@@ -72,6 +73,12 @@ class Util:
 		# TO DO: ADD OPTION TO SAVE AS PNG
 		sns.heatmap(df)
 	
+	def transliterate_ar(self,aStr):
+		"""This function transliterates Arabic into English using
+		Buckwalter method."""
+		# transliterates Arabic into English
+		
+		return buckwalter.transliterate(aStr)
 
 
 #### TESTING ON DUMMY DATA ####
