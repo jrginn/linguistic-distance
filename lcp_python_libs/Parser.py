@@ -123,9 +123,22 @@ class Parser():
 
 		# convert to lowercase, remove punctuation / numbers
 		sample = sample.lower()
-		sample = self.remove_numbers_and_punct(sample.lower())
 
 		# separate based on spaces
+
+		# if french, remove " l' " from beginning of words
+		if language == "french":
+			new_sample = []
+			for word in sample.split():
+				if len(word) > 2 and word[0:2] == "l'":
+					word = word[2:]
+				# append word to new sample
+				new_sample.append(word)
+			# update sample
+			sample = (" ").join(new_sample)
+		
+
+		sample = self.remove_numbers_and_punct(sample)
 
 		word_list = sample.split() 
 
@@ -147,13 +160,25 @@ class Parser():
 
 			if(stripped_str != ""):
 				parsed_stems.append(stripped_str)
+				
 		
 		return parsed_stems
 
 
+# TESTING
 
 # _p = Parser()
+
+# TESTING REMOVAL OF STOP WORDS
+
 # print(_p.removeStopWordsFromString("Hello how are you","english"))
 # print(stopwords.words("english"))
+
+# TESTING STEMMING
+
 # print(_p.stem_word("having","english"))
 # print(_p.stem_list(["having", "had", "went" , "gone"],"english"))
+
+# TESTING FRENCH REMOVAL OF " l' " IN START OF WORD
+# fr_str = "Réaffirmant l'engagement de l'tous les l'États à s'acquitter de leurs obligations en vertu d' autres instruments importants du droit international , en particulier ceux du droit international des droits de l'homme et du droit international humanitaire"
+# print(_p.clean_sample(fr_str, "french"))
