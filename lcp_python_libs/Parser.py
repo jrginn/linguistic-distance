@@ -20,7 +20,7 @@ class Parser():
 
 	def remove_punct(self, aString):
 		# regex to remove puncutation
-		remove_punct = re.compile(r"[,@\?\.$%_/:()']")
+		remove_punct = re.compile(r"[,@\#?\.$%_/:()']")
 
 		aString = re.sub(remove_punct, "", aString.lower())
 
@@ -55,7 +55,7 @@ class Parser():
 		Arguments: a word for the sample and the sample's language.
 		Output: a stemmed word.
 		"""
-		stemmer = SnowballStemmer(str(language))
+		stemmer = SnowballStemmer(language)
 
 		stemmed_word = stemmer.stem(aWord)
 
@@ -71,7 +71,7 @@ class Parser():
 		stems = []
 		for word in aWordList:
 			# need to remove everything except apostrophe since stop words includes those
-			word = re.sub(re.compile("@\?\.\$%_/: \(\) ,'"),"",word)
+			word = re.sub(re.compile("@\?\.\$%_/: \(\) ,'\-"),"",word)
 			stemmed_word = self.stem_word(word,language)
 			# temporary fix
 			if stemmed_word != ",":
@@ -79,18 +79,17 @@ class Parser():
 		
 		return stems
 	
-	def remove_common_words_from_string(self, aString, aLanguage):
+	def remove_common_words_from_string(self, aString, language):
 		"""
 		Returns a list without the common words in a language.
 
 		Arguments: a string sample, the language of the sample
 		Output: a list of the words that are not in stoppwords
 		"""
-		common_words = stopwords.words(aLanguage)
+		common_words = stopwords.words(language)
 
 		# if french, get rid of "l'"
-		if aLanguage == "french":
-			common_words.append("l'")
+		common_words.append(["l'","",","])
 
 		# lower case the string
 		aString = aString.lower()
@@ -98,11 +97,27 @@ class Parser():
 
 		# split string into word elements
 		word_list = aString.split()
+		# if french, remove " l' " from beginning of words
+		if language == "french":
+			new_sample = []
+			for word in word_list:
+				if len(word) > 2 and word[0:2] == "l'":
+					word = word[2:]
+				# append word to new sample
+				new_sample.append(word)
+			# update sample
+			word_list = new_sample
 
 		word_list_no_common = []
 		for word in word_list:
 			if word not in common_words:
-				word_list_no_common.append(word)
+				word = self.remove_numbers_and_punct(word)
+				if word != "":
+					if language != "french":
+						word_list_no_common.append(word)
+					else:
+						if word != "l" and word != "d":
+							word_list_no_common.append(word)
 		
 		return word_list_no_common
 
