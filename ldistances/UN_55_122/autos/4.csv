@@ -1,5 +1,5 @@
 ﻿spanish,french,index,alignment,spanish_eng,french_eng
-profundamente,profondément,0,,deeply,deeply
+profundamente,profondément,0,0|0,deeply,deeply
 convencido,convaincu,1, 1|1,convinced,convinced
 interés,intérêt,2, 2|2,interest,interest
 común,commun,3, 3|3,common,common
@@ -8,9 +8,9 @@ promover,promouvoir,5, 5|5,promote,promote
 ampliar,étendre,6,,enlarge,to expand
 exploración,exploration,7, 7|7,exploration,exploration
 utilización,utilisation,8,,utilization,use
-espacio,espace,9, 9|9,space,space
+espacio,espace,9,9|9,space,space
 ultraterrestre,extra-atmosphérique,10,,extraterrestrial,outer space
-fines,fins,11,,purposes,ends
+fines,fins,11,11|11,purposes,ends
 pacíficos,pacifiques,12, 12|12,peaceful,peaceful
 esfuerzos,poursuivre,13, 13|14,efforts,to chase
 continuos,efforts,14,,continuous,efforts
@@ -138,7 +138,7 @@ viena,recommandations,135,,vienna,recommendations
 espacio,contenues,136,* 136|122,space,contained
 desarrollo,résolution,137,,developing,resolution
 "humano""",intitulée,138,* 138|146,"human""",titled
-aprobada,"""le",139,*** 139|184,approved,"""the"
+aprobada,"""le",139,,approved,"""the"
 tercera,millénaire,140,* 140|148,third,millennium
 conferencia,espace,141,* 141|149,conference,space
 naciones,déclaration,142,* 142|150,nations,declaration

@@ -118,6 +118,7 @@ class SheetMaker():
 						# can safely go both lower and uppper
 						for j in range((i-curr_step),(i+curr_step)):
 							if self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "equal":
+                                                            # words are a direct match
 								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"*")
 								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
 								# remove
@@ -126,6 +127,7 @@ class SheetMaker():
 								raise GetOutOfLoop
 							# method 2: in -- change to "#"'
 							elif self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "in":
+                                                            # word1 is within word2
 								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"#")
 								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
 								# remove
@@ -136,6 +138,7 @@ class SheetMaker():
 						# can safely check lower bounds
 						for j in range((i-curr_step),i):
 							if self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "equal":
+                                                            # direct match
 								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"*")
 								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
 								# remove
@@ -144,12 +147,14 @@ class SheetMaker():
 								raise GetOutOfLoop
 							# method 2: in
 							elif self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "in":
+                                                            # word1 in word2
 								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"#")
 								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
 								# remove
 								l2_wrappers.pop(j)
 								l1_wrappers.pop(i)
 								raise GetOutOfLoop
+
 					elif self.check_bounds(i,curr_step,l1_wrappers) == "upper" and self.check_bounds(i,curr_step,l2_wrappers) == "upper":
 						# can safely check upper bounds
 						for j in range(i,(i+curr_step)):
@@ -172,6 +177,8 @@ class SheetMaker():
 				curr_step += step
 				
 			except GetOutOfLoop:
+                            # GetOutOfLoop is designed to be a quick means of leaving the loop and going back to the
+                            # original while loop
 				pass
 
 		return ret_df
@@ -193,6 +200,7 @@ class SheetMaker():
 				translated_list = []
 				for word in lang_text_dict[key]:
 					try:
+                                            # get a translation of the words
 						translated_list.append(GoogleTranslator(source=key,target="english").translate(text=word))
 					except Exception as e:
 						print("*****************")
@@ -226,6 +234,19 @@ class SheetMaker():
 		return new_d
 
 	def create_align_df(self,lang1,lang2,lang_text_dict, lang_trans_dict):
+            """
+            This function takes in 2 languages, a dictionary of the language texts in their raw form (lang_text_dict), and a dictionary of the english translations
+            of the languages
+
+            Returns an aligned dataframe of form:
+
+            LANG1
+            LANG2
+            INDEX
+            ALIGNMENT
+            LANG1_eng
+            LANG2_eng
+            """
 		df_dict = {}
 		df_dict[lang1] = lang_text_dict[lang1]
 		df_dict[lang2] = lang_text_dict[lang2]
@@ -233,13 +254,17 @@ class SheetMaker():
 		len1 = len(lang_text_dict[lang1])
 		len2 = len(lang_text_dict[lang2])
 		
+                # the df needs to have columns of equal length
+                # so we pad the smaller dictionary
 		max_len = 0
 		if len1 > len2:
 			max_len = len1
 		else:
 			max_len = len2
 		
+                # create index column
 		df_dict["index"] = [i for i in range(max_len)]
+                # create column for the alignment
 		df_dict["alignment"] = [""] * max_len
 		
 		if(lang1 != "english"):
@@ -267,18 +292,22 @@ class SheetMaker():
 		and returns a csv of the matched alignments
 
 		"""
+
 		lang_parsed_dict = {}
 		# create a dict of parsed strings
+                # parsed = no common words
 		for key in lang_str_dict:
 			sample_str = lang_str_dict[key]
 			lang_parsed_dict[key] =  self._parser.remove_common_words_from_string(sample_str,key)
 		
+                # get a dictionary of all of the english translations of the languages, AFTER removing common words
 		translated_dict = self.get_lang_trans_to_eng_texts_dict(lang_parsed_dict)
 
 		aligned_df_list = []
 
 		all_langs = list(lang_str_dict.keys())
 
+                # appending each combination of LANG_A LANG_B alignment dataframs to aligned_df_list
 		for i in range(len(all_langs)):
 			for j in range(i+1,len(all_langs)):
 				temp = self.create_align_df(all_langs[i],all_langs[j],lang_parsed_dict,translated_dict)
@@ -286,6 +315,7 @@ class SheetMaker():
 				aligned_df = self.generate_alignments(all_langs[i],all_langs[j],step,temp)
 				aligned_df_list.append(aligned_df)
 		
+                # making a directory to store the alignments, if dir already exists end the routine so as to not over-write things
 		try:
 			os.mkdir(dir_name)
 		except:
@@ -297,6 +327,7 @@ class SheetMaker():
 		
 
 
+                # create csv for each aligned_df, put into the dir that we just tried to make
 		for i in range(len(aligned_df_list)):
 			file_path = os.path.join(dir_name,"{}.csv".format(i))
 			aligned_df_list[i].to_csv(file_path,index=False,encoding="utf-8-sig")
