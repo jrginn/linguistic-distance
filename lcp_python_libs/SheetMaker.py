@@ -84,7 +84,7 @@ class SheetMaker():
 		elif marker == "#":
 		# "#" means "within word". This is more often risky, so always mark.
 		# Even if within the original step count, mark it (why count + 1).
-			return "{} {}|{}".format("#"*(counter),i,j)
+			return "{} {}|{}".format("#"*(counter+1),i,j)
 	def generate_alignments(self,lang1,lang2,step,df):
 		"""
 		This function takes in two languages to be aligned, a step, and the dataframe of the 
@@ -247,41 +247,41 @@ class SheetMaker():
             LANG1_eng
             LANG2_eng
             """
-		df_dict = {}
-		df_dict[lang1] = lang_text_dict[lang1]
-		df_dict[lang2] = lang_text_dict[lang2]
+            df_dict = {}
+            df_dict[lang1] = lang_text_dict[lang1]
+            df_dict[lang2] = lang_text_dict[lang2]
 		
-		len1 = len(lang_text_dict[lang1])
-		len2 = len(lang_text_dict[lang2])
+            len1 = len(lang_text_dict[lang1])
+            len2 = len(lang_text_dict[lang2])
 		
                 # the df needs to have columns of equal length
                 # so we pad the smaller dictionary
-		max_len = 0
-		if len1 > len2:
-			max_len = len1
-		else:
-			max_len = len2
+            max_len = 0
+            if len1 > len2:
+                max_len = len1
+            else:
+                max_len = len2
 		
                 # create index column
-		df_dict["index"] = [i for i in range(max_len)]
-                # create column for the alignment
-		df_dict["alignment"] = [""] * max_len
+            df_dict["index"] = [i for i in range(max_len)]
+                    # create column for the alignment
+            df_dict["alignment"] = [""] * max_len
 		
-		if(lang1 != "english"):
-			df_dict["{}_eng".format(lang1)] = lang_trans_dict[lang1]
-		else:
-			df_dict["{}_eng".format(lang1)] = lang_text_dict[lang1]
-		# other lang
-		df_dict["{}_eng".format(lang2)] = lang_trans_dict[lang2]
+            if(lang1 != "english"):
+                df_dict["{}_eng".format(lang1)] = lang_trans_dict[lang1]
+            else:
+                df_dict["{}_eng".format(lang1)] = lang_text_dict[lang1]
+            # other lang
+            df_dict["{}_eng".format(lang2)] = lang_trans_dict[lang2]
 		
-		# pad the df
-		for k in df_dict:
-			length = len(df_dict[k])
-			if length < max_len:
-				diff = max_len - length
-				df_dict[k] += [np.nan] * diff
+            # pad the df
+            for k in df_dict:
+                length = len(df_dict[k])
+                if length < max_len:
+                    diff = max_len - length
+                    df_dict[k] += [np.nan] * diff
 		
-		return pd.DataFrame.from_dict(df_dict)
+            return pd.DataFrame.from_dict(df_dict)
 
 
 	def make_auto_matched_csv(self,lang_str_dict,step,dir_name):
