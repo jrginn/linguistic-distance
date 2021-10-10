@@ -1,0 +1,227 @@
+﻿english,french,index,alignment,english_eng,french_eng
+conference,conférence,0,0|0,conference,conference
+parties,parties,1,1|1,parties,parts
+united,convention,2, 2|4,united,convention
+nations,nations,3, 3|3,nations,nations
+convention,unies,4, 4|2,convention,united
+transnational,contre,5, 5|7,transnational,versus
+organized,criminalité,6, 6|8,organized,criminality
+crime,transnationale,7,7|6,crime,transnational
+decides,organisée,8,8|9,decides,organized
+effect,décide,9,,effect,decided
+third,compter,10, 10|11,third,to count
+session,troisième,11, 11|12,session,third
+elect,session,12, 12|13,elect,session
+end,élire,13, 13|14,end,elect
+session,fin,14, 14|15,session,end
+bureau,session,15,15|16,bureau,session
+subsequent,bureau,16,16|18,subsequent,office
+session,session,17, 17|17,session,session
+encourage,suivante,18,# 18|19,encourage,next
+play,encourager,19,# 19|20,play,to encourage
+active,jouer,20, 20|22,active,to play
+role,rôle,21, 21|21,role,role
+preparation,actif,22,22|23,preparation,active
+regular,préparation,23,23|24,regular,preperation
+session,session,24, 24|24,session,session
+well,ordinaire,25,,well,ordinary
+possible,ainsi,26, 26|28,possible,Thus
+intersessional,lors,27, 27|30,intersessional,during
+meetings,éventuelles,28, 28|29,meetings,possible
+also,réunions,29, 29|32,also,meetings
+decides,intersessions,30,30|31,decides,intersessional
+amend,décide,31,31|33,amend,decided
+rule,également,32,,rule,also
+rules,modifier,33,,rules,to modify
+procedure,article,34,,procedure,item
+accordingly,règlement,35,,accordingly,regulation
+effect,intérieur,36, 36|38,effect,interior
+third,conséquence,37, 37|39,third,result
+session,effet,38, 38|40,session,effect
+read,troisième,39, 39|41,read,third
+follows,session,40, 40|43,follows,session
+rule,lire,41,,rule,read
+election,comme,42, 42|45,election,like
+end,suit,43, 43|46,end,follows
+session,article,44, 44|48,session,item
+president,élection,45, 45|49,president,election
+eight,fin,46, 46|50,eight,end
+vice-presidents,chaque,47,# 47|51,vice-presidents,each
+rapporteur,session,48,48|55,rapporteur,session
+shall,président,49,,shall,President
+elected,huit,50, 50|56,elected,eight
+among,vice,51, 51|57,among,vice
+representatives,-,52, 52|58,representatives,
+states,les,53, 53|59,states,the
+parties,présidents,54,54|60,parties,presidents
+president,rapporteur,55,# 55|54,president,protractor
+vice-presidents,élus,56,# 56|61,vice-presidents,elected
+rapporteur,parmi,57,57|63,rapporteur,among
+elected,représentants,58,* 58|65,elected,representatives
+shall,états,59,,shall,states
+serve,parties,60,,serve,parts
+officers,président,61,,officers,President
+subsequent,vice-présidents,62,64|70,subsequent,vice-presidents
+session,rapporteur,63,63|69,session,protractor
+guide,ainsi,64, 64|71,guide,Thus
+secretariat,élus,65, 65|72,secretariat,elected
+preparations,font,66,66|73,preparations,make
+session,fonction,67, 67|69,session,function
+intersessional,bureau,68,,intersessional,office
+meetings,session,69, 69|76,meetings,session
+may,suivante,70,,may,next
+held,guident,71,,held,guide
+electing,secrétariat,72,72|82,electing,secretariat
+officers,préparation,73,,officers,preperation
+session,cette,74, 74|75,session,this
+five,session,75,* 75|86,five,session
+regional,réunions,76,* 76|88,regional,meetings
+groups,intersessions,77,* 77|87,groups,intersessional
+shall,peuvent,78,,shall,can
+represented,avoir,79,* 79|89,represented,to have
+two,lieu,80,,two,place
+officers,lors,81,# 81|83,officers,during
+one,élection,82,,one,election
+shall,bureau,83,,shall,office
+among,session,84,* 84|94,among,session
+representatives,chacun,85,* 85|95,representatives,each
+states,cinq,86,* 86|96,states,five
+parties,groupes,87,87|97,parties,groups
+convention,régionaux,88,* 88|98,convention,regional
+one,représenté,89,,one,represented
+possible,deux,90,* 90|101,possible,of them
+protocols,membres,91,* 91|103,protocols,members
+entered,bureau,92,92|104,entered,office
+force,dont,93,93|105,force,of which
+opening,parmi,94,94|106,opening,among
+session,représentants,95,95|107,session,representatives
+bureau,etats,96,96|110,bureau,states
+shall,parties,97,# 97|102,shall,parts
+include,convention,98,,include,convention
+least,plusieurs,99,99|110,least,various
+two,si,100,,two,if
+representatives,possible,101,* 101|112,representatives,possible
+states,tous,102,* 102|113,states,all
+parties,protocoles,103,103|114,parties,protocols
+instruments,entrés,104,* 104|116,instruments,entered
+entered,vigueur,105, 105|104,entered,vigor
+force,ouverture,106,106|118,force,opening
+opening,session,107, 107|106,opening,session
+session,bureau,108, 108|107,session,office
+offices,comprend,109,# 109|108,offices,understand
+president,moins,110,* 110|122,president,less
+rapporteur,deux,111,113|123,rapporteur,of them
+conference,représentants,112,* 112|124,conference,representatives
+shall,etats,113,# 113|115,shall,states
+normally,parties,114,* 114|125,normally,parts
+subject,tous,115,,subject,all
+rotation,instruments,116,* 116|127,rotation,instruments
+among,entrés,117,,among,entered
+five,vigueur,118,* 118|129,five,vigor
+regional,ouverture,119,* 119|131,regional,opening
+groups,session,120,* 120|130,groups,session
+behalf,bureaux,121,,behalf,offices
+states,président,122,* 122|133,states,President
+members,rapporteur,123,* 123|91,members,protractor
+united,conférence,124,* 124|136,united,conference
+nations,normalement,125,* 125|135,nations,normally
+members,soumis,126,* 126|134,members,submitted
+european,rotation,127,* 127|139,european,rotation
+union,entre,128,* 128|138,union,Between
+sixtieth,cinq,129,* 129|140,sixtieth,five
+session,groupes,130,* 130|120,session,groups
+agenda,régionaux,131,,agenda,regional
+item,nom,132,,item,name
+proposed,états,133,,proposed,states
+programme,membres,134,,programme,members
+budget,nations,135,,budget,nations
+biennium,unies,136,,biennium,united
+-,membres,137,,-,members
+proposed,union,138,,proposed,union
+programme,européenne,139,,programme,european
+budget,soixantième,140,* 140|146,budget,sixtieth
+biennium,session,141,,biennium,session
+-,point,142,,-,point
+section,ordre,143,,section,order
+office,jour,144,## 144|121,office,day
+internal,projet,145,* 145|163,internal,project
+oversight,budget,146,,oversight,budget
+services,-,147,* 147|161,services,
+fifteenth,programme,148,* 148|164,fifteenth,program
+report,exercice,149,* 149|165,report,exercise
+advisory,biennal,150,,advisory,biennial
+committee,-,151,* 151|166,committee,
+administrative,projet,152,* 152|169,administrative,project
+budgetary,budget,153,# 153|153,budgetary,budget
+questions,-,154,* 154|168,questions,
+advisory,programme,155,* 155|167,advisory,program
+committee,exercice,156,* 156|171,committee,exercise
+recalls,biennal,157,,recalls,biennial
+time,-,158,,time,
+consideration,chapitre,159,,consideration,chapter
+proposed,bureau,160,,proposed,office
+programme,services,161,## 161|155,programme,services
+budget,contrôle,162,# 162|170,budget,control
+-,interne,163,,-,internal
+biennium,quinzième,164,,biennium,fifteenth
+informed,rapport,165,** 165|183,informed,report
+would,comité,166,,would,committee
+substantial,consultatif,167,** 167|186,substantial,advisory
+revision,questions,168,** 168|185,revision,Questions
+proposal,administratives,169,,proposal,administrative
+office,budgétaires,170,* 170|160,office,budgetary
+internal,comité,171,** 171|191,internal,committee
+oversight,rappelle,172,,oversight,remember
+services,quau,173,* 173|189,services,quau
+oios,moment,174,,oios,moment
+new,examen,175,### 175|194,new,exam
+proposal,projet,176,* 176|187,proposal,project
+would,budget-programme,177,,would,program budget
+submitted,exercice,178,****** 178|126,submitted,exercise
+sixtieth,biennal,179,** 179|198,sixtieth,biennial
+session,-,180,** 180|199,session,
+general,euh,181,** 181|201,general,uh
+assembly,a,182,** 182|200,assembly,To
+end,informé,183,** 183|203,end,informed
+see,quil,184,** 184|204,see,that he
+paras,révision,185,,paras,revision
+accordingly,substantielle,186,,accordingly,substantial
+committee,proposition,187,,committee,proposal
+address,bureau,188,,address,office
+initial,services,189,,initial,services
+estimates,contrôle,190,,estimates,control
+time,interne,191,,time,internal
+instead,bsci,192,,instead,bsci
+indicated,cette,193,,indicated,this
+readiness,nouvelle,194,,readiness,news
+take,proposition,195,,take,proposal
+estimates,soumise,196,,estimates,submissive
+soon,cours,197,,soon,Classes
+would,soixantième,198,,would,sixtieth
+available,session,199,,available,session
+,assemblée,200,,,Assembly
+,générale,201,,,general
+,avant,202,,,before
+,fin,203,,,end
+,voir,204,,,see
+,a,205,,,To
+,paras,206,,,paras
+,conséquence,207,,,result
+,comité,208,,,committee
+,na,209,,,n / A
+,examiné,210,,,examined
+,estimations,211,,,estimates
+,initiales,212,,,initials
+,moment,213,,,moment
+,-,214,,,
+,là,215,,,the
+,a,216,,,To
+,plutôt,217,,,rather
+,indiqué,218,,,indicated
+,quil,219,,,that he
+,prêt,220,,,ready
+,examiner,221,,,examine
+,estimations,222,,,estimates
+,dès,223,,,from
+,quelles,224,,,what
+,disponibles,225,,,available
