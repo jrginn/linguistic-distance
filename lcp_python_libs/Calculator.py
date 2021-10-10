@@ -8,6 +8,12 @@ from transliterate import translit, get_available_language_codes
 from lcp_python_libs.LDistance import LDistance
 from lcp_python_libs.Parser import Parser
 
+"""
+***************************
+Class notes:
+***************************
+This class calculates LDistances given an alignment dataframe.
+"""
 class Calculator():
 
     def __init__(self):
@@ -16,7 +22,12 @@ class Calculator():
     
     def print_avg(self,val_list):
         """
-        Prints the average of a list.
+        Inputs:
+        a list "val_list"
+        Outputs:
+        void.
+        Utility:
+        This function prints the average of a list.
         """
         avg = 0
         for e in val_list:
@@ -27,6 +38,11 @@ class Calculator():
 
     def generate_ldistance(self,lang1,lang2,df):
         """
+        Inputs:
+        String "lang1", string "lang2", a pandas dataframe.
+        Outputs:
+        Void.
+        Utility:
         This function takes in two strings, "lang1" and "lang2" to denote the 
         languages compared. It also takes in a dataframe of an align data frame 
         (see SheetMaker's create_align_df) for this.

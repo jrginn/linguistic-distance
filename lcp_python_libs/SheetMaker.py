@@ -6,15 +6,38 @@ from deep_translator import GoogleTranslator
 
 from lcp_python_libs.Parser import Parser
 
+"""
+***************************
+Class notes:
+***************************
+This class wraps words.
+Utility: The class allows individual words to maintain their index within a list, even if the 
+size of the list changes. This is important in alignments, as the size of the stored amount of words
+changes, but the words need to maintain their indices for comparison using Levenshtein, since the indices map back
+to alignments.
+"""
 class WordWrapper():
 
     def __init__(self,word,index):
         self._word = str(word).lower()
         self._index = index
     
+"""
+***************************
+Class notes:
+***************************
+This class is an Exception that is used to quickly get out of loops. Think of it similar to an unconditional
+jump in MIPS assembly.
+"""
 class GetOutOfLoop(Exception):
     pass
 
+"""
+***************************
+Class notes:
+***************************
+This class creates the automatically generated alignment csvs.
+"""
 class SheetMaker():
 
 	def __init__(self):
@@ -22,9 +45,15 @@ class SheetMaker():
 
 	def create_word_wrapper_list(self,lang_list):
 		"""
-		This function wraps words found in a language with the WordWrapper class.
+		Inputs:
+		list "lang_list"
+		Outputs:
+		list
+		Utility:
+
+		This function wraps words found in a list "lang_list" with the WordWrapper class.
 		This is used for "generate_alignments". 
-		Arguments: a list of words in a language. OUtput: a list of WordWrapper classes.
+		Arguments: a list of words in a language. Output: a list of WordWrapper classes.
 		Note that this also checks if a word is np.nan. If so, it will not append it.
 		"""
 		ret = []
@@ -33,59 +62,82 @@ class SheetMaker():
 				ret.append(WordWrapper(word,i))
 				
 		return ret
-	def check_bounds(self,i,step,alist):
+
+	def check_bounds(self,index_int,step_int,check_list):
 		"""
-		This function checks if an selected index is within "step" of a list.
+		Inputs:
+		int "index_int", int "step_int", list "check_list"
+		Outputs:
+		string
+		Utility:
+		This function checks if an selected index "index_int" is within "step_int" of a list "check_list".
+
 		For instance, if the function returns "both", then i-step, i+step are within 0 to 
 		the length of the list, thus within "both" upper and lower bounds.
 		Similarly, "lower" is for within a lower bound, or i-step,i is between 0 and the length,
 		"upper" is for within upper bound, or i,i+step is between 0 and the length.
 		"""
 		# first check both
-		if (i-step) > 0 and (i+step) < len(alist):
+		if (index_int-step_int) > 0 and (index_int+step_int) < len(check_list):
 			return "both"
 		# check lower
-		elif (i-step) > 0 and i < len(alist):
+		elif (index_int-step_int) > 0 and index_int < len(check_list):
 			return "lower"
 		# check upper
-		elif i > 0 and i + step < len(alist):
+		elif index_int > 0 and index_int + step_int < len(check_list):
 			return "upper"
-	def check_equal_word_wrappers(self,i,j,l1_wrappers,l2_wrappers):
+	def check_equal_word_wrappers(self,i_int,j_int,listLangAWrappers_list,listLangBWrappers_list):
 		"""
+		Inputs:
+		int "i_int", int "j_int", list "listLangAWrappers_list", list "listLangBWrappers_list"
+		Outputs:
+		string
+		Utility:
 		This function takes in two lists of word wrappers, and checks equality between them.
 		If l1_word_wrappers[i]._word == l2_word_wrappers[j]._word, the function returns "equal".
 		Else, return "unequal".
 		If the word is within the other word, it returns "in". Else, it again returns "unequal".
 		"""
-		word1 = l1_wrappers[i]._word
-		word2 = l2_wrappers[j]._word
-		if word1 == word2:
+		word1_str = listLangAWrappers_list[i_int]._word
+		word2_str = listLangBWrappers_list[j_int]._word
+		if word1_str == word2_str:
 			return "equal"
-		elif word1 in word2 or word2 in word1:
+		elif word1_str in word2_str or word2_str in word1_str:
 			return "in"
 		else:
 			return "unequal"
-	def create_alignment_string(self,i,j,counter,marker):
+	def create_alignment_string(self,i_int,j_int,counter_int,strMarker):
 		"""
+		Inputs:
+		int "i_int", int "j_int", int "counter_int", string "strMarker"
+		Outputs:
+		string
+		Utility:
+		NOTE: BARS DELIM BETWEEN 2 LANGS, COMMAS BETWEEN WORDS OF SAME LANG!
+
 		This function returns an alignment string that is inputted into the alignment df.
 		i,j are the indices that will be shown in the alignment. 
 		The counter is to determine the number of "marker" displayed.
+
 		Ie: create_align_string(1,2,4,"*") returns:
-
-		NOTE: BARS DELIM BETWEEN 2 LANGS, COMMAS BETWEEN WORDS OF SAME LANG!
-
 		**** 1 2
 		"""
-		if marker == "*":
+		if strMarker == "*":
 			# "*" denotes additional steps, ie
 			# 2 stars means 2 additional steps.
 			# If step = 5, 2 stars means 5 + 2(5) = 15 steps.
-			return "{} {}|{}".format("*"*counter,i,j)
-		elif marker == "#":
+			return "{} {}|{}".format("*"*counter_int,i_int,j_int)
+		elif strMarker == "#":
 		# "#" means "within word". This is more often risky, so always mark.
 		# Even if within the original step count, mark it (why count + 1).
-			return "{} {}|{}".format("#"*(counter+1),i,j)
+			return "{} {}|{}".format("#"*(counter_int+1),i_int,j_int)
+
 	def generate_alignments(self,lang1,lang2,step,df):
+		"""
+		Inputs:
+		Outputs:
+		Utility:
+		"""
 		"""
 		This function takes in two languages to be aligned, a step, and the dataframe of the 
 		two languages. The "step" is the number of words near a word, up and down. For instance,
@@ -94,97 +146,134 @@ class SheetMaker():
 		The alignments terminate when the step is greater than the length of either language's list of
 		words. The "df" is the dataframe of the alignments, created by "create_align_df".
 		"""
-		ret_df = df.copy()
+		dfReg = df.copy()
 		# store words as WordWrappers
-		l1_wrappers = self.create_word_wrapper_list(df[lang1 + "_eng"])
-		l2_wrappers = self.create_word_wrapper_list(df[lang2 + "_eng"])
+		listLangAWrappers = self.create_word_wrapper_list(df[lang1 + "_eng"])
+		listLangBWrappers = self.create_word_wrapper_list(df[lang2 + "_eng"])
 		
 		# sentinel value
-		within_bounds = True
+		boolWithinBounds = True
 		
 		# keep track of current step
-		curr_step = step
+		intCurrStep = step
 		# keep track of runs
 		counter = 0
 		
-		while(within_bounds):
+		while(boolWithinBounds):
 			# halt condition: if current step greater than length of lists
-			if curr_step > len(l1_wrappers) or curr_step > len(l2_wrappers):
-				within_bounds = False
+			if intCurrStep > len(listLangAWrappers) or intCurrStep > len(listLangBWrappers):
+				boolWithinBounds = False
 				break
 			try:
-				for i in range(len(l1_wrappers)):
-					if self.check_bounds(i,curr_step,l1_wrappers) == "both" and self.check_bounds(i,curr_step,l2_wrappers) == "both":
+				for i in range(len(listLangAWrappers)):
+					if self.check_bounds(i,intCurrStep,listLangAWrappers) == "both" and self.check_bounds(i,intCurrStep,listLangBWrappers) == "both":
 						# can safely go both lower and uppper
-						for j in range((i-curr_step),(i+curr_step)):
-							if self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "equal":
+						for j in range((i-intCurrStep),(i+intCurrStep)):
+							if self.check_equal_word_wrappers(i,j,listLangAWrappers,listLangBWrappers) == "equal":
                                                             # words are a direct match
-								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"*")
-								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
+								alignment = self.create_alignment_string(listLangAWrappers[i]._index,listLangBWrappers[j]._index,counter,"*")
+								dfReg.at[listLangAWrappers[i]._index,"alignment"] = alignment
 								# remove
-								l2_wrappers.pop(j)
-								l1_wrappers.pop(i)
+								listLangBWrappers.pop(j)
+								listLangAWrappers.pop(i)
 								raise GetOutOfLoop
 							# method 2: in -- change to "#"'
-							elif self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "in":
+							elif self.check_equal_word_wrappers(i,j,listLangAWrappers,listLangBWrappers) == "in":
                                                             # word1 is within word2
-								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"#")
-								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
+								alignment = self.create_alignment_string(listLangAWrappers[i]._index,listLangBWrappers[j]._index,counter,"#")
+								dfReg.at[listLangAWrappers[i]._index,"alignment"] = alignment
 								# remove
-								l2_wrappers.pop(j)
-								l1_wrappers.pop(i)
+								listLangBWrappers.pop(j)
+								listLangAWrappers.pop(i)
 								raise GetOutOfLoop
-					elif self.check_bounds(i,curr_step,l1_wrappers) == "lower" and self.check_bounds(i,curr_step,l2_wrappers) == "lower":
+					elif self.check_bounds(i,intCurrStep,listLangAWrappers) == "lower" and self.check_bounds(i,intCurrStep,listLangBWrappers) == "lower":
 						# can safely check lower bounds
-						for j in range((i-curr_step),i):
-							if self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "equal":
+						for j in range((i-intCurrStep),i):
+							if self.check_equal_word_wrappers(i,j,listLangAWrappers,listLangBWrappers) == "equal":
                                                             # direct match
-								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"*")
-								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
+								alignment = self.create_alignment_string(listLangAWrappers[i]._index,listLangBWrappers[j]._index,counter,"*")
+								dfReg.at[listLangAWrappers[i]._index,"alignment"] = alignment
 								# remove
-								l2_wrappers.pop(j)
-								l1_wrappers.pop(i)
+								listLangBWrappers.pop(j)
+								listLangAWrappers.pop(i)
 								raise GetOutOfLoop
 							# method 2: in
-							elif self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "in":
+							elif self.check_equal_word_wrappers(i,j,listLangAWrappers,listLangBWrappers) == "in":
                                                             # word1 in word2
-								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"#")
-								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
+								alignment = self.create_alignment_string(listLangAWrappers[i]._index,listLangBWrappers[j]._index,counter,"#")
+								dfReg.at[listLangAWrappers[i]._index,"alignment"] = alignment
 								# remove
-								l2_wrappers.pop(j)
-								l1_wrappers.pop(i)
+								listLangBWrappers.pop(j)
+								listLangAWrappers.pop(i)
 								raise GetOutOfLoop
 
-					elif self.check_bounds(i,curr_step,l1_wrappers) == "upper" and self.check_bounds(i,curr_step,l2_wrappers) == "upper":
+					elif self.check_bounds(i,intCurrStep,listLangAWrappers) == "upper" and self.check_bounds(i,intCurrStep,listLangBWrappers) == "upper":
 						# can safely check upper bounds
-						for j in range(i,(i+curr_step)):
-							if self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "equal":
-								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"*")
-								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
+						for j in range(i,(i+intCurrStep)):
+							if self.check_equal_word_wrappers(i,j,listLangAWrappers,listLangBWrappers) == "equal":
+								alignment = self.create_alignment_string(listLangAWrappers[i]._index,listLangBWrappers[j]._index,counter,"*")
+								dfReg.at[listLangAWrappers[i]._index,"alignment"] = alignment
 								# remove
-								l2_wrappers.pop(j)
-								l1_wrappers.pop(i)
+								listLangBWrappers.pop(j)
+								listLangAWrappers.pop(i)
 								raise GetOutOfLoop
 							# method 2: in
-							elif self.check_equal_word_wrappers(i,j,l1_wrappers,l2_wrappers) == "in":
-								alignment = self.create_alignment_string(l1_wrappers[i]._index,l2_wrappers[j]._index,counter,"#")
-								ret_df.at[l1_wrappers[i]._index,"alignment"] = alignment
+							elif self.check_equal_word_wrappers(i,j,listLangAWrappers,listLangBWrappers) == "in":
+								alignment = self.create_alignment_string(listLangAWrappers[i]._index,listLangBWrappers[j]._index,counter,"#")
+								dfReg.at[listLangAWrappers[i]._index,"alignment"] = alignment
 								# remove
-								l2_wrappers.pop(j)
-								l1_wrappers.pop(i)
+								listLangBWrappers.pop(j)
+								listLangAWrappers.pop(i)
 								raise GetOutOfLoop
 				counter += 1
-				curr_step += step
+				intCurrStep += step
 				
 			except GetOutOfLoop:
                             # GetOutOfLoop is designed to be a quick means of leaving the loop and going back to the
                             # original while loop
 				pass
 
-		return ret_df
+		return dfReg
 
+	def listGetLangTransToEng(self, listForeignWordList,strLangName):
+		"""
+		This function takes in a list of foreign words and translates them into english
+		"""
+		if strLangName == "english":
+			# english translated to english is english
+			return listForeignWordList
+
+		listRetList = []
+
+		intCounter = 0
+
+		for strWord in listForeignWordList:
+			if(intCounter == 100):
+				# wait for google translate to cool down
+				time.sleep(0.5)
+			try:
+				strLowerStrWord = strWord.lower()
+				strLowerStrWordTranslation = GoogleTranslator(source = strLangName,target = "english").translate(text=strLowerStrWord)
+				listRetList.append(strLowerStrWordTranslation)
+			except Exception as e:
+				print("************")
+				print("While processing \"{}\" in language \"{}\", the following error occurred: ".format(strWord, strLangName))
+				print(e)
+				print("The value of np.nan will replace this word.")
+				print("************")
+
+				listRetList.append(np.nan)
+
+			intCounter +=1
+			
+		return listRetList
 	
 	def get_lang_trans_to_eng_texts_dict(self,lang_text_dict):
+		"""
+		Inputs:
+		Outputs:
+		Utility:
+		"""
 		"""
 		This function takes in a dictionary of form {language: language words]}
 		and returns a dictionary of form {language: list of english translations}
@@ -192,6 +281,7 @@ class SheetMaker():
 		If there is an error in the translation, the translation is "NOTFOUND", or "Not a number.
 		"""
 		ret_dict = {}
+
 
 		for key in lang_text_dict:
 			# no need to process eng
@@ -220,8 +310,12 @@ class SheetMaker():
 		print("All languages processed.")
 		return ret_dict
 
-
 	def dict_str_to_dict_list(self, d):
+		"""
+		Inputs:
+		Outputs:
+		Utility:
+		"""
 		"""
 		This function returns a dictionary of split elements from a string, 
 		given a dictionary of a big string.
@@ -232,59 +326,131 @@ class SheetMaker():
 			new_d[key] = new_l
 
 		return new_d
+	
+	def dfCreateAlignDf(self, strLangA,strLangB,listLangAWords,listLangBWords,listLangAEngTrans,listLangBEngTrans):
+		dictDfDict = {}
+
+		intLenA = len(listLangAWords)
+		intLenB = len(listLangBWords)
+
+		intMaxLen = 0
+		if intLenA > intLenB:
+			intMaxLen = intLenA
+		else:
+			intMaxLen = intLenB
+		
+		# create columns for languages
+		dictDfDict[strLangA] = listLangAWords
+		dictDfDict[strLangB] = listLangBWords
+		
+		# create index column
+		dictDfDict["index"] = [i for i in range(intMaxLen)]
+			# create column for the alignment
+		dictDfDict["alignment"] = [""] * intMaxLen
+	
+		dictDfDict["{}_eng".format(strLangA)] = listLangAEngTrans
+		dictDfDict["{}_eng".format(strLangB)] = listLangBEngTrans
+	
+		# pad the df
+		for strKey in dictDfDict:
+			intLength = len(dictDfDict[strKey])
+			if intLength < intMaxLen:
+				intDiff = intMaxLen - intLength
+				dictDfDict[strKey] += [np.nan] * intDiff
+	
+		return pd.DataFrame.from_dict(dictDfDict)
 
 	def create_align_df(self,lang1,lang2,lang_text_dict, lang_trans_dict):
-            """
-            This function takes in 2 languages, a dictionary of the language texts in their raw form (lang_text_dict), and a dictionary of the english translations
-            of the languages
+		"""
+		Inputs:
+		Outputs:
+		Utility:
+		"""
+		"""
+		This function takes in 2 languages, a dictionary of the language texts in their raw form (lang_text_dict), and a dictionary of the english translations
+		of the languages
 
-            Returns an aligned dataframe of form:
+		Returns an aligned dataframe of form:
 
-            LANG1
-            LANG2
-            INDEX
-            ALIGNMENT
-            LANG1_eng
-            LANG2_eng
-            """
-            df_dict = {}
-            df_dict[lang1] = lang_text_dict[lang1]
-            df_dict[lang2] = lang_text_dict[lang2]
-		
-            len1 = len(lang_text_dict[lang1])
-            len2 = len(lang_text_dict[lang2])
-		
-                # the df needs to have columns of equal length
-                # so we pad the smaller dictionary
-            max_len = 0
-            if len1 > len2:
-                max_len = len1
-            else:
-                max_len = len2
-		
-                # create index column
-            df_dict["index"] = [i for i in range(max_len)]
-                    # create column for the alignment
-            df_dict["alignment"] = [""] * max_len
-		
-            if(lang1 != "english"):
-                df_dict["{}_eng".format(lang1)] = lang_trans_dict[lang1]
-            else:
-                df_dict["{}_eng".format(lang1)] = lang_text_dict[lang1]
-            # other lang
-            df_dict["{}_eng".format(lang2)] = lang_trans_dict[lang2]
-		
-            # pad the df
-            for k in df_dict:
-                length = len(df_dict[k])
-                if length < max_len:
-                    diff = max_len - length
-                    df_dict[k] += [np.nan] * diff
-		
-            return pd.DataFrame.from_dict(df_dict)
+		LANG1
+		LANG2
+		INDEX
+		ALIGNMENT
+		LANG1_eng
+		LANG2_eng
+		"""
+		df_dict = {}
+		df_dict[lang1] = lang_text_dict[lang1]
+		df_dict[lang2] = lang_text_dict[lang2]
+	
+		len1 = len(lang_text_dict[lang1])
+		len2 = len(lang_text_dict[lang2])
+	
+			# the df needs to have columns of equal length
+			# so we pad the smaller dictionary
+		max_len = 0
+		if len1 > len2:
+			max_len = len1
+		else:
+			max_len = len2
+	
+			# create index column
+		df_dict["index"] = [i for i in range(max_len)]
+				# create column for the alignment
+		df_dict["alignment"] = [""] * max_len
+	
+		if(lang1 != "english"):
+			df_dict["{}_eng".format(lang1)] = lang_trans_dict[lang1]
+		else:
+			df_dict["{}_eng".format(lang1)] = lang_text_dict[lang1]
+		# other lang
+		df_dict["{}_eng".format(lang2)] = lang_trans_dict[lang2]
+	
+		# pad the df
+		for k in df_dict:
+			length = len(df_dict[k])
+			if length < max_len:
+				diff = max_len - length
+				df_dict[k] += [np.nan] * diff
+	
+		return pd.DataFrame.from_dict(df_dict)
 
+	def voidMakeTemplateCsv(self,strLangAName,strLangARawSample,strLangBName, strLangBRawSample,dirDirName):
+		"""
+		Creates a template csv in dir dirDirName.
+		"""
+
+		# remove common words
+		listLangASampleNoCommon = self._parser.listRemoveCommonWordsFromString(strLangARawSample,strLangAName)
+		listLangBSampleNoCommon = self._parser.listRemoveCommonWordsFromString(strLangBRawSample,strLangBName)
+
+		# remove punctuation
+		listLangASampleNoPunctNoNumbers = self._parser.listRemoveNumbersAndPunct(listLangASampleNoCommon)
+		listLangBSampleNoPunctNoNumbers = self._parser.listRemoveNumbersAndPunct(listLangBSampleNoCommon)
+
+		# stem words
+		listLangASampleStem = self._parser.listStemList(listLangASampleNoPunctNoNumbers,strLangAName)
+		listLangBSampleStem = self._parser.listStemList(listLangBSampleNoPunctNoNumbers,strLangAName)
+
+		# get the translations
+		listLangAEngTrans = self.listGetLangTransToEng(listLangASampleNoCommon,strLangAName)
+		listLangBEngTrans = self.listGetLangTransToEng(listLangBSampleNoCommon,strLangBName)
+
+		dfAlignDf = self.dfCreateAlignDf(strLangAName,strLangBName,
+			listLangASampleNoCommon,listLangBSampleNoCommon,
+			listLangAEngTrans,listLangBEngTrans)
+		
+		return dfAlignDf
+
+	def voidPopulateAlignmentCSV(self,strFilePath,strLangA,strLangB):
+		return
 
 	def make_auto_matched_csv(self,lang_str_dict,step,dir_name):
+		"""
+		Inputs:
+		Outputs:
+		Utility:
+		"""
 		"""
 		This function takes in a dictionary of raw language strings of form
 		{LANG1:STR1, LANG2:STR2}
@@ -298,7 +464,7 @@ class SheetMaker():
                 # parsed = no common words
 		for key in lang_str_dict:
 			sample_str = lang_str_dict[key]
-			lang_parsed_dict[key] =  self._parser.remove_common_words_from_string(sample_str,key)
+			lang_parsed_dict[key] =  self._parser.listRemoveCommonWordsFromString(sample_str,key)
 		
                 # get a dictionary of all of the english translations of the languages, AFTER removing common words
 		translated_dict = self.get_lang_trans_to_eng_texts_dict(lang_parsed_dict)
@@ -324,8 +490,6 @@ class SheetMaker():
 			print("*************")
 
 			return
-		
-
 
                 # create csv for each aligned_df, put into the dir that we just tried to make
 		for i in range(len(aligned_df_list)):
@@ -340,14 +504,3 @@ class SheetMaker():
 			with open(file_name, "r",encoding="utf-8-sig") as csv_file:
 				for line in csv_file:
 					lines.append(line)
-
-
-
-
-
-
-
-
-
-
-
