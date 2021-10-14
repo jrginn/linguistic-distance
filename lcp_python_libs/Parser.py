@@ -4,43 +4,87 @@ import nltk
 from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords
 
-
-# This class contains all utils for parsing the samples.
-# With reference from https://github.com/vivianofsouza/linguistic-distance
-
+"""
+***************************
+Class notes:
+***************************
+This class deals with the parsing of strs.
+It is used heavily for calculating Levenshtein distances.
+"""
 class Parser():
 
-	def remove_numbers(self,aString):
+	def strRemoveNumbers(self,strA):
+		"""
+		Inputs:
+		str "strA"
+		Outputs:
+		str
+		Utility:
+		This function takes in a str and outputs the str without numbers in it.
+		"""
 		# regex to remove numbers
-		remove_numbers = re.compile(r"[0-9]")
+		strRemoveNumbers = re.compile(r"[0-9]")
 
-		aString = re.sub(remove_numbers,"",aString.lower())
+		strA = re.sub(strRemoveNumbers,"",strA.lower())
 
-		return aString
+		return strA
 
-	def remove_punct(self, aString):
+	def strRemovePunct(self, strA):
+		"""
+		Inputs:
+		str "strA"
+		Outputs:
+		str
+		Utility:
+		This function takes in a str and outputs the str without punctuation.
+		"""
 		# regex to remove puncutation
-		remove_punct = re.compile(r"[,@\#?\.$%_/:()']")
+		strRemovePunct = re.compile(r"[,@\#?\.$%_/:()']")
 
-		aString = re.sub(remove_punct, "", aString.lower())
+		strA = re.sub(strRemovePunct, "", strA.lower())
 
-		return aString
+		return strA
 	
-	def remove_numbers_and_punct(self,aString):
+	def listRemoveNumbersAndPunct(self, listStrList):
+		listRetList = []
+
+		for strWord in listStrList:
+			strWordParse = self.strRemoveNumbersAndPunct(strWord)
+			listRetList.append(strWordParse)
+		
+		return listRetList
+
+	
+	def strRemoveNumbersAndPunct(self,strA):
+		"""
+		Inputs:
+		str "strA"
+		Outputs:
+		str
+		Utility:
+		This function takes in a str and outputs the str without punctuation and without numbers.
+		"""
 		# regex to remove puncutation and numbers
-		remove_punct = re.compile(r"[0-9,@\?\.\$%_/:()']")
+		strRemovePunct = re.compile(r"[0-9,@\?\.\$%_/:()']")
 
-		aString = re.sub(remove_punct, "", aString.lower())
+		strA = re.sub(strRemovePunct, "", strA.lower())
 
-		return aString
+		return strA
 
-	def only_consonants(self,aString):
-		"""Returns only the consonants from a given string.
-			Argument: a string. Output: a string."""
+	def strOnlyConsonants(self,strA):
+		"""
+		Inputs:
+		str "strA"
+		Outputs:
+		str
+		Utility:
+		This function returns only the consonants in a str.
+		"""
+
 		REGEX = "[bcdfghjklmnpqrstvwxyz]"
 
 		# turn into all lower case
-		temp_str = aString.lower()
+		temp_str = strA.lower()
 		# convert accents / other to alphabetical
 		temp_str = unidecode.unidecode(temp_str)
 		# # remove characters
@@ -48,57 +92,73 @@ class Parser():
 		merged_str = "".join(re.findall(REGEX,temp_str))
 		return merged_str
 
-	def stem_word(self, aWord, language):
-		"""
-		Returns the word stemmed.
+	def listStemList(self, listWordList,strLangName):
+		stemmer = SnowballStemmer(strLangName)
+		listRetList = []
 
-		Arguments: a word for the sample and the sample's language.
-		Output: a stemmed word.
+		for strWord in listWordList:
+			strWordStem = stemmer.stem(strWord)
+			listRetList.append(strWordStem)
+		return listRetList
+
+
+	def strStemWord(self, aWord, languageStr):
 		"""
-		stemmer = SnowballStemmer(language)
+		Inputs:
+		str "aWord", str "languageStr"
+		Outputs:
+		str
+		Utility:
+		This function takes in a word "aWord" from a language "languageStr" and returns the word in its stemmed form as a str.
+		"""
+		stemmer = SnowballStemmer(languageStr)
 
 		stemmed_word = stemmer.stem(aWord)
 
 		return stemmed_word
 	
-	def stem_list(self, aWordList, language):
+	def listStemList(self, aWordList, languageStr):
 		"""
-		Returns the list of words stemmed.
-
-		Arguments: a list of unstemmed words and the language of the words.
-		Output: a list of stemmed words.
+		Inputs:
+		list "aWordList", str "languageStr"	
+		Outputs:
+		list
+		Utility:
+		This function takes in a list of words "aWordList" from a language "languageStr" and
+		returns a list of the stemmed words.
 		"""
 		stems = []
 		for word in aWordList:
 			# need to remove everything except apostrophe since stop words includes those
 			word = re.sub(re.compile("@\?\.\$%_/: \(\) ,'\-"),"",word)
-			stemmed_word = self.stem_word(word,language)
+			stemmed_word = self.strStemWord(word,languageStr)
 			# temporary fix
 			if stemmed_word != ",":
 				stems.append(stemmed_word)
 		
 		return stems
 	
-	def remove_common_words_from_string(self, aString, language):
+	def listRemoveCommonWordsFromString(self,strA,strLanguageA):
 		"""
-		Returns a list without the common words in a language.
-
-		Arguments: a string sample, the language of the sample
-		Output: a list of the words that are not in stoppwords
+		Inputs:
+		str "strA", str "languageStr"
+		Outputs:
+		list
+		Utility:
+		This function returns a list of the noncommon words within a str of text "strA" in given language "languageStr".
 		"""
-		common_words = stopwords.words(language)
+		common_words = stopwords.words(strLanguageA)
 
 		# if french, get rid of "l'"
 		common_words.append(["l'","",","])
 
-		# lower case the string
-		aString = aString.lower()
+		# lower case the str
+		strA = strA.lower()
 
-
-		# split string into word elements
-		word_list = aString.split()
+		# split str into word elements
+		word_list = strA.split()
 		# if french, remove " l' " from beginning of words
-		if language == "french":
+		if strLanguageA == "french":
 			new_sample = []
 			for word in word_list:
 				if len(word) > 2 and word[0:2] == "l'":
@@ -111,9 +171,9 @@ class Parser():
 		word_list_no_common = []
 		for word in word_list:
 			if word not in common_words:
-				word = self.remove_numbers_and_punct(word)
+				word = self.strRemoveNumbersAndPunct(word)
 				if word != "":
-					if language != "french":
+					if strLanguageA != "french":
 						word_list_no_common.append(word)
 					else:
 						if word != "l" and word != "d":
@@ -121,57 +181,50 @@ class Parser():
 		
 		return word_list_no_common
 
-	
-	def clean_sample(self,sample, language,**kwargs):
+	def listCleanSample(self,sampleStr, languageStr):
+		"""
+		Inputs:
+		str "sampleStr", str "languageStr"		
+		Outputs:
+		list
+		Utility:
+		This function cleans the text found in "sampleStr" in given language "languageStr".
+		"""
 
-		# if want only unique words
-		unique = False
-		
-		# optional kwargs
-		if("unique" in kwargs):
-			# only get unique words
-			# if user enters unique: [True, False]
-			unique = kwargs["unique"]
-
-		# list of common words in the language
-		common_words = stopwords.words(language)
+		# list of common words in the languageStr
+		common_words = stopwords.words(languageStr)
 
 		# convert to lowercase, remove punctuation / numbers
-		sample = sample.lower()
+		sampleStr = sampleStr.lower()
 
 		# separate based on spaces
 
 		# if french, remove " l' " from beginning of words
-		if language == "french":
-			new_sample = []
-			for word in sample.split():
+		if languageStr == "french":
+			new_sampleStr = []
+			for word in sampleStr.split():
 				if len(word) > 2 and word[0:2] == "l'":
 					word = word[2:]
-				# append word to new sample
-				new_sample.append(word)
-			# update sample
-			sample = (" ").join(new_sample)
+				# append word to new sampleStr
+				new_sampleStr.append(word)
+			# update sampleStr
+			sampleStr = (" ").join(new_sampleStr)
 		
 
-		sample = self.remove_numbers_and_punct(sample)
+		sampleStr = self.strRemoveNumbersAndPunct(sampleStr)
 
-		word_list = sample.split() 
-
-		if unique:
-			# then only return unique words
-			word_list = list(dict.fromkeys(word_list))
-		
+		word_list = sampleStr.split() 
 		# stem the words
 		stems = []
 		for word in word_list:
 			if word not in common_words:
-				stemmed_word = self.stem_word(word,language)
+				stemmed_word = self.strStemWord(word,languageStr)
 				stems.append(stemmed_word)
 		
 		# remove punc, numbers, vowls and storing in word_list
 		parsed_stems = []
 		for stem in stems:
-			stripped_str = self.only_consonants(stem)
+			stripped_str = self.strOnlyConsonants(stem)
 
 			if(stripped_str != ""):
 				parsed_stems.append(stripped_str)
@@ -191,9 +244,9 @@ class Parser():
 
 # TESTING STEMMING
 
-# print(_p.stem_word("having","english"))
-# print(_p.stem_list(["having", "had", "went" , "gone"],"english"))
+# print(_p.strStemWord("having","english"))
+# print(_p.listStemList(["having", "had", "went" , "gone"],"english"))
 
 # TESTING FRENCH REMOVAL OF " l' " IN START OF WORD
 # fr_str = "Réaffirmant l'engagement de l'tous les l'États à s'acquitter de leurs obligations en vertu d' autres instruments importants du droit international , en particulier ceux du droit international des droits de l'homme et du droit international humanitaire"
-# print(_p.clean_sample(fr_str, "french"))
+# print(_p.listCleanSample(fr_str, "french"))

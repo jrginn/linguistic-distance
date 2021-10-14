@@ -4,26 +4,46 @@ import numpy as np
 import pandas as pd
 #### This class is to hold all utilities needed, such as graphing.
 
+"""
+***************************
+Class notes:
+***************************
+This class contains many utility functions that can be used in other functions.
+These typically include graphical representations of data.
+"""
 class Util:
 	
-	def create_basic_df(self,aPairingList):
-		"""This function takes a list structed as
-			[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
-			and creates a generic dataframe of it.
-
-			Arguments: a pairing list. Output: a dataframe."""
+	def dfCreateBasicDf(self,aPairingList):
+		"""
+		Inputs:
+		list "aPairingList"
+		Outputs:
+		pandas dataframe
+		Utility:
+		This function takes a list structed as
+		[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
+		and creates a generic dataframe of it.
+		Arguments: a pairing list. Output: a dataframe.
+		"""
 		
 		df = pd.DataFrame(aPairingList)
 
 		return df
 	
-	def create_corr_df(self,aPairingList):
-		"""This function takes a list structed as
-			[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
-			and creates a correlation dataframe from it.
-			For use in creating heatmaps.
+	def dfCreateCorrDf(self,aPairingList):
+		"""
+		Inputs:
+		list "aPairingList"
+		Outputs:
+		pandas dataframe
+		Utility:
+		This function takes a list structured as
+		[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
+		and creates a correlation dataframe from it.
+		For use in creating heatmaps.
 
-			Arguments: a pairing list. Output: a correlation dataframe."""
+		Arguments: a pairing list. Output: a correlation dataframe.
+		"""
 		# get the pairs
 		pairs = [i[0:2] for i in aPairingList]
 		cols = []
@@ -62,13 +82,19 @@ class Util:
 			
 		return df
 
-	def create_heatmap(self,aPairingList):
-		"""This function takes a list structed as
-			[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
-			It then creates a heatmap out of the data.
+	def snsCreateHeatMap(self,aPairingList):
+		"""
+		Inputs:
+		list "aPairingList"
+		Outputs:
+		heatmap
+		Utility:
+		This function takes a list structured as
+		[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
+		It then creates a heatmap out of the data.
 
-			Arguments: a pairing list. Output: a heatmap."""
-		df = self.create_corr_df(aPairingList)
+		Arguments: a pairing list. Output: a heatmap."""
+		df = self.dfCreateCorrDf(aPairingList)
 		# TO DO: ADD OPTION TO SAVE AS PNG
 		sns.heatmap(df)
 	
@@ -80,7 +106,7 @@ class Util:
 #                 ["Italian","Russian",0.2],["Italian","German",0.5],
 #                 ["Spanish","Italian",0.9],["English","Italian",0.6],
 #                 ["Russian","English",0.1],["English","German",0.4]]
-# util.create_corr_df(pairing_list)
+# util.dfCreateCorrDf(pairing_list)
 
 
 
