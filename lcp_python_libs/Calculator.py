@@ -1,10 +1,7 @@
-import nltk
 import re
 import pandas as pd
-from nltk.stem.snowball import SnowballStemmer 
-from nltk.corpus import stopwords
-from unidecode import unidecode
-from transliterate import translit, get_available_language_codes
+import os
+
 from lcp_python_libs.LDistance import LDistance
 from lcp_python_libs.Parser import Parser
 
@@ -20,7 +17,7 @@ class Calculator():
         self._ld = LDistance()
         self._p = Parser()
     
-    def print_avg(self,val_list):
+    def voidPrintAvg(self,val_list):
         """
         Inputs:
         a list "val_list"
@@ -35,25 +32,54 @@ class Calculator():
         avg = avg / len(val_list)
 
         print(avg)
-
-    def generate_ldistance(self,lang1,lang2,df):
+    
+    def voidPrintLDScoresDir(self,strDirPath):
         """
         Inputs:
-        String "lang1", string "lang2", a pandas dataframe.
+        Outputs:
+        string "strDirPath"
+        Void.
+        Utility:
+        This function reads each of the csvs in a directory of alignment files named "[langA]_[langB].csv"
+        and prints the LDScores.
+        """
+        for strFileName in os.listdir(strDirPath):
+            listFileParts = strFileName.split(".")
+            if(listFileParts[-1] == "csv"):
+                strFileBase = listFileParts[0]
+                
+                listLangNames = strFileBase.split("_")
+
+                strLangAName = listLangNames[0]
+                strLangBName = listLangNames[1]
+
+                strFullFilePath = os.path.join(strDirPath,strFileName)
+                dfTemp = pd.read_csv(strFullFilePath)
+
+                self.voidPrintLDScoreFile(strLangAName,strLangBName,dfTemp)
+
+    def voidPrintLDScoreFile(self,strLangA,strLangB,strFilePath):
+        """
+        Inputs:
+        String "strLangA", string "strLangB", a pandas dataframe.
         Outputs:
         Void.
         Utility:
-        This function takes in two strings, "lang1" and "lang2" to denote the 
+        This function takes in two strings, "strLangA" and "strLangB" to denote the 
         languages compared. It also takes in a dataframe of an align data frame 
         (see SheetMaker's create_align_df) for this.
         
         Returns: nothing. Prints the 20,50, 100 LDs.
         """
 
+        df = pd.read_csv(strFilePath)
+
         distances = []
-        print("{} AND {}".format(lang1,lang2))
+        print("-"*20)
+        print("{} AND {}".format(strLangA,strLangB))
         print("-"*20)
         special_chars = re.compile(r"[#* ]")
+
         for align in df['alignment']:
             
             align_str = str(align)
@@ -75,28 +101,28 @@ class Calculator():
                 
                 for align in split_lhs:
 
-                    align_word = df[lang1][int(align)]
+                    align_word = df[strLangA][int(align)]
                     print("entry #", len(distances))
                     print(align,align_word, end=" ")
                     # clean the word
                     # note clean sample returns a list, need just the first entry
                     # which is the word
-                    str1 += "".join(self._p.clean_sample(align_word,lang1))
+                    str1 += "".join(self._p.listCleanSample(align_word,strLangA))
                 print(" -- ",end = " ")
                 
                 for align in split_rhs:
 
-                    align_word = df[lang2][int(align)]
+                    align_word = df[strLangB][int(align)]
                     
                     print(align,align_word,end=" ")
             
-                    str2 += "".join(self._p.clean_sample(align_word,lang2))
+                    str2 += "".join(self._p.listCleanSample(align_word,strLangB))
                 print()
                 print("devowelized:")
                 print(str1, str2)
                 if str1 != "" and str2 != "":
                 
-                    ld = self._ld.l_distance(str1, str2)
+                    ld = self._ld.floatLDistance(str1, str2)
                     print("ld: ",ld)
                     print("_"*20)
                     distances.append(ld)
@@ -104,18 +130,18 @@ class Calculator():
                     if len(distances) == 20:
                         print("*"*20)
                         print("* 20 score:\n*",end=" ")
-                        self.print_avg(distances)
+                        self.voidPrintAvg(distances)
                         print("*"*20)
 
                     elif len(distances) == 50:
                         print("*"*20)
                         print("* 50 score:\n*",end=" ")
-                        self.print_avg(distances)
+                        self.voidPrintAvg(distances)
                         print("*"*20)
                     elif len(distances) == 100:
                         print("*"*20)
                         print("* 100 score:\n*",end=" ")
-                        self.print_avg(distances)
+                        self.voidPrintAvg(distances)
                         print("*"*20)
 
 
