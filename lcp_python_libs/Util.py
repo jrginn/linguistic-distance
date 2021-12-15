@@ -82,21 +82,25 @@ class Util:
 			
 		return df
 
-	def snsCreateHeatMap(self,aPairingList):
+	def snsCreateHeatMap(self,aPairingList,strFilePath):
 		"""
 		Inputs:
 		list "aPairingList"
+		str "FilePath"
 		Outputs:
 		heatmap
 		Utility:
 		This function takes a list structured as
 		[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
 		It then creates a heatmap out of the data.
+		Arguments: a pairing list andfile path to which it will be saved. Output: a heatmap.
 
-		Arguments: a pairing list. Output: a heatmap."""
+		"""
 		df = self.dfCreateCorrDf(aPairingList)
-		# TO DO: ADD OPTION TO SAVE AS PNG
-		sns.heatmap(df)
+		heatmap = sns.heatmap(df)
+		#saving figure
+		heatmapFig = heatmap.get_figure()
+		heatmapFig.savefig(strFilePath)
 	
 
 
