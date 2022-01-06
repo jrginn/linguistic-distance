@@ -1,5 +1,5 @@
-Last updated: 10/14/21
-Last author of README.txt: Lex Whalen
+Last updated: 1/5/22
+Last author of README.txt: Vivian D'Souza
 
 On README:
 Please when any major change to the package as a whole (ie: file naming convention, directory changes)
@@ -57,3 +57,9 @@ Formatting of variable names:
 - Name the variable as you wish, but prepend the data type with an underscore.
 - For instance, instead of "count", you would write iCount"
 - Look here: https://en.wikipedia.org/wiki/Hungarian_notation, specifically "Systems Hungarian Notation"
+
+Changelog:
+
+1/5/2022
+Added functionality to process translations through dictionaries, in order to store translations for future reference.
+See dictGetLangTransToEng and dfMakeAlignDfFromDict in SheetMaker.py
