@@ -279,6 +279,61 @@ class SheetMaker():
 			
 		return listRetList
 	
+	def dictGetLangTransToEng(listForeignWordList,strLangName):
+		"""
+		Inputs:
+		list listForeignWordList, string "strLangName"
+		
+		Outputs:
+		dictionary with translations as values
+		
+		Utility:
+		This function processes translations and stores them in a dictionary for all languages other than English. Such a dictionary can then 
+		be used to construct a pandas dataframe. This dictionary of translations can be accessed in the future for further
+		reference. This function does NOT perform alignment. 
+		"""
+		
+		# creating blank dictionary
+		dictTranslatedWords = {}
+		
+		# english translated to english is english
+		if strLangName == "english":
+			for word in listForeignWordList:
+				dictTranslatedWords[word] = word 
+			return dictTranslatedWords
+			
+		# translating for any other language
+		intCounter = 0
+		dictTranslatedWords = {}
+			
+		for strWord in listForeignWordList:
+			if(intCounter == 100):
+				# wait for google translate to cool down
+				time.sleep(0.5)
+			try:
+				strLowerStrWord = strWord.lower()
+				# if word not found in dictionary, send to translator and place in dictionary
+				if strLowerStrWord not in dictionary.keys():
+					strLowerStrWordTranslation = GoogleTranslator(source = strLangName,target = "english").translate(text=strLowerStrWord)
+					dictTranslatedWords[strLowerStrWord] = strLowerStrWordTranslation
+				else: # else just copy over word
+					#strLowerStrWordTranslation = dictionary[strLowerStrWord]
+					continue
+					
+			except Exception as e:
+				print("************")
+				print("While processing \"{}\" in language \"{}\", the following error occurred: ".format(strWord, strLangName))
+				print(e)
+				print("The value of np.nan will replace this word.")
+				print("************")
+
+			intCounter +=1
+
+		print("Processing of language \"{}\" complete.".format(strLangName))
+
+		# returns dictionary
+		return dictTranslatedWords
+
 	def dfMakeAlignDf(self, strLangA,strLangB,listLangAWords,listLangBWords,listLangAEngTrans,listLangBEngTrans):
 		"""
 		Inputs:
@@ -320,6 +375,58 @@ class SheetMaker():
 				intDiff = intMaxLen - intLength
 				dictDfDict[strKey] += [np.nan] * intDiff
 	
+		return pd.DataFrame.from_dict(dictDfDict)
+	
+	def dfMakeAlignDfFromDict(strLangA,strLangB,listLangAWords,listLangBWords, langADictionary, langBDictionary):
+		"""
+		Inputs:
+		string "strLangA", string "strLangB", list listLangAWords, list listLangBWords, dict langADictionary, dict langBDictionary
+		
+		Outputs:
+		filled pandas dataframe
+		
+		Utility:
+		This function fills in a data pandas frame from a set of dictionaries. This dataframe can then be passed to dfGenerateAlignments()
+		"""
+		dictDfDict = {}
+
+		intLenA = len(listLangAWords)
+		intLenB = len(listLangBWords)
+
+		listLangBEngTrans = []
+		listLangAEngTrans = []
+			
+		intMaxLen = 0
+		if intLenA > intLenB:
+			intMaxLen = intLenA
+		else:
+			intMaxLen = intLenB
+
+		# create columns for languages
+		dictDfDict[strLangA] = listLangAWords
+		dictDfDict[strLangB] = listLangBWords
+
+		# create index column
+		dictDfDict["index"] = [i for i in range(intMaxLen)]
+			
+		for word in listLangAWords:
+			if word in langADictionary.keys():
+				listLangAEngTrans.append(langADictionary[word])
+					
+		for word in listLangBWords:
+			if word in langBDictionary.keys():
+				listLangBEngTrans.append(langBDictionary[word])
+
+		dictDfDict["{}_eng".format(strLangA)] = listLangAEngTrans
+		dictDfDict["{}_eng".format(strLangB)] = listLangBEngTrans
+
+		# pad the df
+		for strKey in dictDfDict:
+			intLength = len(dictDfDict[strKey])
+			if intLength < intMaxLen:
+				intDiff = intMaxLen - intLength
+				dictDfDict[strKey] += [np.nan] * intDiff
+
 		return pd.DataFrame.from_dict(dictDfDict)
 
 	def voidMakeTemplateAlignDf(self,strLangAName,strLangARawSample,strLangBName, strLangBRawSample):

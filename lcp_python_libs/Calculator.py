@@ -107,7 +107,8 @@ class Calculator():
                     # clean the word
                     # note clean sample returns a list, need just the first entry
                     # which is the word
-                    str1 += "".join(self._p.listCleanSample(align_word,strLangA))
+                    #str1 += "".join(self._p.listCleanSample(align_word,strLangA))
+                    str1 += "".join(self._p.strOnlyConsonants(align_word))
                 print(" -- ",end = " ")
                 
                 for align in split_rhs:
@@ -116,7 +117,9 @@ class Calculator():
                     
                     print(align,align_word,end=" ")
             
-                    str2 += "".join(self._p.listCleanSample(align_word,strLangB))
+                    #str2 += "".join(self._p.listCleanSample(align_word,strLangB))
+                    str2 += "".join(self._p.strOnlyConsonants(align_word))
+
                 print()
                 print("devowelized:")
                 print(str1, str2)

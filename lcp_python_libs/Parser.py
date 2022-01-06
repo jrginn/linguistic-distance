@@ -215,21 +215,29 @@ class Parser():
 
 		word_list = sampleStr.split() 
 		# stem the words
-		stems = []
-		for word in word_list:
-			if word not in common_words:
-				stemmed_word = self.strStemWord(word,languageStr)
-				stems.append(stemmed_word)
+		#stems = []
+		#for word in word_list:
+			#if word not in common_words:
+				#stemmed_word = self.strStemWord(word,languageStr)
+				#stems.append(stemmed_word)
 		
 		# remove punc, numbers, vowls and storing in word_list
 		parsed_stems = []
-		for stem in stems:
-			stripped_str = self.strOnlyConsonants(stem)
+		for word in word_list:
+			if word not in common_words:
+				stripped_str = self.strRemoveNumbersAndPunct(word)
+				if(stripped_str != ""):
+					parsed_stems.append(stripped_str)
 
-			if(stripped_str != ""):
-				parsed_stems.append(stripped_str)
+
+		#for stem in stems:
+			#stripped_str = self.strOnlyConsonants(stem)
+
+			#if(stripped_str != ""):
+				#parsed_stems.append(stripped_str)
 				
 		
+		#return parsed_stems
 		return parsed_stems
 
 
