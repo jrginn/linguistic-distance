@@ -29,8 +29,6 @@ if __name__ == '__main__':
     with open (newTitle, 'w') as f:
         while count < intWordCount:
             word = re.split(" ", listAllLines[intFreqIndex])[0].lower()
-            print(count)
-            print("\t"+word)
             if word not in listStops:
                 listFirstThousand.append(listAllLines[intFreqIndex].lower())
                 f.write(listAllLines[intFreqIndex])
