@@ -63,3 +63,6 @@ Changelog:
 1/5/2022
 Added functionality to process translations through dictionaries, in order to store translations for future reference.
 See dictGetLangTransToEng and dfMakeAlignDfFromDict in SheetMaker.py
+
+5/26/2022
+Edited the snsCreateHeatMap function in Util.py, in order to better reflect our current goals. 
