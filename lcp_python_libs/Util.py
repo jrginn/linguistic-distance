@@ -82,35 +82,46 @@ class Util:
 			
 		return df
 
-	def snsCreateHeatMap(self,aPairingList,strFilePath):
+	def snsCreateHeatMap(listLangNames, listRatioValues, strFileSaveName, strColorScheme):
 		"""
 		Inputs:
-		list "aPairingList"
-		str "FilePath"
+		list "listLangNames"
+		list "listRatioValues"
+		str "strFileSaveName"
+		str "strColorScheme"
+
 		Outputs:
 		heatmap
+
 		Utility:
-		This function takes a list structured as
-		[[lang1,lang2,percentage],[lang1,lang2,percentage]...]
-		It then creates a heatmap out of the data.
-		Arguments: a pairing list andfile path to which it will be saved. Output: a heatmap.
+		This function takes a list of languages from which comparison ratios will be used to construct a heatmap. The next required parameter, the list of data, must 
+		be equivalent to the square of the number of languages in the first list. For example, if four languages are given in the first list, sixteen data points are
+		exepected in the second. The following two string arguments set the title of the saved graphic and the color scheme of the map. 
 
 		"""
-		df = self.dfCreateCorrDf(aPairingList)
-		heatmap = sns.heatmap(df)
-		#saving figure
-		heatmapFig = heatmap.get_figure()
-		heatmapFig.savefig(strFilePath)
-	
+		intTableLen = pow(len(listLangNames), 2)
+    
+		if ((len(listRatioValues[0]) * len(listRatioValues)) != intTableLen):
+			return "Incorrect number of data values, please edit listRatioValues."
+    	
+		listData = listRatioValues	
+		listRows = listLangNames
+		listCols = listLangNames
 
+		dfHeatMapData = pd.DataFrame(listData, index=listRows, columns=listCols)
+		s = sns.heatmap(dfHeatMapData.head(), annot=True, cmap=strColorScheme, cbar=True,fmt='.4f')
+		s.set(xlabel='Source Language', ylabel='Target Language')
+		plt.savefig(strFileSaveName)
 
-#### TESTING ON DUMMY DATA ####
-# util = Util()
-# pairing_list = [["English","Spanish",0.7],["Spanish","German",0.3],
-#                 ["Italian","Russian",0.2],["Italian","German",0.5],
-#                 ["Spanish","Italian",0.9],["English","Italian",0.6],
-#                 ["Russian","English",0.1],["English","German",0.4]]
-# util.dfCreateCorrDf(pairing_list)
+		return s
+
+#### EXAMPLE USAGE OF HEATMAP FUNCTION ####
+# listLangNames = ["English", "French", "German", "Spanish"]
+# listRatioValues = ([1.0,1,1,0.267677381],
+#                   [1,1.0,1,0.378540584],
+#                   [1,1,1.0,0.197317444],
+#                   [1,1,0.178049206,1.0])
+# snsCreateHeatMap(listRatioValues, listLangNames, "opensubstest.png", "BlGr")
 
 
 
