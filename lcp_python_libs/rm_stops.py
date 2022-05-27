@@ -6,7 +6,7 @@ import re
 import pandas as pd
 import pathlib
 import codecs
-from LDistance import LDistance as ld
+from VSLDistance import LDistance as ld
 
 
 if __name__ == '__main__':
