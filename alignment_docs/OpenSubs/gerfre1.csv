@@ -1,0 +1,1001 @@
+﻿,german,french,Distances
+0,ja,oui,0.0
+1,nein,non,1.0
+2,hast,ont,0.3333333333333333
+3,schon,magnifique,0.0
+4,gut,bon,0.0
+5,mal,fois,0.0
+6,weiß,blanc,0.0
+7,s,s,1.0
+8,geht,se rend,0.0
+9,oh,oh,1.0
+10,mehr,suite,0.0
+11,immer,toujours,0.25
+12,bitte,de rien,0.0
+13,warum,pourquoi,0.3333333333333333
+14,los,allez,0.3333333333333333
+15,sagen,dire,0.0
+16,mann,mari,0.3333333333333333
+17,okay,d'accord,0.0
+18,gehen,marcher,0.2
+19,tun,faire,0.0
+20,danke,merci,0.0
+21,sehen,voir,0.0
+22,wer,qui,0.0
+23,komm,venir,0.0
+24,vielleicht,peut-être,0.0
+25,gibt,donne,0.0
+26,wissen,à savoir,0.2
+27,müssen,devoir,0.0
+28,wirklich,vraiment,0.16666666666666666
+29,nie,jamais,0.0
+30,hey,hey,1.0
+31,einfach,facile,0.5
+32,leben,la vie,0.3333333333333333
+33,tut,est-ce que,0.16666666666666666
+34,willst,vouloir,0.2
+35,kommen,viens,0.0
+36,zeit,temps,0.0
+37,kommt,vient,0.25
+38,heute,aujourd'hui,0.0
+39,weißt,connaître,0.16666666666666666
+40,frau,mme,0.0
+41,gesagt,mentionné,0.0
+42,wäre,aurait,0.0
+43,ganz,assez,0.3333333333333333
+44,wurde,devenu,0.0
+45,sicher,sécurise,0.4
+46,kannst,pouvez,0.0
+47,zurück,revenir,0.2
+48,leid,souffrance,0.0
+49,lassen,laisser,0.75
+50,macht,pourrait,0.25
+51,na,n / a,0.25
+52,gott,dieu,0.0
+53,hallo,bonjour,0.0
+54,zwei,deux,0.0
+55,lass,laisser,0.75
+56,hätte,eu,0.0
+57,genau,je suis d'accord,0.0
+58,vater,père,0.3333333333333333
+59,morgen,demain,0.25
+60,leute,personnes,0.0
+61,klar,dégager,0.2
+62,ok,d'accord,0.0
+63,ab,une façon,0.0
+64,tag,jour,0.0
+65,gerade,seulement,0.0
+66,gesehen,vu,0.0
+67,schön,joli,0.0
+68,glaube,croyez,0.0
+69,liebe,amour,0.0
+70,geld,de l'argent,0.125
+71,reden,parler,0.25
+72,jemand,quelqu'un,0.0
+73,mach,faire,0.0
+74,raus,dehors,0.5
+75,sagte,a dit,0.3333333333333333
+76,gemacht,fabriqué,0.0
+77,mutter,mère,0.5
+78,paar,paire,1.0
+79,sir,monsieur,0.5
+80,passiert,arrive,0.2
+81,musst,doit,0.25
+82,wohl,bien,0.0
+83,möchte,aimerais,0.2
+84,besser,mieux,0.0
+85,dachte,pensée,0.0
+86,her,ici,0.0
+87,hör,ecoutez,0.0
+88,gehört,entendu,0.0
+89,sag,dire,0.0
+90,nacht,nuit,0.5
+91,wieso,comment venir,0.0
+92,finden,trouver,0.0
+93,helfen,aider,0.0
+94,lange,longue,1.0
+95,gute,qualité,0.25
+96,ordnung,commande,0.2
+97,geben,donner,0.25
+98,natürlich,naturellement,0.375
+99,sei,être,0.0
+100,gar,du tout,0.0
+101,geh,aller,0.0
+102,richtig,corriger,0.2
+103,sagt,dit,0.3333333333333333
+104,denke,pense,0.3333333333333333
+105,seit,puisque,0.3333333333333333
+106,gleich,même,0.0
+107,hören,ecoutez,0.0
+108,ach,oh,0.5
+109,mädchen,fille,0.0
+110,davon,à partir de ce,0.1
+111,sieht,voit,0.3333333333333333
+112,recht,droit,0.25
+113,dafür,donc,0.25
+114,wegen,car,0.0
+115,hause,domicile,0.0
+116,warte,attendez,0.0
+117,drei,trois,0.3333333333333333
+118,abend,soirée,0.0
+119,freund,ami,0.0
+120,guten,bon,0.3333333333333333
+121,sollen,doit,0.0
+122,sollten,devrait,0.2
+123,haus,une maison,0.2
+124,menschen,personnes,0.16666666666666666
+125,viele,beaucoup,0.0
+126,bleiben,rester,0.0
+127,machst,faire,0.0
+128,musik,musique,0.6666666666666666
+129,angst,craindre,0.0
+130,schnell,vite,0.0
+131,tot,morte,0.3333333333333333
+132,welt,monde,0.0
+133,zusammen,ensemble,0.4
+134,habt,avoir,0.0
+135,scheiße,et mince,0.0
+136,nehmen,prendre,0.0
+137,herr,m,0.0
+138,getan,a fait,0.0
+139,rein,pur,0.0
+140,bringen,apporter,0.0
+141,ganze,ensemble,0.0
+142,essen,repas,0.0
+143,kinder,enfants,0.2
+144,glauben,croire,0.0
+145,genug,suffisant,0.16666666666666666
+146,darf,mai,0.0
+147,junge,garçon,0.0
+148,stimmt,à droite,0.2
+149,brauchen,avoir besoin,0.3333333333333333
+150,moment,moment,1.0
+151,erst,première,0.2
+152,seid,sont,0.3333333333333333
+153,niemand,personne,0.2
+154,arbeit,travail,0.25
+155,steht,des stands,0.25
+156,warten,attendre,0.2
+157,dabei,inclus,0.0
+158,fragen,demandez,0.0
+159,sofort,tout de suite,0.14285714285714285
+160,jahre,années,0.0
+161,halt,seulement,0.4
+162,verdammt,bon sang,0.0
+163,bevor,avant que,0.0
+164,sohn,fils,0.0
+165,familie,famille,0.75
+166,heißt,appelé,0.0
+167,sprechen,parler,0.3333333333333333
+168,gefunden,trouvé,0.0
+169,sache,chose,0.3333333333333333
+170,problem,problème,0.8333333333333334
+171,fertig,prêt,0.25
+172,allein,seul,0.3333333333333333
+173,wann,lorsque,0.0
+174,brauche,avoir besoin,0.16666666666666666
+175,bruder,frères,0.4
+176,hilfe,aider,0.0
+177,halten,donjon,0.25
+178,kind,enfant,0.25
+179,siehst,voir,0.0
+180,darüber,à propos de ça,0.1
+181,konnte,pouvait,0.25
+182,wahr,vrai,0.3333333333333333
+183,beim,au,0.0
+184,ne,non,0.5
+185,beide,tous les deux,0.125
+186,denken,pense,0.25
+187,jahren,années,0.0
+188,daran,à elle,0.0
+189,kam,venu,0.0
+190,gib,donner,0.0
+191,verstehe,comprendre,0.14285714285714285
+192,wusste,connaissait,0.5
+193,könnten,pouvait,0.16666666666666666
+194,fall,cas,0.0
+195,lieber,plutôt,0.2
+196,eigentlich,réellement,0.14285714285714285
+197,bekommen,recevoir,0.0
+198,sieh,voir,0.0
+199,dank,grâce à,0.0
+200,vergessen,oublier,0.0
+201,kennen,connaître,0.3333333333333333
+202,mag,aimer,0.5
+203,sehe,voir,0.0
+204,frage,demandez,0.0
+205,gern,volontier,0.2
+206,komme,viens,0.0
+207,stadt,ville,0.0
+208,sage,légende,0.2
+209,kopf,tête,0.0
+210,männer,hommes,0.0
+211,egal,peu importe,0.0
+212,letzte,dernière,0.0
+213,namen,des noms,0.3333333333333333
+214,gab,a donné,0.0
+215,kleine,petit,0.0
+216,mache,fabriquer,0.0
+217,töten,tuer,0.25
+218,fahren,promenade,0.2
+219,all,allès,0.5
+220,n,n,1.0
+221,später,plus tard,0.2857142857142857
+222,uhr,regardez,0.2
+223,ende,la fin,0.0
+224,baby,nourrisson,0.0
+225,gehe,aller,0.0
+226,glück,joie,0.0
+227,dinge,des choses,0.14285714285714285
+228,freunde,copains,0.25
+229,bisschen,peu,0.0
+230,sterben,mourir,0.2
+231,darauf,dessus,0.25
+232,bald,bientôt,0.2
+233,minuten,minutes,0.75
+234,echt,réel,0.0
+235,bereit,prêt,0.5
+236,eins,une,0.5
+237,augen,les yeux,0.0
+238,runter,vers le bas,0.125
+239,jungs,les mecs,0.16666666666666666
+240,polizei,police,0.6666666666666666
+241,auto,voiture,0.3333333333333333
+242,vielen,beaucoup,0.0
+243,stehen,supporter,0.16666666666666666
+244,weit,loin,0.0
+245,meinst,moyenne,0.25
+246,draußen,en plein air,0.14285714285714285
+247,tür,porte,0.0
+248,dad,père,0.0
+249,wurden,devenu,0.25
+250,verrückt,fou,0.0
+251,kerl,mec,0.0
+252,hätten,eu,0.0
+253,einzige,seulement un,0.14285714285714285
+254,vorbei,passé,0.0
+255,treffen,rencontrer,0.14285714285714285
+256,ganzen,entier,0.25
+257,hi,salut,0.0
+258,ahnung,idée,0.0
+259,teufel,diable,0.3333333333333333
+260,kenne,connaître,0.3333333333333333
+261,fast,presque,0.25
+262,name,nom de famille,0.2222222222222222
+263,arbeiten,travail,0.0
+264,gerne,volontier,0.2
+265,dran,à ton tour,0.14285714285714285
+266,neue,nouveau,0.5
+267,ziemlich,plutôt,0.0
+268,ruhig,calme,0.0
+269,ging,allé,0.0
+270,sorgen,des soucis,0.16666666666666666
+271,verstanden,bien reçu,0.0
+272,tochter,fille,0.0
+273,toll,génial,0.25
+274,jemanden,quelqu'un,0.2
+275,sogar,même,0.0
+276,überhaupt,du tout,0.16666666666666666
+277,he,hey,0.5
+278,spät,en retard,0.16666666666666666
+279,hört,entend,0.0
+280,frauen,femmes,0.25
+281,hand,main,0.3333333333333333
+282,drin,à l'intérieur,0.1111111111111111
+283,schau,regarder,0.0
+284,nimm,prendre,0.2
+285,mama,momie,1.0
+286,lang,longue,1.0
+287,solltest,devrait,0.16666666666666666
+288,verloren,perdu,0.2
+289,art,de l'art,0.3333333333333333
+290,sah,vu,0.0
+291,verstehen,comprendre,0.0
+292,große,taille,0.0
+293,darum,donc,0.3333333333333333
+294,denkst,pense,0.4
+295,job,travail,0.0
+296,ruhe,silencieux,0.0
+297,braucht,besoins,0.2
+298,woher,d'où,0.0
+299,spielen,jouer,0.0
+300,idee,idée,0.5
+301,suchen,chercher,0.3333333333333333
+302,je,déjà,0.25
+303,kommst,viens,0.2
+304,liegt,mensonges,0.16666666666666666
+305,grund,sol,0.0
+306,versuchen,tenter,0.0
+307,jahr,an,0.0
+308,gekommen,venu,0.2
+309,wasser,l'eau,0.0
+310,endlich,pour terminer,0.0
+311,schwester,sœur,0.2857142857142857
+312,wenig,peu,0.0
+313,tod,la mort,0.0
+314,versucht,essaie,0.16666666666666666
+315,oben,au dessus,0.0
+316,letzten,dernière,0.0
+317,geschichte,récit,0.2857142857142857
+318,erste,première,0.2
+319,alter,âge,0.0
+320,kurz,court,0.3333333333333333
+321,bedeutet,moyens,0.0
+322,niemals,certainement pas,0.3
+323,ah,ah,1.0
+324,fünf,cinq,0.25
+325,hoch,haute,0.3333333333333333
+326,etwa,environ,0.0
+327,erzählt,raconté,0.16666666666666666
+328,finde,trouver,0.0
+329,land,pays,0.0
+330,lasst,feuilles,0.25
+331,bringt,apporte,0.2
+332,getötet,tué,0.2
+333,stunden,les heures,0.16666666666666666
+334,holen,aller chercher,0.1
+335,schwer,difficile,0.0
+336,lässt,feuilles,0.2
+337,verlassen,en quittant,0.14285714285714285
+338,hoffe,espoir,0.0
+339,gestern,hier,0.2
+340,wahrheit,vérité,0.2
+341,vier,quatre,0.3333333333333333
+342,sagst,dire,0.0
+343,mom,maman,0.6666666666666666
+344,ort,emplacement,0.14285714285714285
+345,läuft,court,0.25
+346,zimmer,salle,0.0
+347,captain,capitaine,1.0
+348,deshalb,pour cette raison,0.0
+349,seite,page,0.0
+350,würdest,aurait,0.3333333333333333
+351,glaubst,croyez,0.0
+352,krieg,guerre,0.3333333333333333
+353,zeigen,démontrer,0.14285714285714285
+354,gefallen,aimer,0.0
+355,spiel,jeu,0.0
+356,bleibt,restes,0.0
+357,woche,la semaine,0.0
+358,unserer,les notres,0.2857142857142857
+359,nett,type,0.0
+360,denen,ceux,0.0
+361,bestimmt,définitivement,0.3333333333333333
+362,wagen,oser,0.0
+363,kleinen,petit,0.0
+364,the,la,0.0
+365,guter,des biens,0.0
+366,schatz,trésor,0.0
+367,schuld,faire des reproches,0.16666666666666666
+368,erzählen,raconter,0.16666666666666666
+369,ersten,première,0.2
+370,spaß,amusement,0.2
+371,tage,journées,0.0
+372,nehme,prendre,0.2
+373,manchmal,parfois,0.0
+374,beste,meilleur,0.0
+375,gehst,aller,0.0
+376,chance,chance,1.0
+377,entschuldigung,désolé,0.2
+378,schlecht,mal,0.14285714285714285
+379,wollten,voulait,0.4
+380,äh,ah,0.5
+381,ernst,sérieuse,0.0
+382,sachen,des choses,0.42857142857142855
+383,eben,seulement,0.2
+384,schlafen,sommeil,0.3333333333333333
+385,gefällt,comme,0.0
+386,entschuldigen,s'excuser,0.1111111111111111
+387,bett,lit,0.3333333333333333
+388,wort,mot,0.3333333333333333
+389,gesicht,visage,0.2
+390,typ,taper,0.3333333333333333
+391,unten,au dessous de,0.0
+392,mensch,personne,0.2
+393,freundin,ami,0.0
+394,miss,mademoiselle,0.3333333333333333
+395,kleiner,plus petite,0.14285714285714285
+396,hättest,aurait,0.16666666666666666
+397,teil,partie,0.0
+398,tu,faire,0.0
+399,trinken,boire,0.2
+400,wären,serait,0.25
+401,bleib,rester,0.0
+402,beiden,tous les deux,0.125
+403,herz,cœur,0.0
+404,papa,père,0.3333333333333333
+405,stellen,lieu,0.2
+406,wichtig,important,0.16666666666666666
+407,blut,du sang,0.0
+408,schule,l'école,0.2
+409,bloß,seulement,0.2
+410,john,john,1.0
+411,neuen,nouveau,0.5
+412,wiedersehen,à la prochaine,0.3333333333333333
+413,glücklich,joyeux,0.0
+414,jack,jack,1.0
+415,frei,libre,0.3333333333333333
+416,ding,chose,0.0
+417,gedacht,pensait,0.2
+418,tust,faire,0.0
+419,scheint,semble être,0.25
+420,arsch,cul,0.25
+421,oft,souvent,0.25
+422,wohin,où,0.0
+423,alt,vieille,0.3333333333333333
+424,alte,vieille,0.3333333333333333
+425,waffe,arme,0.0
+426,sorge,des soucis,0.16666666666666666
+427,fest,fête,0.6666666666666666
+428,platz,espace,0.0
+429,eltern,parents,0.2
+430,kriegen,obtenir,0.0
+431,wen,qui,0.0
+432,möglich,possible,0.0
+433,drauf,dessus,0.25
+434,falls,si,0.25
+435,irgendwie,d'une certaine manière,0.15384615384615385
+436,jungen,garçons,0.2
+437,besten,meilleur,0.0
+438,alten,vieille,0.0
+439,nummer,numéro,0.75
+440,wahrscheinlich,probablement,0.1
+441,dollar,dollar,1.0
+442,brauchst,avoir besoin,0.3333333333333333
+443,ehrlich,franchement,0.375
+444,hierher,ici,0.0
+445,irgendwas,quoi que ce soit,0.125
+446,setzen,mettre,0.25
+447,zuerst,première,0.2
+448,falsch,pas correcte,0.125
+449,reicht,suffisant,0.16666666666666666
+450,menge,quantité,0.2
+451,bereits,déjà,0.0
+452,bring,apporter,0.2
+453,hölle,l'enfer,0.0
+454,pass,passeport,0.5
+455,außer,à l'exception,0.0
+456,früher,plus tôt,0.0
+457,rede,discours,0.2
+458,großen,énorme,0.0
+459,hände,mains,0.25
+460,wollt,vouloir,0.25
+461,gegeben,donné,0.0
+462,telefon,téléphoner,0.375
+463,kennst,connaître,0.5
+464,wartet,attend,0.0
+465,schiff,bateau,0.0
+466,früh,de bonne heure,0.125
+467,scheiß,merde,0.0
+468,tue,faire,0.0
+469,willkommen,bienvenue,0.14285714285714285
+470,kaum,à peine,0.0
+471,doktor,médecin,0.0
+472,lieben,amour,0.0
+473,fehler,erreur,0.25
+474,retten,porter secours,0.2222222222222222
+475,stunde,heure,0.0
+476,dürfen,mai,0.0
+477,sechs,six,0.25
+478,plan,plan,1.0
+479,klingt,des sons,0.0
+480,hund,chien,0.3333333333333333
+481,zehn,dix,0.0
+482,nächste,suivant,0.16666666666666666
+483,nächsten,suivant,0.14285714285714285
+484,langsam,lent,0.4
+485,gebe,donner,0.0
+486,film,film,1.0
+487,ruf,appel,0.0
+488,wochen,semaines,0.0
+489,geworden,devenir,0.0
+490,schaffen,créer,0.16666666666666666
+491,wär,serait,0.0
+492,überall,globalement,0.14285714285714285
+493,voll,pleinement,0.16666666666666666
+494,feuer,feu,0.5
+495,alleine,seule,0.3333333333333333
+496,büro,bureau,0.6666666666666666
+497,direkt,direct,0.75
+498,kumpel,mec,0.25
+499,trotzdem,malgré cela,0.125
+500,hm,hum,1.0
+501,erinnern,rappeler,0.2
+502,lernen,apprendre,0.3333333333333333
+503,laufen,courir,0.0
+504,denkt,pense,0.25
+505,könig,roi,0.0
+506,new,nouveau,0.5
+507,tat,a fait,0.3333333333333333
+508,nennen,nommer,0.25
+509,kleines,petit,0.0
+510,wem,qui,0.0
+511,eigenen,posséder,0.0
+512,aufhören,arrêt,0.0
+513,könnt,boîte,0.2
+514,deswegen,à cause de ce,0.125
+515,danach,après ça,0.0
+516,verlieren,perdre,0.4
+517,neues,nouveau,0.5
+518,völlig,pleinement,0.0
+519,hattest,eu,0.0
+520,leider,malheureusement,0.25
+521,hol,avoir,0.0
+522,seht,voir,0.0
+523,luft,air,0.0
+524,stelle,emploi,0.25
+525,ziehen,dessiner,0.2
+526,funktioniert,travaille,0.0
+527,verstehst,comprendre,0.0
+528,verschwinden,disparaître,0.1111111111111111
+529,heiraten,marier,0.25
+530,wolltest,recherché,0.0
+531,spricht,parle,0.3333333333333333
+532,entschuldige,excusez-moi,0.125
+533,probleme,problèmes,0.7142857142857143
+534,lebt,vies,0.0
+535,könntest,pourrait,0.14285714285714285
+536,versuche,essaie,0.2
+537,groß,gros,0.6666666666666666
+538,gebracht,amené,0.0
+539,krank,malade,0.0
+540,gegangen,disparu,0.0
+541,wow,ouah,0.0
+542,kaffee,café,0.3333333333333333
+543,straße,rue,0.25
+544,froh,joyeux,0.0
+545,genommen,pris,0.0
+546,fühle,se sentir,0.0
+547,wert,valeur,0.0
+548,rufen,appel,0.0
+549,erde,la terre,0.2
+550,richtige,le bon,0.0
+551,suche,chercher,0.3333333333333333
+552,buch,un livre,0.0
+553,stück,pièce,0.2
+554,getroffen,rencontré,0.0
+555,lch,je,0.0
+556,tagen,rencontrer,0.14285714285714285
+557,nochmal,encore une fois,0.25
+558,nachdem,après,0.0
+559,möchten,vouloir,0.0
+560,arzt,médecin,0.0
+561,typen,les types,0.42857142857142855
+562,fand,trouvé,0.0
+563,vertrauen,confiance,0.0
+564,sam,assis,0.3333333333333333
+565,drüben,là bas,0.2
+566,himmel,paradis,0.0
+567,erklären,expliquer,0.3333333333333333
+568,interessiert,intéressé,0.5714285714285714
+569,irgendwo,quelque part,0.0
+570,nachricht,nouvelles,0.14285714285714285
+571,glaub,croyez,0.0
+572,tja,bien,0.0
+573,gutes,bon,0.0
+574,onkel,oncle,0.6666666666666666
+575,spielt,pièces,0.0
+576,genauso,juste comme ça,0.0
+577,geschafft,fabriqué,0.0
+578,großer,plus grand,0.25
+579,waffen,armes,0.0
+580,i,je,0.0
+581,licht,léger,0.25
+582,körper,corps,0.4
+583,kaufen,acheter,0.0
+584,weniger,moins de,0.2
+585,lasse,laisser,0.75
+586,lhr,tu,0.0
+587,wahl,choix,0.3333333333333333
+588,damals,à l'époque,0.14285714285714285
+589,rest,le repos,0.2
+590,schätze,deviner,0.0
+591,gefühl,sentiment,0.0
+592,halte,tenir,0.0
+593,passieren,arriver,0.2
+594,schlüssel,clé,0.25
+595,sitzen,asseoir,0.25
+596,millionen,des millions,0.5
+597,weh,douloureux,0.0
+598,leicht,facile,0.25
+599,kümmern,prendre soin de,0.2
+600,hält,détient,0.2
+601,herren,pour des hommes,0.1
+602,sagten,mentionné,0.3333333333333333
+603,kennt,sait,0.25
+604,gefragt,demandé,0.0
+605,zukunft,futur,0.2
+606,schauen,regardez,0.0
+607,party,faire la fête,0.125
+608,vergiss,oubliez,0.0
+609,angerufen,appelé,0.0
+610,total,total,1.0
+611,möchtest,vouloir,0.0
+612,opfer,victime,0.0
+613,passt,s'adapte,0.2
+614,worden,a été,0.0
+615,versuch,expérience,0.16666666666666666
+616,gesprochen,parlé,0.2857142857142857
+617,gefängnis,geôle,0.14285714285714285
+618,cool,frais,0.0
+619,schreiben,écrivez,0.3333333333333333
+620,vorsichtig,prudent,0.2857142857142857
+621,o,o,
+622,wovon,à propos de quoi,0.0
+623,großartig,génial,0.16666666666666666
+624,laut,bruyant,0.2
+625,vorstellen,introduire,0.14285714285714285
+626,sinn,sens,0.6666666666666666
+627,schöne,beau,0.0
+628,sobald,dès que,0.0
+629,krankenhaus,hôpital,0.0
+630,wohnung,appartement,0.14285714285714285
+631,tragen,porter,0.25
+632,person,personne,0.8
+633,böse,fâché,0.0
+634,mist,mince,0.3333333333333333
+635,michael,michael,1.0
+636,super,génial,0.0
+637,stark,fort,0.25
+638,still,silencieux,0.2
+639,mund,bouche,0.0
+640,verletzt,blesser,0.16666666666666666
+641,boss,chef,0.0
+642,leuten,personnes,0.16666666666666666
+643,boden,sol,0.0
+644,sex,sexe,1.0
+645,kämpfen,bataille,0.0
+646,bringe,apporter,0.2
+647,fühlen,ressentir,0.0
+648,außerdem,en plus de ça,0.1111111111111111
+649,lustig,amusement,0.2
+650,ändern,changer,0.2
+651,fliegen,voler,0.25
+652,findet,trouve,0.0
+653,höre,écouter,0.25
+654,klasse,génial,0.0
+655,verdammte,mince,0.16666666666666666
+656,solange,si longtemps,0.4444444444444444
+657,charlie,charlie,1.0
+658,setz,positionner,0.3333333333333333
+659,schicken,envoyer,0.0
+660,länger,plus long,0.2857142857142857
+661,jemals,déjà,0.0
+662,hörst,écouter,0.0
+663,stolz,fièrement,0.0
+664,besonders,notamment,0.0
+665,idiot,espèce d'imbécile,0.08333333333333333
+666,sicherheit,sécurité,0.3333333333333333
+667,redest,parler,0.0
+668,eher,plutôt,0.0
+669,umbringen,tuer,0.16666666666666666
+670,wenigstens,au moins,0.2857142857142857
+671,anrufen,appel,0.0
+672,zeug,des choses,0.0
+673,sollst,devrait,0.2
+674,gestorben,est mort,0.16666666666666666
+675,mr,m,0.5
+676,ähm,euh,0.3333333333333333
+677,hasse,haine,0.3333333333333333
+678,zeig,afficher,0.0
+679,hart,dur,0.3333333333333333
+680,erwartet,attendu,0.0
+681,heißen,moyenne,0.25
+682,mörder,meurtrier,0.4
+683,lachen,rire,0.0
+684,a,un,0.0
+685,führen,mener,0.2
+686,heraus,dehors,0.75
+687,glaubt,croit,0.25
+688,fällt,des chutes,0.14285714285714285
+689,stimme,voix,0.0
+690,geschehen,arriver,0.0
+691,wisst,connaître,0.16666666666666666
+692,erfahren,expérimenté,0.25
+693,wärst,serait,0.4
+694,geschäft,des affaires,0.14285714285714285
+695,tages,journée,0.0
+696,schneller,plus vite,0.0
+697,hinten,arrière,0.0
+698,stand,était debout,0.2857142857142857
+699,umgebracht,tué,0.0
+700,acht,huit,0.6666666666666666
+701,liebling,préféré,0.0
+702,mögen,aimer,0.25
+703,fallen,tombe,0.0
+704,denk,pense,0.3333333333333333
+705,lesen,lis,0.6666666666666666
+706,frank,franc,0.75
+707,meinung,opinion,0.5
+708,liebt,aime,0.0
+709,erinnere,rappelles toi,0.125
+710,folgen,suivre,0.0
+711,schluss,suffisant,0.16666666666666666
+712,monate,mois,0.3333333333333333
+713,unglaublich,incroyable,0.2857142857142857
+714,vorher,précédemment,0.1
+715,verzeihung,le pardon,0.0
+716,arschloch,connard,0.14285714285714285
+717,meisten,plus,0.0
+718,schlimm,terrible,0.0
+719,aufs,sur,0.0
+720,york,york,1.0
+721,peter,pierre,0.6666666666666666
+722,lebens,la vie,0.25
+723,werdet,sera,0.25
+724,unmöglich,impossible,0.14285714285714285
+725,kampf,lutte,0.0
+726,laden,charger,0.0
+727,nähe,environs,0.2
+728,team,équipe,0.0
+729,bild,image,0.0
+730,joe,joe,1.0
+731,verdient,mérité,0.0
+732,arbeitet,travaille,0.2
+733,behalten,garder,0.0
+734,bitten,demande,0.0
+735,tatsächlich,en effet,0.0
+736,anfangen,commencer,0.16666666666666666
+737,versprochen,promis,0.25
+738,mord,meurtre,0.5
+739,bekommt,reçoit,0.2
+740,rufe,crier,0.3333333333333333
+741,zieh,dessiner,0.0
+742,fort,une façon,0.2
+743,perfekt,parfait,0.8
+744,tom,à m,0.3333333333333333
+745,sieben,sept,0.3333333333333333
+746,plötzlich,tout à coup,0.125
+747,geschickt,habilement,0.14285714285714285
+748,tisch,table,0.25
+749,liegen,mensonge,0.2
+750,chffffff,chffffff,1.0
+751,antwort,réponse,0.0
+752,bezahlen,payer,0.0
+753,machte,fabriqué,0.0
+754,arbeite,travail,0.25
+755,gefährlich,dangereux,0.125
+756,traum,rêve,0.0
+757,bezahlt,payé,0.0
+758,auge,œil,0.0
+759,general,général,0.6666666666666666
+760,dumm,idiot,0.3333333333333333
+761,konnten,pouvait,0.2
+762,starb,est mort,0.5
+763,hotel,hôtel,0.75
+764,verkaufen,vente,0.2
+765,ziel,cibler,0.25
+766,obwohl,même si,0.0
+767,ärger,difficulté,0.0
+768,fenster,la fenêtre,0.5714285714285714
+769,seien,être,0.0
+770,daddy,père,0.0
+771,niemanden,personne,0.2
+772,hörte,entendu,0.0
+773,handy,portable,0.0
+774,bewegung,déplacer,0.0
+775,gerettet,sauvé,0.0
+776,dagegen,encontre,0.0
+777,monaten,mois,0.25
+778,nötig,nécessaire,0.16666666666666666
+779,hilf,aider,0.0
+780,werd,sera,0.3333333333333333
+781,gewinnen,gagner,0.4
+782,max,max,1.0
+783,gedanken,pensées,0.0
+784,erinnerst,rappelles toi,0.375
+785,voller,plein de,0.2
+786,verheiratet,marié,0.16666666666666666
+787,fahr,conduire,0.25
+788,rum,rhum,0.6666666666666666
+789,neu,nouveau,0.5
+790,mike,mike,1.0
+791,benutzt,utilisé,0.0
+792,yeah,oui,0.0
+793,nimmt,prend,0.0
+794,augenblick,moment,0.0
+795,you,tu,0.0
+796,komisch,marrant,0.0
+797,hole,avoir,0.0
+798,gefahr,danger,0.25
+799,entscheidung,décision,0.25
+800,meister,maître,0.75
+801,unterwegs,en chemin,0.16666666666666666
+802,lacht,des rires,0.0
+803,leiche,corps,0.0
+804,zug,train,0.0
+805,ma,maman,0.3333333333333333
+806,chef,patron,0.0
+807,gleiche,même,0.0
+808,worte,mots,0.0
+809,bier,bière,0.6666666666666666
+810,arm,pauvres,0.25
+811,klappe,rabat,0.0
+812,fangen,capture,0.0
+813,absolut,tout à fait,0.14285714285714285
+814,schlimmer,pire,0.14285714285714285
+815,kamen,venu,0.3333333333333333
+816,minute,minute,1.0
+817,zahlen,compter,0.0
+818,benutzen,utiliser,0.0
+819,anfang,début,0.0
+820,finger,doigt,0.25
+821,zuhause,à la maison,0.14285714285714285
+822,hilft,aide,0.0
+823,arme,pauvres,0.25
+824,legen,allonger,0.4
+825,weiss,sait,0.3333333333333333
+826,findest,trouver,0.0
+827,naja,tant pis,0.16666666666666666
+828,regeln,réglementer,0.5
+829,herum,par ici,0.25
+830,lhre,ton,0.0
+831,rüber,terminé,0.2
+832,david,david,1.0
+833,geschrieben,écrit,0.2857142857142857
+834,klein,petit,0.0
+835,wach,éveillé,0.0
+836,irgendetwas,quoi que ce soit,0.125
+837,paris,paris,1.0
+838,offen,ouvert d'esprit,0.0
+839,schönen,belle,0.0
+840,wünschte,souhaité,0.2857142857142857
+841,monsieur,monsieur,1.0
+842,jemandem,quelqu'un,0.0
+843,tanzen,danse,0.25
+844,sitzt,est assis,0.3333333333333333
+845,kalt,du froid,0.0
+846,partner,partenaire,1.0
+847,reise,voyage,0.0
+848,dame,la demoiselle,0.2857142857142857
+849,sekunden,secondes,0.6
+850,bescheid,avis,0.2
+851,raum,espace,0.0
+852,george,george,1.0
+853,schießen,tirer,0.0
+854,steh,supporter,0.3333333333333333
+855,rolle,rôle,0.6666666666666666
+856,führt,pistes,0.0
+857,monat,mois,0.3333333333333333
+858,nen,pour,0.0
+859,müde,fatigué,0.0
+860,schlagen,battre,0.0
+861,informationen,informations,0.8571428571428571
+862,müsst,doit,0.2
+863,lage,position,0.0
+864,hochzeit,mariage,0.0
+865,ständig,constante,0.16666666666666666
+866,gottes,dieu,0.0
+867,müsste,devrait,0.2
+868,weise,sage,0.0
+869,weitere,plus loin,0.0
+870,gewonnen,gagné,0.4
+871,richtung,direction,0.5
+872,süß,sucré,0.25
+873,heiß,chaud,0.3333333333333333
+874,wozu,pour quelle raison,0.0
+875,harry,harry,1.0
+876,darfst,mai,0.0
+877,lauf,cours,0.0
+878,anwalt,avocat,0.25
+879,erzähl,raconter,0.2
+880,agent,agent,1.0
+881,paul,paul,1.0
+882,fühlt,se sent,0.2
+883,steckt,branché,0.16666666666666666
+884,magst,aimer,0.25
+885,ließ,laisser,0.25
+886,gelernt,appris,0.2
+887,wunderbar,merveilleux,0.0
+888,beispiel,exemple,0.5
+889,hältst,tenir,0.16666666666666666
+890,weile,pendant que,0.0
+891,vorsicht,mise en garde,0.0
+892,seele,âme,0.0
+893,selber,moi même,0.0
+894,erledigt,fini,0.0
+895,ehre,honneur,0.5
+896,fürs,pour,0.25
+897,nennt,des noms,0.16666666666666666
+898,ansehen,regardez,0.0
+899,gehabt,eu,0.0
+900,nahm,pris,0.0
+901,kraft,puissance,0.0
+902,links,la gauche,0.2
+903,herzen,cœurs,0.0
+904,bekannt,célèbre,0.0
+905,wofür,pour quelle raison,0.1
+906,boot,bateau,1.0
+907,stell,adjoint,0.0
+908,verschwinde,s'en aller,0.0
+909,darin,dans ce,0.2
+910,kontrolle,contrôler,0.5714285714285714
+911,dahin,là,0.0
+912,rücken,mouvement,0.0
+913,befehl,commande,0.0
+914,leg,jambe,0.0
+915,sucht,cherche,0.2
+916,bar,bar,1.0
+917,hübsch,jolie,0.0
+918,tief,profond,0.2
+919,foto,photo,0.3333333333333333
+920,brief,lettre,0.0
+921,schreit,pleure,0.2
+922,gestohlen,volé,0.16666666666666666
+923,verliebt,amoureux,0.2
+924,irgendwann,parfois,0.0
+925,näher,plus proche,0.125
+926,tasche,sac,0.5
+927,heiße,nom est,0.0
+928,ehe,mariage,0.0
+929,unfall,accident,0.0
+930,verbindung,lien,0.14285714285714285
+931,geschenk,cadeau,0.16666666666666666
+932,jedenfalls,dans tous les cas,0.25
+933,beweise,preuves,0.25
+934,punkt,indiquer,0.0
+935,uh,euh,1.0
+936,verschwunden,disparu,0.1111111111111111
+937,hoffentlich,je l'espère,0.0
+938,schrecklich,terrible,0.2222222222222222
+939,geist,fantôme,0.2
+940,sowieso,en tous cas,0.2857142857142857
+941,professor,professeur,1.0
+942,gold,or,0.0
+943,zumindest,au moins,0.5
+944,gelesen,avait lu,0.0
+945,beweisen,prouver,0.0
+946,gearbeitet,travaillé,0.16666666666666666
+947,erwischt,attrapé,0.0
+948,geboren,née,0.0
+949,bisher,jusqu'à présent,0.16666666666666666
+950,öffnen,ouvrir,0.0
+951,versteckt,caché,0.14285714285714285
+952,unbedingt,absolument,0.16666666666666666
+953,dauert,prendre,0.2
+954,computer,ordinateur,0.4
+955,sonne,soleil,0.3333333333333333
+956,reich,riche,1.0
+957,damen,dames,0.6666666666666666
+958,hunger,faim,0.0
+959,lady,la demoiselle,0.2857142857142857
+960,preis,le prix,0.4
+961,lügen,couché,0.0
+962,firma,la société,0.0
+963,normal,ordinaire,0.0
+964,neben,suivant,0.25
+965,wette,pari,0.0
+966,gekauft,acheté,0.0
+967,wunder,se demander,0.42857142857142855
+968,pferd,cheval,0.0
+969,beschützen,protéger,0.0
+970,frieden,paix,0.0
+971,schwöre,jurer,0.16666666666666666
+972,erreichen,atteindre,0.0
+973,aussehen,apparence,0.2
+974,fehlt,est manquant,0.125
+975,verkauft,vendu,0.2
+976,erwarten,attendre,0.0
+977,haut,la peau,0.0
+978,holt,obtenir,0.0
+979,herrn,m,0.0
+980,wussten,connaissait,0.3333333333333333
+981,traurig,triste,0.5
+982,seltsam,étrange,0.0
+983,henry,henri,0.75
+984,gesucht,cherché,0.3333333333333333
+985,kriegt,obtient,0.25
+986,zieht,tire,0.0
+987,süße,douceur,0.0
+988,jung,jeune,0.6666666666666666
+989,liste,liste,1.0
+990,de,fr,0.0
+991,tolle,génial,0.25
+992,nächstes,suivant,0.14285714285714285
+993,sekunde,seconde,0.75
+994,tschüss,au revoir,0.0
+995,großes,gros,0.75
+996,karte,carte,0.6666666666666666
+997,stirbt,meurt,0.4
+998,redet,pourparlers,0.14285714285714285
+999,ans,pour,0.0
