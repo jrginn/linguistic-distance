@@ -278,7 +278,31 @@ class SheetMaker():
 		print("Processing of language \"{}\" complete.".format(strLangName))
 			
 		return listRetList
-	
+
+	def listGetLangTransToAny(self, listForeignWordList, strLangName, strTargetName):
+		listRetList = []
+		intCounter = 0
+
+		for strWord in listForeignWordList:
+			if(intCounter == 100):
+				time.sleep(0.5)
+
+			try:
+				strLowerStrWord = strWord.lower()
+				strLowerStrWordTranslation = GoogleTranslator(source = strLangName,target = strTargetName).translate(text=strLowerStrWord)
+				listRetList.append(strLowerStrWordTranslation)
+			except Exception as e:
+				print("*************")
+				print("While processing \"{}\" in language \"{}\", the following error occurred: ".format(strWord, strLangName))
+				print(e)
+				print("The value of np.nan will replace this word.")
+				print("*************")
+				listRetList.append(np.nan)
+		intCounter += 1
+		print("Processing of language \"{}\" complete.".format(strLangName))
+
+		return listRetList
+
 	def dictGetLangTransToEng(listForeignWordList,strLangName):
 		"""
 		Inputs:
