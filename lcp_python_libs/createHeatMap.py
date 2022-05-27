@@ -15,8 +15,9 @@ def snsCreateHeatMap(listRatioValues, listLangNames, strFileSaveName):
 
 
 listLangNames = ["English", "French", "German", "Spanish"]
-listRatioValues = ([1.0,1,1,0.267677381],
-                   [1,1.0,1,0.378540584],
-                   [1,1,1.0,0.197317444],
-                   [1,1,0.178049206,1.0])
+listRatioValues = ([1.0,0.2841656669969923,0.323188215,0.267677381],
+                    [0.318653064,1.0,0.1918611835278502,0.378540584],
+                    [0.332824098,0.18952406978459083,1.0,0.197317444],
+                    [0.298173016,0.3988728349839461,0.178049206,1.0])
+                    
 snsCreateHeatMap(listRatioValues, listLangNames, "opensubstest.png")
