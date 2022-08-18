@@ -26,6 +26,8 @@ However, there are several issues and areas of neglect that may arise from this 
  ## Examples
  According to Ethnologue, English and German are 60% similar and English and French are 27% similar. Below are two articles, one in German from _Der Spiegel_ and the other in French from _Le Monde_. The French clipping contains more cognates.
  
+ ![Le Monde](/images/monde.png)  
+ ![Der Spiegel](/images/spiegel.png)
 
 # Our Proposition 
 In response to current methods of lexical similarity, we proposed a method that added several details to already established practices:
@@ -46,11 +48,18 @@ In response to current methods of lexical similarity, we proposed a method that 
      Our initial analysis involved several documents representative of two genres: (i) legal texts and (ii) scientific texts. All documents were taken from the United Nations Parallel Corpus. An English version of each source document was used to generate child documents in French, German, Russian, and Spanish using Google Translate, which was used in order to obtain the most literal translation of each word into the target language (as human translators often accommodate the nuances of the language they are translating into, leading to translations that obscure words used in the source text). 
      Further into the project, we extended our analytical method to provide a baseline of lexical similarity. Instead of comparing language pairs using sampled text, we performed a context-free comparison, using frequently used words in each language to be compared. One source we used in this comparison was the Open Subtitles Corpora, from which the first 1000 words in each list were used. The languages used in this method were English, French, German, and Spanish.
 
-##Example
+## Example
 The results of bi-directional comparisons for the 1000 most common words found for English, French, German, and Spanish in the Open Subtitles Corpora.
+
+![OpenSubtitlesFreq](/images/tablewithtitles.png)
+
 
 # Links
 * [Language Conflict Project](https://www.languageconflict.org/, "Language Conflict Project")
-* [Lexical Similarity Presentation (Fall 2021)](https://emailsc-my.sharepoint.com/:p:/g/personal/vdsouza_email_sc_edu/EYujzyTQIQBKsF0oWP0IFGIB5KR9s9LcDZeqY21EFYGxnw?e=yo74IK "Lexical Similarity Presentation (Fall 2021)") 
+* [Lexical Similarity Presentation (Fall 2021)](https://emailsc-my.sharepoint.com/:p:/g/personal/vdsouza_email_sc_edu/EYujzyTQIQBKsF0oWP0IFGIB5KR9s9LcDZeqY21EFYGxnw?e=yo74IK "Lexical Similarity Presentation (Fall 2021)")^ 
+* [Discover USC Poster (Spring 2022)](https://emailsc.sharepoint.com/:p:/s/COTEAM-LING-DUBINSK-LCP-LexicalDistanceProject/EQL_nMNK9GpNhjN9iTK-w4sBxYElFhlKQQ9x_1Ocp2Y1Ow?e=0FHXlv, "Discover USC Poster")^
 * [United Nations Parallel Corpus](https://opus.nlpl.eu/UNPC.php, "United Nations Parallel Corpus")
 * [Open Subtitles Corpora](https://opus.nlpl.eu/OpenSubtitles2018.php, "Open Subtitles Corpora")
+
+^Requires USC account
+
