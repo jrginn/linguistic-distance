@@ -5,15 +5,15 @@ from nltk.corpus import stopwords
 import re
 import pandas as pd
 import pathlib
-from LDistance import LDistance as ld
+import codecs
+from VSLDistance import LDistance as ld
 
 
 if __name__ == '__main__':
     # Creates file from frequency list
-    fileTitle = 'en_50k.txt'
-    filePath = pathlib.Path(__file__).parent / ogFileTitle
-    fileFreqList = open(filePath)
-    language = "English"
+    filePath = 'es_50k.txt'
+    fileFreqList = open(filePath, encoding="utf-8")
+    language = "Spanish"
     nltk.download('stopwords')
     listStops = set(stopwords.words(language.lower()))
     listAllLines = fileFreqList.readlines()
@@ -22,11 +22,11 @@ if __name__ == '__main__':
     # scrapes frequency list for first 1000 entries (word and frequency)
     intFreqIndex = 0
     count = 0
-    intWordCount = 1000
+    intWordCount = 2000 
 
     # checks if word is a stop word and adds to new file if not
-    newTitle = language+'_rm_Stops.txt'
-    with open (newTitle, 'w') as f:
+    newTitle = language+str(intWordCount)+'_rm_Stops.txt'
+    with codecs.open (newTitle, 'w', "utf-8") as f:
         while count < intWordCount:
             word = re.split(" ", listAllLines[intFreqIndex])[0].lower()
             if word not in listStops:

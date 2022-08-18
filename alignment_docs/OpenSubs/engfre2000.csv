@@ -1,0 +1,2001 @@
+﻿,english,french,Distances
+0,know,connaître,0.16666666666666666
+1,like,comme,0.0
+2,get,obtenir,0.25
+3,go,aller,0.0
+4,right,droit,0.25
+5,one,une,1.0
+6,come,viens,0.0
+7,oh,oh,1.0
+8,well,bien,0.0
+9,want,vouloir,0.0
+10,got,a obtenu,0.25
+11,yeah,oui,0.0
+12,think,pense,0.25
+13,see,voir,0.0
+14,good,bien,0.0
+15,let,laisser,0.25
+16,yes,oui,0.0
+17,going,aller,0.0
+18,l,je,0.0
+19,time,temps,0.5
+20,back,retour,0.0
+21,okay,d'accord,0.0
+22,look,voir,0.0
+23,us,nous,0.5
+24,take,prendre,0.0
+25,would,aurait,0.0
+26,tell,raconter,0.0
+27,man,homme,0.3333333333333333
+28,say,dire,0.0
+29,really,vraiment,0.2
+30,gonna,va,0.0
+31,hey,hé,0.5
+32,could,pourrait,0.0
+33,something,quelque chose,0.0
+34,need,besoin,0.0
+35,way,façon,0.0
+36,make,fabriquer,0.0
+37,never,jamais,0.0
+38,people,personnes,0.16666666666666666
+39,little,peu,0.0
+40,please,s'il vous plaît,0.18181818181818182
+41,love,aimer,0.0
+42,give,donner,0.0
+43,sorry,pardon,0.25
+44,said,a dit,0.3333333333333333
+45,mean,moyenne,0.5
+46,two,deux,0.0
+47,thank,remercier,0.0
+48,even,même,0.0
+49,much,beaucoup,0.3333333333333333
+50,sure,bien sur,0.4
+51,thing,chose,0.25
+52,help,aider,0.0
+53,first,première,0.2
+54,anything,n'importe quoi,0.125
+55,still,toujours,0.0
+56,sir,monsieur,0.5
+57,life,la vie,0.3333333333333333
+58,nothing,rien,0.2
+59,find,trouver,0.0
+60,god,dieu,0.5
+61,day,journée,0.0
+62,work,travailler,0.16666666666666666
+63,must,devoir,0.0
+64,stop,arrêt,0.0
+65,maybe,peut être,0.0
+66,call,appel,0.3333333333333333
+67,wait,attendez,0.2
+68,away,une façon,0.0
+69,talk,parler,0.25
+70,night,nuit,0.5
+71,home,domicile,0.25
+72,uh,euh,1.0
+73,thought,pensait,0.2
+74,put,mettre,0.25
+75,great,génial,0.25
+76,last,dernière,0.0
+77,better,meilleur,0.25
+78,everything,tout,0.14285714285714285
+79,told,raconté,0.0
+80,new,nouveau,0.5
+81,always,toujours,0.25
+82,things,des choses,0.14285714285714285
+83,long,long,1.0
+84,keep,donjon,0.0
+85,leave,pars,0.0
+86,years,années,0.25
+87,money,argent,0.25
+88,around,autour de,0.5
+89,name,nom,1.0
+90,father,père,0.25
+91,guy,mec,0.0
+92,place,place,1.0
+93,feel,se sentir,0.0
+94,ever,déjà,0.0
+95,guys,les mecs,0.16666666666666666
+96,old,agé de,0.25
+97,made,fabriqué,0.0
+98,big,gros,0.0
+99,nice,agréable,0.0
+100,girl,fille,0.3333333333333333
+101,hello,bonjour,0.0
+102,believe,croire,0.0
+103,done,fini,0.5
+104,ok,d'accord,0.0
+105,lot,parcelle,0.2
+106,fine,bien,0.5
+107,someone,quelqu'un,0.2
+108,thanks,merci,0.0
+109,house,loger,0.0
+110,wanted,recherché,0.0
+111,coming,à venir,0.2
+112,kind,gentil,0.25
+113,every,tous,0.0
+114,stay,rester,0.5
+115,left,la gauche,0.2
+116,mother,mère,0.5
+117,enough,suffisant,0.0
+118,may,peut,0.0
+119,course,cours,1.0
+120,dad,papa,0.0
+121,happened,passé,0.2
+122,wrong,mauvais,0.0
+123,listen,ecoutez,0.25
+124,bad,mal,0.0
+125,came,est venu,0.0
+126,understand,comprendre,0.14285714285714285
+127,three,trois,0.3333333333333333
+128,today,aujourd'hui,0.2
+129,world,monde,0.25
+130,another,une autre,0.5
+131,hear,écouter,0.25
+132,remember,rappelles toi,0.125
+133,might,force,0.0
+134,ask,interroger,0.0
+135,kill,tuer,0.0
+136,show,afficher,0.2
+137,else,autre,0.0
+138,talking,en parlant,0.14285714285714285
+139,found,trouvé,0.0
+140,care,se soucier,0.4
+141,son,fils,0.0
+142,car,auto,0.0
+143,next,suivant,0.25
+144,getting,obtenir,0.4
+145,try,essayer,0.25
+146,looking,en regardant,0.125
+147,woman,femme,0.3333333333333333
+148,dead,morte,0.0
+149,hi,salut,0.0
+150,went,est allé,0.0
+151,many,de nombreux,0.14285714285714285
+152,friend,ami,0.0
+153,mind,dérange,0.2
+154,hell,enfer,0.0
+155,mom,maman,0.6666666666666666
+156,boy,garçon,0.0
+157,best,meilleur,0.0
+158,morning,matin,0.4
+159,together,ensemble,0.0
+160,saw,vu,0.0
+161,trying,en essayant,0.2857142857142857
+162,job,travail,0.0
+163,without,sans pour autant,0.2
+164,real,réel,0.6666666666666666
+165,baby,bébé,0.5
+166,family,famille,0.75
+167,room,chambre,0.2
+168,move,mouvement,0.4
+169,already,déjà,0.0
+170,live,direct,0.0
+171,seen,vu,0.0
+172,miss,mademoiselle,0.3333333333333333
+173,shit,merde,0.0
+174,actually,réellement,0.2857142857142857
+175,heard,entendu,0.25
+176,brother,frère,0.4
+177,head,tête,0.0
+178,ready,prêt,0.25
+179,happy,heureux,0.25
+180,huh,hein,0.5
+181,hold,tenir,0.0
+182,called,appelé,0.25
+183,used,utilisé,0.25
+184,knew,connaissait,0.16666666666666666
+185,men,hommes,0.25
+186,idea,idée,0.5
+187,wife,épouse,0.0
+188,yet,encore,0.0
+189,took,ont pris,0.16666666666666666
+190,fuck,merde,0.0
+191,also,aussi,0.5
+192,pretty,jolie,0.0
+193,days,journées,0.2
+194,since,puisque,0.0
+195,whole,ensemble,0.2
+196,tomorrow,demain,0.2
+197,start,début,0.25
+198,use,utilisation,0.2
+199,door,porte,0.3333333333333333
+200,bit,bit,1.0
+201,matter,question,0.25
+202,bring,apporter,0.2
+203,meet,rencontrer,0.14285714285714285
+204,tonight,ce soir,0.0
+205,guess,deviner,0.0
+206,run,cours,0.3333333333333333
+207,alone,seul,0.0
+208,everyone,tout le monde,0.125
+209,school,école,0.5
+210,gone,disparu,0.0
+211,hard,dur,0.3333333333333333
+212,wanna,voulez,0.0
+213,play,jouer,0.0
+214,problem,problème,0.8333333333333334
+215,end,fin,0.0
+216,saying,en disant,0.16666666666666666
+217,open,ouvert,0.0
+218,friends,copains,0.4
+219,fucking,putain de,0.0
+220,ago,depuis,0.0
+221,killed,tué,0.0
+222,looks,regards,0.2
+223,gotta,dois,0.0
+224,ah,ah,1.0
+225,anyone,quelqu'un,0.2
+226,phone,téléphoner,0.375
+227,hope,espoir,0.3333333333333333
+228,lost,perdu,0.0
+229,excuse,excuse,1.0
+230,face,visage,0.0
+231,um,euh,0.0
+232,die,mourir,0.0
+233,turn,tour,0.6666666666666666
+234,police,police,1.0
+235,heart,cœur,0.0
+236,wants,veut,0.25
+237,says,dit,0.0
+238,true,vrai,0.5
+239,worry,inquiétude,0.0
+240,soon,bientôt,0.2
+241,business,entreprise,0.16666666666666666
+242,case,cas,1.0
+243,later,plus tard,0.42857142857142855
+244,watch,regardez,0.0
+245,year,an,0.0
+246,hand,main,0.3333333333333333
+247,beautiful,belle,0.5
+248,doctor,docteur,1.0
+249,eat,manger,0.0
+250,sit,asseoir,0.3333333333333333
+251,probably,probablement,0.625
+252,thinking,en pensant,0.2857142857142857
+253,late,en retard,0.16666666666666666
+254,forget,oubliez,0.0
+255,young,jeune,0.3333333333333333
+256,second,deuxième,0.0
+257,kids,des gamins,0.14285714285714285
+258,kid,enfant,0.0
+259,pay,payer,0.6666666666666666
+260,crazy,fou,0.0
+261,water,l'eau,0.0
+262,death,décès,0.2
+263,working,travail,0.2
+264,stuff,des trucs,0.2857142857142857
+265,minute,minute,1.0
+266,part,partie,1.0
+267,person,la personne,0.5714285714285714
+268,everybody,tout le monde,0.0
+269,damn,zut,0.0
+270,drink,boisson,0.0
+271,gave,a donné,0.0
+272,change,monnaie,0.25
+273,exactly,exactement,0.5
+274,happen,se produire,0.16666666666666666
+275,shut,fermer,0.0
+276,five,cinq,0.0
+277,knows,sait,0.0
+278,eyes,les yeux,0.2
+279,hit,succès,0.0
+280,far,loin,0.0
+281,easy,facile,0.0
+282,whatever,peu importe,0.16666666666666666
+283,hands,mains,0.5
+284,taking,prise,0.0
+285,times,fois,0.3333333333333333
+286,check,chèque,0.5
+287,minutes,minutes,1.0
+288,music,musique,0.6666666666666666
+289,inside,à l'intérieur,0.1111111111111111
+290,sleep,dormir,0.0
+291,means,moyens,0.75
+292,somebody,quelqu'un,0.0
+293,mine,mien,1.0
+294,deal,accord,0.0
+295,different,différent,0.8571428571428571
+296,asked,a demandé,0.16666666666666666
+297,makes,fait du,0.0
+298,point,indiquer,0.0
+299,afraid,peur,0.3333333333333333
+300,body,corps,0.0
+301,anyway,de toute façon,0.0
+302,dear,chère,0.25
+303,four,quatre,0.3333333333333333
+304,shall,devoir,0.0
+305,chance,chance,1.0
+306,close,proche,0.0
+307,making,fabrication,0.0
+308,waiting,attendre,0.4
+309,party,faire la fête,0.125
+310,daughter,la fille,0.0
+311,comes,vient,0.0
+312,word,mot,0.0
+313,fun,amusement,0.2
+314,number,numéro,0.75
+315,married,marié,0.5
+316,hurt,blesser,0.0
+317,story,histoire,0.5
+318,set,positionner,0.3333333333333333
+319,wish,souhaiter,0.25
+320,least,moins,0.0
+321,quite,assez,0.0
+322,important,important,1.0
+323,girls,les filles,0.2857142857142857
+324,husband,mari,0.0
+325,fire,feu,0.5
+326,nobody,personne,0.0
+327,fight,lutte,0.25
+328,children,enfants,0.0
+329,rest,le repos,0.2
+330,moment,moment,1.0
+331,week,la semaine,0.0
+332,read,lis,0.0
+333,stand,supporter,0.16666666666666666
+334,game,jeu,0.0
+335,cut,couper,0.3333333333333333
+336,sister,sœur,0.5
+337,speak,parler,0.0
+338,child,enfant,0.0
+339,side,côté,0.0
+340,women,femmes,0.25
+341,supposed,censé,0.2
+342,started,a débuté,0.16666666666666666
+343,hours,heures,1.0
+344,goes,se rend,0.0
+345,blood,du sang,0.0
+346,though,pourtant,0.0
+347,truth,vérité,0.4
+348,lady,la demoiselle,0.2857142857142857
+349,anymore,plus,0.0
+350,behind,derrière,0.0
+351,almost,presque,0.25
+352,shot,tir,0.0
+353,gets,obtient,0.25
+354,war,guerre,0.3333333333333333
+355,break,pause,0.0
+356,walk,marche,0.0
+357,able,pouvoir,0.0
+358,reason,raison,1.0
+359,trouble,difficulté,0.14285714285714285
+360,met,rencontré,0.14285714285714285
+361,city,ville,0.0
+362,town,ville,0.0
+363,trust,confiance,0.0
+364,mr,m,0.5
+365,brought,amené,0.0
+366,died,décédés,0.2857142857142857
+367,question,question,1.0
+368,buy,acheter,0.0
+369,office,bureau,0.0
+370,half,demi,0.0
+371,bye,au revoir,0.0
+372,high,haute,0.3333333333333333
+373,free,libre,0.3333333333333333
+374,welcome,accueillir,0.2
+375,couple,couple,1.0
+376,either,soit,0.0
+377,hurry,dépêche toi,0.0
+378,telling,récit,0.0
+379,stupid,stupide,1.0
+380,honey,miel,0.0
+381,power,puissance,0.2
+382,wow,wow,1.0
+383,tried,a essayé,0.0
+384,bed,lit,0.0
+385,front,de face,0.0
+386,cool,cool,1.0
+387,answer,réponse,0.0
+388,playing,en jouant,0.2
+389,seems,semble,0.5
+390,boys,garçons,0.2
+391,send,envoyer,0.0
+392,gun,pistolet,0.0
+393,line,ligne,0.6666666666666666
+394,team,équipe,0.0
+395,news,nouvelles,0.4
+396,months,mois,0.4
+397,captain,capitaine,1.0
+398,save,enregistrer,0.14285714285714285
+399,full,plein,0.3333333333333333
+400,hate,détester,0.16666666666666666
+401,sometimes,quelquefois,0.2
+402,become,devenir,0.0
+403,whoa,whoa,1.0
+404,lord,seigneur,0.0
+405,along,sur,0.0
+406,dog,chien,0.0
+407,outside,à l'extérieur,0.1111111111111111
+408,food,aliments,0.0
+409,light,lumière,0.25
+410,order,ordre,1.0
+411,hot,chaud,0.3333333333333333
+412,funny,drôle,0.0
+413,clear,dégager,0.2
+414,needs,besoins,0.25
+415,six,six,1.0
+416,country,pays,0.0
+417,alive,vivant,0.25
+418,pick,prendre,0.2
+419,em,em,1.0
+420,fact,fait,0.6666666666666666
+421,ahead,en avant,0.0
+422,black,le noir,0.0
+423,boss,chef,0.0
+424,living,vivant,0.5
+425,lose,perdre,0.0
+426,feeling,sentiment,0.16666666666666666
+427,leaving,en quittant,0.14285714285714285
+428,cause,cause,1.0
+429,dinner,dîner,0.75
+430,promise,promettre,0.5
+431,king,roi,0.0
+432,running,fonctionnement,0.3333333333333333
+433,plan,planifier,0.6
+434,taken,pris,0.0
+435,sort,trier,0.3333333333333333
+436,book,livre,0.0
+437,sent,expédié,0.0
+438,anybody,n'importe qui,0.125
+439,hour,heure,1.0
+440,white,blanche,0.0
+441,small,petit,0.0
+442,alright,bien,0.0
+443,sick,malade,0.0
+444,parents,parents,1.0
+445,uncle,oncle,1.0
+446,lives,des vies,0.4
+447,safe,sûr,0.3333333333333333
+448,perfect,parfait,0.8
+449,poor,pauvre,0.6666666666666666
+450,ass,cul,0.0
+451,shoot,tirer,0.0
+452,scared,effrayé,0.2
+453,special,spécial,0.8
+454,serious,sérieuse,0.75
+455,red,rouge,0.5
+456,perhaps,peut-être,0.16666666666666666
+457,touch,toucher,0.75
+458,earth,la terre,0.2
+459,john,jean,0.6666666666666666
+460,sounds,des sons,0.3333333333333333
+461,company,compagnie,0.6
+462,past,passé,0.5
+463,cannot,ne peux pas,0.0
+464,possible,possible,1.0
+465,bitch,chienne,0.0
+466,ha,ha,1.0
+467,sound,du son,0.25
+468,sighs,soupirs,0.5
+469,hair,cheveu,0.3333333333333333
+470,human,humain,1.0
+471,drive,conduire,0.25
+472,luck,chance,0.0
+473,asking,demander,0.2
+474,top,haut,0.0
+475,win,gagner,0.25
+476,glad,content,0.0
+477,daddy,papa,0.0
+478,control,contrôler,0.7142857142857143
+479,cold,froid,0.3333333333333333
+480,ten,dix,0.0
+481,air,air,1.0
+482,happens,arrive,0.0
+483,master,maître,0.75
+484,jack,jack,1.0
+485,till,jusqu'à,0.0
+486,dance,danse,0.6666666666666666
+487,sex,sexe,1.0
+488,others,les autres,0.3333333333333333
+489,hospital,hôpital,0.8
+490,street,rue,0.25
+491,hang,pendre,0.25
+492,fast,vite,0.3333333333333333
+493,words,mots,0.25
+494,follow,suivre,0.0
+495,seem,sembler,0.4
+496,murder,meurtre,0.75
+497,finally,finalement,0.5
+498,lie,mentir,0.0
+499,dream,rêver,0.0
+500,catch,attraper,0.2
+501,write,écrivez,0.2
+502,evening,soirée,0.0
+503,meeting,rencontre,0.16666666666666666
+504,sweet,sucré,0.25
+505,hmm,hmm,1.0
+506,sense,sens,1.0
+507,lucky,chanceux,0.0
+508,known,connu,0.5
+509,laughs,des rires,0.16666666666666666
+510,jesus,jésus,0.75
+511,bet,pari,0.0
+512,voice,voix,0.5
+513,sign,pancarte,0.0
+514,million,million,1.0
+515,quiet,calme,0.0
+516,felt,feutre,0.3333333333333333
+517,rather,plutôt,0.2
+518,careful,prudent,0.2
+519,somewhere,quelque part,0.14285714285714285
+520,longer,plus long,0.2857142857142857
+521,beat,battre,0.5
+522,return,revenir,0.25
+523,laughing,riant,0.2
+524,coffee,café,0.6666666666666666
+525,date,date,1.0
+526,pull,tirer,0.0
+527,secret,secret,1.0
+528,calling,appel,0.2
+529,less,moins,0.3333333333333333
+530,looked,regardé,0.2
+531,worked,travaillé,0.16666666666666666
+532,weeks,semaines,0.25
+533,fault,défaut,0.25
+534,gentlemen,messieurs,0.0
+535,fall,tomber,0.0
+536,given,donné,0.25
+537,seeing,voyant,0.25
+538,song,chanson,0.2
+539,straight,droit,0.3333333333333333
+540,calm,calmes,0.75
+541,changed,modifié,0.0
+542,mad,fou,0.0
+543,loved,aimé,0.0
+544,takes,prend,0.0
+545,road,route,0.5
+546,learn,apprendre,0.3333333333333333
+547,drop,goutte,0.0
+548,wonderful,magnifique,0.16666666666666666
+549,future,avenir,0.3333333333333333
+550,ladies,dames,0.3333333333333333
+551,explain,explique,0.75
+552,chuckles,rires,0.16666666666666666
+553,clean,nettoyer,0.0
+554,throw,jeter,0.25
+555,early,tôt,0.0
+556,yesterday,hier,0.16666666666666666
+557,step,marcher,0.0
+558,turned,tourné,0.75
+559,feet,pieds,0.0
+560,piece,pièce,0.6666666666666666
+561,picture,image,0.0
+562,land,terrain,0.0
+563,quick,rapide,0.0
+564,wonder,merveille,0.0
+565,worth,la peine,0.0
+566,darling,chérie,0.0
+567,questions,des questions,0.625
+568,absolutely,tout à fait,0.0
+569,president,président,0.8571428571428571
+570,eye,œil,0.0
+571,giving,donnant,0.2
+572,ooh,oh,1.0
+573,none,rien,0.5
+574,dude,mec,0.0
+575,moving,en mouvement,0.42857142857142855
+576,state,etat,0.6666666666666666
+577,ones,ceux,0.0
+578,speaking,parlant,0.2
+579,figure,chiffre,0.4
+580,goodbye,au revoir,0.0
+581,sam,sam,1.0
+582,strange,étrange,0.8
+583,strong,fort,0.2
+584,act,loi,0.0
+585,wedding,mariage,0.2
+586,law,droit,0.0
+587,kiss,embrasser,0.3333333333333333
+588,works,œuvres,0.25
+589,report,rapport,0.8
+590,tired,fatigué,0.25
+591,pain,la douleur,0.0
+592,marry,marier,0.75
+593,pass,passer,0.75
+594,wake,se réveiller,0.0
+595,kidding,plaisanter,0.16666666666666666
+596,general,général,0.6666666666666666
+597,missing,disparu,0.2
+598,ship,bateau,0.0
+599,needed,nécessaire,0.16666666666666666
+600,choice,choix,0.6666666666666666
+601,class,classer,0.8
+602,weird,bizarre,0.25
+603,worried,préoccupé,0.14285714285714285
+604,officer,officier,1.0
+605,decided,décidé,0.6
+606,amazing,étonnante,0.16666666666666666
+607,busy,occupé,0.0
+608,kept,gardé,0.0
+609,worse,pire,0.3333333333333333
+610,happening,événement,0.2857142857142857
+611,mistake,erreur,0.0
+612,chief,chef,1.0
+613,ya,toi,0.0
+614,forgive,pardonner,0.16666666666666666
+615,age,âge,0.5
+616,sell,vendre,0.0
+617,michael,michael,1.0
+618,mouth,bouche,0.3333333333333333
+619,caught,attrapé,0.0
+620,finish,terminer,0.0
+621,clothes,vêtements,0.2857142857142857
+622,ride,balade,0.3333333333333333
+623,birthday,date d'anniversaire,0.09090909090909091
+624,meant,censé,0.25
+625,born,née,0.0
+626,watching,en train de regarder,0.15384615384615385
+627,building,imeuble,0.2
+628,dark,foncé,0.0
+629,eh,hein,0.5
+630,system,système,0.8333333333333334
+631,sing,chanter,0.2
+632,film,film,1.0
+633,court,rechercher,0.2857142857142857
+634,tv,la télé,0.16666666666666666
+635,movie,film,0.0
+636,month,mois,0.25
+637,wear,usure,0.5
+638,train,former,0.25
+639,lying,mensonge,0.4
+640,seven,sept,0.3333333333333333
+641,totally,totalement,0.5
+642,imagine,imaginer,0.75
+643,hotel,hôtel,0.75
+644,evidence,preuve,0.0
+645,security,sécurité,0.6666666666666666
+646,completely,totalement,0.14285714285714285
+647,suppose,supposer,0.8
+648,instead,au lieu,0.0
+649,christmas,noël,0.0
+650,unless,sauf si,0.25
+651,information,informations,0.8571428571428571
+652,bag,sac,0.0
+653,certainly,assurément,0.14285714285714285
+654,attack,attaque,0.5
+655,broke,cassé,0.0
+656,round,tour,0.0
+657,expect,attendre,0.0
+658,near,à proximité,0.125
+659,blue,bleu,1.0
+660,terrible,terrible,1.0
+661,thinks,pense,0.4
+662,definitely,absolument,0.0
+663,forever,toujours,0.0
+664,frank,franc,0.75
+665,station,station,1.0
+666,except,à l'exception,0.4444444444444444
+667,table,table,1.0
+668,message,message,1.0
+669,history,l'histoire,0.5
+670,swear,jurer,0.3333333333333333
+671,george,george,1.0
+672,fool,idiot,0.0
+673,talked,a parlé,0.0
+674,ring,bague,0.3333333333333333
+675,buddy,copain,0.0
+676,entire,entier,1.0
+677,lovely,joli,0.25
+678,floor,sol,0.3333333333333333
+679,sun,soleil,0.3333333333333333
+680,handle,manipuler,0.4
+681,army,armée,0.6666666666666666
+682,david,david,1.0
+683,joe,joe,1.0
+684,spend,dépenser,0.3333333333333333
+685,charlie,charlie,1.0
+686,across,de l'autre côté,0.09090909090909091
+687,finished,achevé,0.0
+688,marriage,mariage,0.75
+689,letter,lettre,1.0
+690,ran,couru,0.0
+691,seriously,sérieusement,0.42857142857142855
+692,paid,payé,0.3333333333333333
+693,bought,acheté,0.25
+694,york,york,1.0
+695,attention,attention,1.0
+696,anywhere,partout,0.0
+697,dangerous,dangereux,0.8
+698,peace,paix,0.5
+699,simple,facile,0.25
+700,forgot,oublié,0.0
+701,situation,situation,1.0
+702,middle,milieu,0.5
+703,rock,rock,1.0
+704,test,test,1.0
+705,lead,conduire,0.25
+706,protect,protéger,0.5
+707,club,club,1.0
+708,fear,craindre,0.2
+709,fair,équitable,0.0
+710,present,cadeau,0.0
+711,idiot,idiot,1.0
+712,join,rejoindre,0.4
+713,interesting,intéressant,0.625
+714,tom,à m,0.3333333333333333
+715,bill,facture,0.0
+716,box,boîte,0.3333333333333333
+717,sitting,séance,0.4
+718,short,court,0.5
+719,ball,balle,1.0
+720,single,célibataire,0.0
+721,group,groupe,1.0
+722,using,utilisant,0.4
+723,enjoy,prendre plaisir,0.1
+724,normal,ordinaire,0.0
+725,boat,bateau,1.0
+726,count,compter,0.4
+727,bastard,bâtard,0.8
+728,crime,la criminalité,0.3333333333333333
+729,key,clé,0.0
+730,force,obliger,0.0
+731,horse,cheval,0.25
+732,lunch,déjeuner,0.0
+733,american,américain,0.8
+734,quickly,rapidement,0.0
+735,paper,papier,1.0
+736,charge,charge,1.0
+737,mike,mike,1.0
+738,surprise,surprendre,0.5714285714285714
+739,space,espace,1.0
+740,fell,abattre,0.0
+741,honor,honneur,0.75
+742,eight,huit,0.6666666666666666
+743,accident,accident,1.0
+744,wearing,portant,0.4
+745,fish,poisson,0.25
+746,bar,bar,1.0
+747,ground,terrain,0.25
+748,problems,problèmes,0.8571428571428571
+749,government,gouvernement,1.0
+750,miles,milles,0.75
+751,relax,détendez-vous,0.0
+752,crying,pleurs,0.0
+753,bank,banque,0.6666666666666666
+754,cover,couverture,0.6
+755,major,majeur,1.0
+756,stopped,arrêté,0.0
+757,interested,intéressé,0.5714285714285714
+758,hide,cacher,0.25
+759,stick,coller,0.0
+760,sea,mer,0.0
+761,tea,thé,0.3333333333333333
+762,area,région,0.25
+763,agree,je suis d'accord,0.09090909090909091
+764,difficult,difficile,0.8333333333333334
+765,personal,personnel,0.8333333333333334
+766,deep,profond,0.0
+767,dress,robe,0.25
+768,service,service,1.0
+769,certain,certain,1.0
+770,trip,voyage,0.0
+771,radio,radio,1.0
+772,blow,souffler,0.2
+773,smart,intelligent,0.14285714285714285
+774,mark,marque,0.6666666666666666
+775,star,étoile,0.3333333333333333
+776,record,enregistrement,0.2222222222222222
+777,offer,offrir,0.75
+778,america,amérique,0.5
+779,prison,prison,1.0
+780,angry,fâché,0.0
+781,peter,pierre,0.6666666666666666
+782,soul,âme,0.0
+783,rich,riche,1.0
+784,list,liste,1.0
+785,gold,or,0.0
+786,afternoon,après midi,0.0
+787,whether,qu'il s'agisse,0.0
+788,agent,agent,1.0
+789,missed,manqué,0.25
+790,proud,fier,0.3333333333333333
+791,detective,détective,0.8333333333333334
+792,fix,réparer,0.0
+793,respect,respect,1.0
+794,public,publique,0.75
+795,fighting,lutte,0.16666666666666666
+796,girlfriend,petite amie,0.0
+797,drunk,ivre,0.25
+798,park,parc,0.6666666666666666
+799,killing,meurtre,0.0
+800,saved,enregistré,0.14285714285714285
+801,brain,cerveau,0.3333333333333333
+802,forward,vers l'avant,0.1111111111111111
+803,sad,triste,0.25
+804,cell,cellule,0.75
+805,mess,désordre,0.16666666666666666
+806,standing,debout,0.16666666666666666
+807,smell,sentir,0.25
+808,fly,mouche,0.0
+809,killer,tueur,0.25
+810,tough,dure,0.0
+811,scene,scène,0.75
+812,card,carte,0.6666666666666666
+813,english,anglais,0.8
+814,dare,oser,0.5
+815,broken,cassé,0.0
+816,mary,marie,0.6666666666666666
+817,hungry,faim,0.0
+818,church,église,0.0
+819,ice,la glace,0.2
+820,window,la fenêtre,0.14285714285714285
+821,paul,paul,1.0
+822,share,partager,0.2
+823,third,troisième,0.2
+824,laugh,rire,0.0
+825,calls,appels,0.5
+826,often,souvent,0.25
+827,within,dans,0.0
+828,spent,dépensé,0.3333333333333333
+829,feels,se sent,0.2
+830,lieutenant,lieutenant,1.0
+831,cry,cri,0.6666666666666666
+832,mum,maman,0.6666666666666666
+833,visit,visite,1.0
+834,honest,honnête,0.6
+835,seat,siège,0.3333333333333333
+836,mama,maman,0.6666666666666666
+837,teacher,prof,0.0
+838,relationship,relation,0.5714285714285714
+839,moved,déplacé,0.0
+840,pleasure,plaisir,1.0
+841,camera,caméra,0.75
+842,starting,départ,0.16666666666666666
+843,bloody,sanglant,0.16666666666666666
+844,lived,vivait,0.3333333333333333
+845,college,collège,0.8
+846,judge,juge,0.6666666666666666
+847,cops,flics,0.25
+848,position,position,1.0
+849,sake,saké,0.6666666666666666
+850,screaming,en hurlant,0.2857142857142857
+851,boyfriend,copain,0.16666666666666666
+852,wall,mur,0.0
+853,teach,apprendre,0.0
+854,neither,ni,0.25
+855,prove,prouver,0.75
+856,loves,aime,0.0
+857,besides,outre,0.0
+858,realize,prendre conscience de,0.07142857142857142
+859,private,privé,0.75
+860,ben,ben,1.0
+861,impossible,impossible,1.0
+862,walking,en marchant,0.125
+863,carry,porter,0.25
+864,accept,j'accepte,0.6666666666666666
+865,especially,surtout,0.16666666666666666
+866,liked,aimé,0.0
+867,french,français,0.6
+868,art,art,1.0
+869,machine,machine,1.0
+870,green,vert,0.3333333333333333
+871,involved,impliqué,0.2
+872,became,est devenu,0.0
+873,cop,flic,0.0
+874,la,la,1.0
+875,mm,millimètre,0.2857142857142857
+876,wine,vin,0.5
+877,apartment,appartement,0.8571428571428571
+878,upset,bouleversé,0.16666666666666666
+879,cute,mignonne,0.0
+880,village,village,1.0
+881,holy,saint,0.0
+882,congratulations,toutes nos félicitations,0.3333333333333333
+883,jail,prison,0.0
+884,likes,aime,0.0
+885,sleeping,en train de dormir,0.08333333333333333
+886,joke,plaisanter,0.0
+887,evil,mauvais,0.3333333333333333
+888,lawyer,avocat,0.0
+889,field,champ,0.0
+890,contact,contactez,0.8333333333333334
+891,obviously,évidemment,0.14285714285714285
+892,store,boutique,0.3333333333333333
+893,quit,quitter,0.5
+894,dying,mourant,0.25
+895,queen,reine,0.5
+896,shop,magasin,0.0
+897,hundred,cent,0.2
+898,professor,professeur,1.0
+899,continue,continuez,0.8
+900,whose,à qui,0.0
+901,driving,conduite,0.0
+902,appreciate,apprécier,0.6666666666666666
+903,madam,madame,1.0
+904,doubt,doute,0.6666666666666666
+905,wrote,a écrit,0.4
+906,plane,avion,0.3333333333333333
+907,cash,en espèces,0.14285714285714285
+908,island,île,0.25
+909,cat,chat,0.6666666666666666
+910,slow,lent,0.0
+911,huge,énorme,0.0
+912,decision,décision,0.8
+913,beer,bière,0.6666666666666666
+914,difference,différence,0.8571428571428571
+915,thousand,mille,0.0
+916,beginning,début,0.0
+917,christ,christ,1.0
+918,push,pousser,0.5
+919,south,sud,0.3333333333333333
+920,gift,cadeau,0.0
+921,lt,ça,0.0
+922,glass,verre,0.0
+923,eating,en mangeant,0.2857142857142857
+924,tree,arbre,0.3333333333333333
+925,bear,ours,0.0
+926,stuck,bloqué,0.0
+927,colonel,colonel,1.0
+928,rules,règles,0.6
+929,north,nord,0.5
+930,bus,bus,1.0
+931,seconds,secondes,1.0
+932,dreams,rêves,0.25
+933,partner,partenaire,1.0
+934,grab,saisir,0.0
+935,victim,victime,1.0
+936,dirty,sale,0.0
+937,computer,l'ordinateur,0.2857142857142857
+938,truck,un camion,0.2
+939,promised,promis,0.8
+940,reach,atteindre,0.0
+941,upon,sur,0.0
+942,singing,en chantant,0.25
+943,board,planche,0.0
+944,shoes,des chaussures,0.3333333333333333
+945,gives,donne,0.0
+946,staying,rester,0.2
+947,fat,gros,0.0
+948,planet,planète,0.8
+949,henry,henri,0.75
+950,suddenly,soudain,0.5
+951,mmm,mmm,1.0
+952,putting,en mettant,0.42857142857142855
+953,search,chercher,0.5
+954,lots,beaucoup,0.0
+955,immediately,immédiatement,0.5
+956,wind,vent,0.3333333333333333
+957,arrest,arrêter,0.6
+958,jump,saut,0.0
+959,support,support,1.0
+960,magic,la magie,0.25
+961,owe,devoir,0.0
+962,crap,et mince,0.0
+963,holding,holding,1.0
+964,continues,continue,0.8
+965,usually,d'habitude,0.0
+966,kitchen,cuisine,0.4
+967,summer,été,0.0
+968,arms,les bras,0.16666666666666666
+969,de,de,1.0
+970,patient,patient,1.0
+971,aunt,tante,0.6666666666666666
+972,experience,vivre,0.2
+973,heaven,paradis,0.0
+974,james,james,1.0
+975,paris,paris,1.0
+976,grow,grandir,0.4
+977,passed,passé,0.75
+978,rid,débarrasser,0.125
+979,harry,harry,1.0
+980,river,fleuve,0.0
+981,everywhere,partout,0.16666666666666666
+982,listening,écoute,0.16666666666666666
+983,knock,frappe,0.0
+984,escape,échapper,0.3333333333333333
+985,cheers,à votre santé,0.2
+986,aah,aah,1.0
+987,bother,embêter,0.4
+988,er,euh,0.0
+989,address,adresse,0.8
+990,foot,le pied,0.0
+991,yo,toi,0.0
+992,moon,lune,0.5
+993,turns,se tourne,0.4
+994,mate,camarade,0.25
+995,drinking,en buvant,0.16666666666666666
+996,grand,grandiose,0.8
+997,worst,pire,0.25
+998,match,match,1.0
+999,nervous,nerveux,0.75
+1000,final,final,1.0
+1001,choose,choisir,0.75
+1002,smoke,fumée,0.3333333333333333
+1003,orders,ordres,1.0
+1004,otherwise,par ailleurs,0.14285714285714285
+1005,books,livres,0.25
+1006,blame,faire des reproches,0.0
+1007,press,presse,1.0
+1008,ls,ls,1.0
+1009,decide,décider,0.6
+1010,drugs,drogues,1.0
+1011,max,maximum,0.5
+1012,smile,le sourire,0.2
+1013,type,taper,0.3333333333333333
+1014,ow,aïe,0.0
+1015,gay,homosexuel,0.0
+1016,picked,choisi,0.25
+1017,mission,mission,1.0
+1018,favor,favoriser,0.6
+1019,nick,pseudo,0.0
+1020,named,nommé,0.5
+1021,arrived,arrivé,0.75
+1022,allowed,autorisé,0.0
+1023,action,action,1.0
+1024,c,c,1.0
+1025,duty,devoir,0.3333333333333333
+1026,price,le prix,0.4
+1027,guard,gardien,0.75
+1028,pictures,des photos,0.2857142857142857
+1029,risk,risque,0.6666666666666666
+1030,innocent,innocent,1.0
+1031,danny,danny,1.0
+1032,legs,les jambes,0.2857142857142857
+1033,notice,remarquer,0.0
+1034,learned,appris,0.0
+1035,begin,commencer,0.16666666666666666
+1036,enemy,ennemi,0.3333333333333333
+1037,played,joué,0.0
+1038,kick,donner un coup,0.1111111111111111
+1039,race,course,0.3333333333333333
+1040,suit,costume,0.5
+1041,jimmy,jimmy,1.0
+1042,allow,autoriser,0.0
+1043,fit,adapter,0.25
+1044,yep,ouais,0.0
+1045,director,directeur,1.0
+1046,shh,chut,0.3333333333333333
+1047,surprised,surpris,0.8333333333333334
+1048,pregnant,enceinte,0.3333333333333333
+1049,nine,neuf,0.5
+1050,dollars,dollars,1.0
+1051,mrs,madame,0.3333333333333333
+1052,spot,endroit,0.25
+1053,cross,traverser,0.3333333333333333
+1054,arm,bras,0.3333333333333333
+1055,upstairs,en haut,0.0
+1056,steal,voler,0.0
+1057,feelings,sentiments,0.2857142857142857
+1058,brothers,frères,0.5
+1059,rings,anneaux,0.25
+1060,chicken,poulet,0.0
+1061,names,des noms,0.5
+1062,grunts,grognements,0.625
+1063,apart,une part,0.6
+1064,twice,deux fois,0.0
+1065,department,département,0.875
+1066,according,selon,0.16666666666666666
+1067,silly,idiot,0.0
+1068,bob,bob,1.0
+1069,hero,héros,0.5
+1070,gas,gaz,0.5
+1071,closed,fermé,0.0
+1072,admit,admettre,0.6
+1073,destroy,détruire,0.6
+1074,sergeant,sergent,1.0
+1075,alex,alex,1.0
+1076,guilty,coupable,0.0
+1077,low,bas,0.0
+1078,leg,jambe,0.0
+1079,taste,goûter,0.25
+1080,waste,déchets,0.16666666666666666
+1081,tony,tony,1.0
+1082,earlier,plus tôt,0.14285714285714285
+1083,awesome,impressionnant,0.1111111111111111
+1084,fired,licencié,0.0
+1085,london,londres,0.6
+1086,west,ouest,0.6666666666666666
+1087,bunch,groupe,0.0
+1088,battle,bataille,0.75
+1089,study,étude,0.5
+1090,bigger,plus gros,0.2857142857142857
+1091,mention,mention,1.0
+1092,writing,l'écriture,0.14285714285714285
+1093,helping,portion,0.2
+1094,bell,cloche,0.25
+1095,ray,rayon,0.6666666666666666
+1096,sold,vendu,0.3333333333333333
+1097,ways,façons,0.25
+1098,stage,organiser,0.0
+1099,written,écrit,0.2
+1100,keeping,en gardant,0.14285714285714285
+1101,hole,trou,0.0
+1102,locked,fermé à clé,0.1
+1103,lock,bloquer,0.25
+1104,weapon,arme,0.0
+1105,jim,jim,1.0
+1106,places,des endroits,0.125
+1107,helped,aidé,0.0
+1108,indeed,en effet,0.2
+1109,energy,énergie,0.5
+1110,treat,traiter,0.75
+1111,burn,brûler,0.4
+1112,stole,a volé,0.25
+1113,hiding,cache,0.0
+1114,form,formulaire,0.6
+1115,sky,ciel,0.0
+1116,gasps,halète,0.0
+1117,breakfast,petit-déjeuner,0.0
+1118,band,bande,1.0
+1119,figured,figuré,0.75
+1120,seemed,semblait,0.4
+1121,empty,vide,0.0
+1122,fresh,frais,0.75
+1123,prince,prince,1.0
+1124,track,piste,0.0
+1125,spirit,esprit,1.0
+1126,complete,achevée,0.2
+1127,reading,en train de lire,0.2
+1128,nose,nez,0.5
+1129,favorite,favori,0.75
+1130,memory,mémoire,0.5
+1131,sarah,sarah,1.0
+1132,laughter,rire,0.2
+1133,roll,rouleau,0.6666666666666666
+1134,witness,témoin,0.2
+1135,starts,départs,0.5
+1136,double,double,1.0
+1137,however,toutefois,0.0
+1138,bathroom,salle de bains,0.0
+1139,e,e,
+1140,build,construire,0.0
+1141,bomb,bombe,1.0
+1142,pressure,pression,0.8
+1143,flight,voyage en avion,0.125
+1144,interest,intérêt,0.6666666666666666
+1145,flowers,fleurs,0.8
+1146,goddamn,putain,0.2
+1147,following,suivant,0.16666666666666666
+1148,dogs,chiens,0.25
+1149,steve,steve,1.0
+1150,throat,gorge,0.25
+1151,cost,coût,0.6666666666666666
+1152,danger,danger,1.0
+1153,closer,plus proche,0.375
+1154,asshole,connard,0.0
+1155,neck,cou,0.3333333333333333
+1156,van,van,1.0
+1157,raise,soulever,0.0
+1158,acting,agissant,0.2
+1159,mommy,maman,0.5
+1160,plans,des plans,0.5714285714285714
+1161,adam,adam,1.0
+1162,shooting,tournage,0.4
+1163,beg,mendier,0.0
+1164,narrator,narrateur,1.0
+1165,losing,perdant,0.2
+1166,ridiculous,ridicule,0.8
+1167,suspect,suspect,1.0
+1168,bottle,bouteille,0.75
+1169,warm,chaleureuse,0.2
+1170,beauty,beauté,0.6666666666666666
+1171,nature,la nature,0.6
+1172,medical,médical,0.8
+1173,apparently,apparemment,0.42857142857142855
+1174,asleep,endormi,0.0
+1175,guns,pistolets,0.16666666666666666
+1176,video,vidéo,0.6666666666666666
+1177,rain,pluie,0.0
+1178,camp,camp,1.0
+1179,shame,la honte,0.2
+1180,driver,chauffeur,0.2
+1181,keys,clés,0.25
+1182,bird,oiseau,0.0
+1183,built,construit,0.16666666666666666
+1184,crowd,foule,0.0
+1185,extra,en plus,0.0
+1186,heavy,lourd,0.0
+1187,simply,simplement,0.5714285714285714
+1188,famous,célèbre,0.0
+1189,pants,les pantalons,0.4444444444444444
+1190,majesty,majesté,0.8
+1191,keeps,conserve,0.2
+1192,level,niveau,0.3333333333333333
+1193,tommy,tommy,1.0
+1194,faith,foi,0.3333333333333333
+1195,animals,animaux,0.5
+1196,commander,le commandant,0.5555555555555556
+1197,wild,sauvage,0.0
+1198,richard,richard,1.0
+1199,showed,montré,0.0
+1200,awful,terrible,0.2
+1201,lay,allonger,0.2
+1202,deserve,mériter,0.2
+1203,excellent,excellent,1.0
+1204,client,client,1.0
+1205,plenty,abondance,0.0
+1206,consider,envisager,0.4
+1207,excited,excité,0.75
+1208,engine,moteur,0.0
+1209,billy,gamelle,0.25
+1210,pop,populaire,0.5
+1211,ringing,sonnerie,0.4
+1212,animal,animal,1.0
+1213,hoping,en espérant,0.25
+1214,responsible,responsable,1.0
+1215,jane,jeanne,0.6666666666666666
+1216,wondering,se demandant,0.25
+1217,devil,diable,0.6666666666666666
+1218,weekend,fin de semaine,0.125
+1219,stone,pierre,0.0
+1220,sweetheart,amoureux,0.16666666666666666
+1221,large,grand,0.25
+1222,military,militaire,0.8
+1223,cook,cuisinier,0.25
+1224,skin,peau,0.0
+1225,knife,couteau,0.0
+1226,common,commun,1.0
+1227,grace,la grâce,0.5
+1228,papers,papiers,1.0
+1229,drug,médicament,0.14285714285714285
+1230,willing,prêt,0.0
+1231,necessary,nécessaire,0.6666666666666666
+1232,whoever,quiconque,0.0
+1233,blind,aveugle,0.0
+1234,flying,en volant,0.16666666666666666
+1235,german,allemand,0.4
+1236,beach,plage,0.0
+1237,hat,chapeau,0.3333333333333333
+1238,walked,marché,0.0
+1239,lights,lumières,0.4
+1240,local,local,1.0
+1241,stars,étoiles,0.5
+1242,although,même si,0.0
+1243,code,code,1.0
+1244,main,principale,0.16666666666666666
+1245,grunting,grognement,0.5714285714285714
+1246,faster,plus rapide,0.2857142857142857
+1247,hall,salle,0.6666666666666666
+1248,opportunity,occasion,0.14285714285714285
+1249,bullshit,connerie,0.0
+1250,corner,coin,0.5
+1251,fuckin,putain,0.25
+1252,cars,voitures,0.5
+1253,johnny,johnny,1.0
+1254,agreed,convenu,0.0
+1255,cup,coupe,1.0
+1256,lies,mensonges,0.16666666666666666
+1257,knowing,connaissance,0.2857142857142857
+1258,justice,justice,1.0
+1259,due,exigible,0.0
+1260,rose,rose,1.0
+1261,leaves,feuilles,0.5
+1262,princess,princesse,1.0
+1263,folks,gens,0.25
+1264,bottom,fond,0.0
+1265,apologize,s'excuser,0.0
+1266,ghost,fantôme,0.0
+1267,tight,serré,0.0
+1268,lee,lee,1.0
+1269,dick,queue,0.0
+1270,grandma,grand-mère,0.625
+1271,restaurant,restaurant,1.0
+1272,language,langue,0.75
+1273,weapons,armes,0.25
+1274,east,est,1.0
+1275,fellow,compagnon,0.0
+1276,note,remarque,0.0
+1277,leader,chef,0.0
+1278,several,plusieurs,0.2
+1279,tells,raconte,0.0
+1280,clearly,clairement,0.5
+1281,health,santé,0.25
+1282,shows,spectacles,0.2857142857142857
+1283,correct,corriger,0.6
+1284,angel,ange,0.6666666666666666
+1285,hanging,suspendu,0.2
+1286,stories,histoires,0.8
+1287,jake,jacques,0.25
+1288,pulled,tiré,0.0
+1289,rule,régner,0.2
+1290,cousin,cousine,1.0
+1291,advice,conseils,0.0
+1292,beyond,au-delà,0.0
+1293,held,tenu,0.0
+1294,hardly,à peine,0.0
+1295,pardon,pardon,1.0
+1296,milk,le lait,0.25
+1297,dancing,dansant,0.6
+1298,groans,gémit,0.25
+1299,gotten,obtenu,0.5
+1300,spoke,parlait,0.0
+1301,speed,la rapidité,0.2857142857142857
+1302,understood,entendu,0.3333333333333333
+1303,file,dossier,0.0
+1304,tape,ruban,0.0
+1305,practice,pratique,0.6
+1306,taught,a enseigné,0.16666666666666666
+1307,among,parmi,0.0
+1308,murdered,assassiné,0.0
+1309,emergency,urgence,0.6666666666666666
+1310,ought,devrait,0.25
+1311,somehow,en quelque sorte,0.0
+1312,bridge,pont,0.0
+1313,coach,entraîneur,0.0
+1314,martin,martin,1.0
+1315,inspector,inspecteur,1.0
+1316,minister,ministre,1.0
+1317,states,états,0.75
+1318,applause,applaudissements,0.4
+1319,possibly,peut-être,0.16666666666666666
+1320,conversation,conversation,1.0
+1321,hearing,audience,0.25
+1322,national,nationale,1.0
+1323,account,compte,0.5
+1324,breath,haleine,0.0
+1325,shouting,en criant,0.16666666666666666
+1326,crew,équipage,0.0
+1327,lied,menti,0.0
+1328,meat,viande,0.0
+1329,cake,gâteau,0.0
+1330,strength,force,0.14285714285714285
+1331,natural,naturel,1.0
+1332,career,carrière,0.6
+1333,plus,plus,1.0
+1334,dressed,habillé,0.0
+1335,sight,vue,0.0
+1336,vote,voter,0.6666666666666666
+1337,powerful,puissant,0.2
+1338,copy,copie,0.6666666666666666
+1339,nonsense,absurdité,0.0
+1340,student,étudiant,0.8
+1341,dropped,chuté,0.0
+1342,trial,essai,0.0
+1343,freedom,liberté,0.2
+1344,breathe,respirer,0.0
+1345,market,marché,0.4
+1346,doc,doc,1.0
+1347,soldiers,soldats,0.8
+1348,serve,servez,0.75
+1349,photo,photo,1.0
+1350,manager,gestionnaire,0.3333333333333333
+1351,robert,robert,1.0
+1352,eddie,eddie,1.0
+1353,towards,envers,0.4
+1354,biggest,le plus grand,0.1
+1355,horrible,horrible,1.0
+1356,arrested,arrêté,0.6
+1357,size,taille,0.0
+1358,bringing,apportant,0.16666666666666666
+1359,noticed,remarqué,0.0
+1360,fantastic,fantastique,0.8333333333333334
+1361,papa,papa,1.0
+1362,operation,opération,0.8
+1363,greatest,le plus grand,0.1
+1364,nearly,presque,0.25
+1365,chinese,chinois,1.0
+1366,cheering,applaudissement,0.1111111111111111
+1367,checked,vérifié,0.0
+1368,trick,tour,0.5
+1369,breaking,rupture,0.2
+1370,older,plus âgée,0.14285714285714285
+1371,sweetie,ma chérie,0.0
+1372,teeth,les dents,0.14285714285714285
+1373,pack,paquet,0.3333333333333333
+1374,monster,monstre,1.0
+1375,ideas,des idées,0.3333333333333333
+1376,center,centre,1.0
+1377,forgotten,oublié,0.0
+1378,travel,voyager,0.0
+1379,hurts,fait mal,0.0
+1380,belong,appartenir,0.16666666666666666
+1381,grandpa,grand-père,0.625
+1382,target,cible,0.0
+1383,games,jeux,0.0
+1384,science,la science,0.6666666666666666
+1385,planning,planification,0.42857142857142855
+1386,project,projet,0.8
+1387,remain,rester,0.25
+1388,united,uni,0.3333333333333333
+1389,paying,payant,0.75
+1390,feed,nourrir,0.0
+1391,numbers,nombres,1.0
+1392,fake,faux,0.5
+1393,chris,chris,1.0
+1394,prepared,préparé,0.6666666666666666
+1395,aw,oh,0.0
+1396,credit,le crédit,0.5714285714285714
+1397,suicide,suicide,1.0
+1398,records,enregistrements,0.3
+1399,investigation,enquête,0.2857142857142857
+1400,nurse,infirmière,0.3333333333333333
+1401,oil,pétrole,0.2
+1402,criminal,criminel,1.0
+1403,soldier,soldat,0.75
+1404,recognize,reconnaître,0.42857142857142855
+1405,loud,fort,0.0
+1406,plays,pièces,0.5
+1407,original,original,1.0
+1408,heads,têtes,0.25
+1409,shirt,chemise,0.25
+1410,example,exemple,1.0
+1411,strike,la grève,0.16666666666666666
+1412,pray,prier,0.6666666666666666
+1413,chair,chaise,0.6666666666666666
+1414,invited,invité,0.75
+1415,fill,remplir,0.2
+1416,survive,survivre,0.8
+1417,jealous,jaloux,0.6666666666666666
+1418,universe,univers,1.0
+1419,discuss,discuter,0.6
+1420,command,commande,1.0
+1421,easier,plus facile,0.14285714285714285
+1422,super,super,1.0
+1423,training,entraînement,0.5
+1424,incredible,incroyable,0.8333333333333334
+1425,pretend,faire semblant,0.2222222222222222
+1426,condition,condition,1.0
+1427,challenge,défi,0.0
+1428,bobby,policier,0.0
+1429,prepare,préparer,0.6666666666666666
+1430,truly,vraiment,0.2
+1431,balls,des balles,0.5714285714285714
+1432,roger,roger,1.0
+1433,perfectly,à la perfection,0.4
+1434,ticket,billet,0.25
+1435,nowhere,nulle part,0.2857142857142857
+1436,honestly,franchement,0.125
+1437,comfortable,à l'aise,0.0
+1438,meaning,sens,0.25
+1439,view,voir,0.5
+1440,program,programme,0.8333333333333334
+1441,brown,brun,0.75
+1442,dry,sec,0.0
+1443,wash,lavage,0.0
+1444,turning,tournant,0.8
+1445,concerned,concerné,0.8333333333333334
+1446,society,société,0.6
+1447,cards,cartes,0.75
+1448,prefer,préfère,0.6666666666666666
+1449,nuts,des noisettes,0.375
+1450,stolen,volé,0.25
+1451,release,libération,0.16666666666666666
+1452,birth,naissance,0.0
+1453,onto,sur,0.0
+1454,sunday,dimanche,0.2
+1455,research,rechercher,0.5714285714285714
+1456,usual,habituel,0.25
+1457,guest,invité,0.25
+1458,amy,amy,1.0
+1459,ln,dans,0.3333333333333333
+1460,ugly,moche,0.0
+1461,lift,lever,0.3333333333333333
+1462,opinion,opinion,1.0
+1463,began,a commencé,0.14285714285714285
+1464,destroyed,détruit,0.5
+1465,character,personnage,0.0
+1466,mountain,montagne,0.8
+1467,heat,chauffer,0.2
+1468,surely,sûrement,0.3333333333333333
+1469,movies,films,0.25
+1470,ho,ho,1.0
+1471,tie,cravate,0.25
+1472,finding,découverte,0.0
+1473,sheriff,shérif,0.6
+1474,whoo,whoo,1.0
+1475,pieces,pièces,0.75
+1476,bro,frère,0.25
+1477,color,couleur,1.0
+1478,dumb,stupide,0.0
+1479,unfortunately,malheureusement,0.125
+1480,mister,monsieur,0.5
+1481,letting,location,0.6
+1482,charles,charles,1.0
+1483,daniel,daniel,1.0
+1484,n,n,1.0
+1485,bodies,corps,0.25
+1486,believed,a cru,0.0
+1487,matters,questions,0.4
+1488,sword,épée,0.0
+1489,threw,jeta,0.0
+1490,ended,terminé,0.0
+1491,screams,cris,0.6
+1492,france,la france,0.6666666666666666
+1493,exist,exister,0.75
+1494,ryan,ryan,1.0
+1495,lab,laboratoire,0.4
+1496,bullet,balle,0.75
+1497,proof,preuve,0.6666666666666666
+1498,base,base,1.0
+1499,aware,au courant,0.2
+1500,bucks,chevreuils,0.16666666666666666
+1501,cream,crème,0.75
+1502,noise,bruit,0.0
+1503,total,total,1.0
+1504,selling,vente,0.2
+1505,kim,kim,1.0
+1506,gang,gang,1.0
+1507,happiness,bonheur,0.16666666666666666
+1508,afford,s'offrir,0.5
+1509,brilliant,génial,0.16666666666666666
+1510,joy,joie,0.5
+1511,letters,des lettres,0.625
+1512,students,étudiants,0.8333333333333334
+1513,breathing,respiration,0.16666666666666666
+1514,anna,anna,1.0
+1515,female,femelle,0.75
+1516,realized,réalisé,0.4
+1517,opened,ouvert,0.0
+1518,draw,dessiner,0.2
+1519,aye,toujours,0.0
+1520,created,établi,0.0
+1521,whenever,chaque fois que,0.125
+1522,male,masculin,0.4
+1523,bite,morsure,0.0
+1524,slept,dormi,0.0
+1525,shower,douche,0.0
+1526,stayed,séjourné,0.16666666666666666
+1527,social,social,1.0
+1528,create,créer,0.5
+1529,followed,suivi,0.0
+1530,ends,prend fin,0.2857142857142857
+1531,audience,spectateurs,0.14285714285714285
+1532,purpose,objectif,0.0
+1533,kevin,kévin,0.75
+1534,fate,sort,0.3333333333333333
+1535,handsome,beau,0.0
+1536,england,angleterre,0.5
+1537,eric,éric,0.6666666666666666
+1538,disappeared,disparu,0.6666666666666666
+1539,lately,dernièrement,0.0
+1540,weak,faible,0.0
+1541,falling,chute,0.0
+1542,friday,vendredi,0.2
+1543,suggest,suggérer,0.5
+1544,lonely,solitaire,0.0
+1545,saturday,samedi,0.4
+1546,screw,vis,0.0
+1547,dan,dan,1.0
+1548,introduce,introduire,0.8
+1549,gentleman,gentleman,1.0
+1550,b,b,1.0
+1551,medicine,médicament,0.5714285714285714
+1552,ancient,ancien,0.75
+1553,settle,régler,0.2
+1554,responsibility,responsabilité,0.8888888888888888
+1555,thousands,milliers,0.16666666666666666
+1556,fucked,baisée,0.0
+1557,birds,des oiseaux,0.2
+1558,enter,entrer,0.75
+1559,opening,ouverture,0.0
+1560,forced,forcé,0.75
+1561,ugh,pouah,0.5
+1562,brave,braver,0.75
+1563,split,diviser,0.0
+1564,weight,lester,0.0
+1565,ordered,commandé,0.16666666666666666
+1566,unit,unité,0.6666666666666666
+1567,pig,cochon,0.0
+1568,horses,les chevaux,0.0
+1569,desk,bureau,0.0
+1570,finger,doigt,0.25
+1571,tiny,minuscule,0.2
+1572,expecting,attendant,0.16666666666666666
+1573,pool,bassin,0.0
+1574,focus,se concentrer,0.1111111111111111
+1575,garden,jardin,0.75
+1576,received,reçu,0.25
+1577,property,propriété,0.7142857142857143
+1578,slowly,tout doucement,0.0
+1579,naked,nu,0.3333333333333333
+1580,mayor,maire,0.6666666666666666
+1581,flat,appartement,0.14285714285714285
+1582,issue,publier,0.0
+1583,brings,apporte,0.0
+1584,british,britanique,0.6
+1585,pal,copain,0.3333333333333333
+1586,interview,interview,1.0
+1587,fan,ventilateur,0.16666666666666666
+1588,signal,signal,1.0
+1589,lines,lignes,0.75
+1590,brian,brian,1.0
+1591,silence,le silence,0.6666666666666666
+1592,surgery,opération,0.0
+1593,harm,préjudice,0.16666666666666666
+1594,sees,voit,0.0
+1595,staff,personnel,0.16666666666666666
+1596,al,al,1.0
+1597,chef,chef,1.0
+1598,jeff,jeff,1.0
+1599,insane,fou,0.0
+1600,easily,facilement,0.16666666666666666
+1601,signed,signé,0.75
+1602,weather,météo,0.0
+1603,distance,distance,1.0
+1604,failed,manqué,0.0
+1605,san,san,1.0
+1606,add,ajouter,0.0
+1607,cares,se soucie,0.25
+1608,process,traiter,0.2
+1609,season,saison,1.0
+1610,access,accéder,0.4
+1611,spanish,espagnol,0.4
+1612,model,maquette,0.25
+1613,spare,de rechange,0.14285714285714285
+1614,recently,récemment,0.2857142857142857
+1615,discovered,découvert,0.6666666666666666
+1616,wet,humide,0.0
+1617,ohh,ohh,1.0
+1618,fingers,des doigts,0.2857142857142857
+1619,loose,ample,0.0
+1620,path,chemin,0.0
+1621,russian,russe,0.75
+1622,expected,attendu,0.2
+1623,member,membre,1.0
+1624,babe,bébé,0.5
+1625,returned,revenu,0.4
+1626,style,style,1.0
+1627,pete,peter,0.6666666666666666
+1628,kinda,en quelque sorte,0.0
+1629,alarm,alarme,1.0
+1630,sending,envoi en cours,0.125
+1631,based,basé,0.6666666666666666
+1632,covered,couvert,0.75
+1633,fbi,fbi,1.0
+1634,japanese,japonais,1.0
+1635,sugar,du sucre,0.4
+1636,roof,toit,0.0
+1637,streets,des rues,0.4
+1638,funeral,funéraire,0.6
+1639,bright,brillant,0.5
+1640,damage,dégâts,0.3333333333333333
+1641,jerry,jerry,1.0
+1642,stomach,estomac,0.8
+1643,bread,pain,0.0
+1644,remind,rappeler,0.2
+1645,lake,lac,0.5
+1646,snow,neiger,0.0
+1647,castle,château,0.25
+1648,speech,parole,0.25
+1649,manage,faire en sorte,0.125
+1650,heading,titre,0.0
+1651,ed,éd,0.5
+1652,block,bloquer,0.5
+1653,shake,secouer,0.3333333333333333
+1654,opens,s'ouvre,0.0
+1655,buried,enterré,0.2
+1656,dr,docteur,0.5
+1657,doors,des portes,0.42857142857142855
+1658,thoughts,les pensées,0.125
+1659,thomas,thomas,1.0
+1660,simon,simon,1.0
+1661,dig,creuser,0.0
+1662,kate,kate,1.0
+1663,post,publier,0.25
+1664,showing,montrant,0.16666666666666666
+1665,drinks,boissons,0.2
+1666,reality,réalité,0.6
+1667,soft,"mou, tendre",0.14285714285714285
+1668,harder,plus fort,0.14285714285714285
+1669,football,football,1.0
+1670,spread,se propager,0.42857142857142855
+1671,ill,malade,0.3333333333333333
+1672,coat,manteau,0.3333333333333333
+1673,ruined,ruiné,0.6666666666666666
+1674,scott,scott,1.0
+1675,ears,oreilles,0.5
+1676,chest,poitrine,0.0
+1677,andy,andy,1.0
+1678,success,succès,0.8
+1679,sooner,plus tôt,0.14285714285714285
+1680,madame,madame,1.0
+1681,safety,sécurité,0.3333333333333333
+1682,maria,maria,1.0
+1683,permission,autorisation,0.5
+1684,fancy,fantaisie,0.5
+1685,spring,le printemps,0.3333333333333333
+1686,cos,parce que,0.2
+1687,outta,hors de,0.0
+1688,theory,la théorie,0.3333333333333333
+1689,gate,portail,0.25
+1690,journey,périple,0.2
+1691,tickets,des billets,0.25
+1692,expensive,chere,0.0
+1693,paint,peinture,0.75
+1694,lover,amoureux,0.0
+1695,nope,nan,0.5
+1696,dave,dave,1.0
+1697,mood,ambiance,0.25
+1698,members,membres,1.0
+1699,storm,tempête,0.0
+1700,page,page,1.0
+1701,hidden,caché,0.0
+1702,cheese,fromage,0.0
+1703,priest,prêtre,0.6
+1704,regret,regret,1.0
+1705,contract,contrat,0.8333333333333334
+1706,thief,voleur,0.0
+1707,divorce,divorcer,0.8
+1708,lesson,leçon,0.5
+1709,personally,personnellement,0.6
+1710,eggs,des œufs,0.16666666666666666
+1711,community,communauté,0.8333333333333334
+1712,subject,matière,0.0
+1713,rent,location,0.25
+1714,revenge,vengeance,0.4
+1715,trade,commerce,0.2
+1716,nights,nuits,0.6
+1717,sudden,soudain,0.75
+1718,forest,forêt,0.75
+1719,bless,bénir,0.25
+1720,changes,changements,0.625
+1721,rush,se ruer,0.0
+1722,ate,a mangé,0.0
+1723,trees,des arbres,0.2857142857142857
+1724,santa,père noël,0.14285714285714285
+1725,basically,fondamentalement,0.1
+1726,da,un,0.0
+1727,details,détails,0.8
+1728,owner,propriétaire,0.14285714285714285
+1729,doctors,médecins,0.3333333333333333
+1730,william,william,1.0
+1731,amount,montant,0.6
+1732,barely,à peine,0.0
+1733,artist,artiste,1.0
+1734,pocket,poche,0.5
+1735,cancer,cancer,1.0
+1736,pair,paire,1.0
+1737,caused,causé,0.6666666666666666
+1738,alan,alain,1.0
+1739,ruin,ruine,1.0
+1740,dating,sortir ensemble,0.2
+1741,grandfather,grand-père,0.625
+1742,painting,la peinture,0.3333333333333333
+1743,bike,bicyclette,0.14285714285714285
+1744,loss,perte,0.0
+1745,liar,menteur,0.25
+1746,goin,va dans,0.2
+1747,hill,colline,0.5
+1748,winter,l'hiver,0.2
+1749,points,points,1.0
+1750,assistant,assistant,1.0
+1751,murderer,meurtrier,0.8
+1752,legal,juridique,0.0
+1753,nah,non,0.5
+1754,larry,larry,1.0
+1755,growing,croissance,0.3333333333333333
+1756,tears,larmes,0.5
+1757,runs,court,0.0
+1758,lisa,lisa,1.0
+1759,buying,achat,0.0
+1760,exciting,passionnant,0.14285714285714285
+1761,farm,cultiver,0.0
+1762,cheap,bon marché,0.25
+1763,tongue,langue,0.6666666666666666
+1764,toilet,toilette,0.75
+1765,reasons,les raisons,0.5714285714285714
+1766,genius,génie,0.3333333333333333
+1767,square,carré,0.25
+1768,secretary,secrétaire,0.6666666666666666
+1769,europe,l'europe ,0.3333333333333333
+1770,connection,lien,0.16666666666666666
+1771,scare,effrayer,0.2
+1772,victims,victimes,1.0
+1773,bones,des os,0.25
+1774,rough,rugueux,0.6666666666666666
+1775,downstairs,en bas,0.2857142857142857
+1776,bedroom,chambre,0.0
+1777,obvious,évident,0.2
+1778,cases,cas,0.6666666666666666
+1779,professional,professionnelle,0.7777777777777778
+1780,university,université,0.8333333333333334
+1781,walter,walter,1.0
+1782,tour,tour,1.0
+1783,player,joueur,0.25
+1784,silver,argent,0.0
+1785,pity,pitié,0.6666666666666666
+1786,pleased,heureux,0.0
+1787,clock,l'horloge,0.0
+1788,memories,souvenirs,0.4
+1789,parts,les pièces,0.2857142857142857
+1790,rachel,rachel,1.0
+1791,grew,grandi,0.5
+1792,ocean,océan,0.6666666666666666
+1793,burning,brûlant,0.5
+1794,dna,adn,1.0
+1795,invite,inviter,0.75
+1796,foreign,étranger,0.3333333333333333
+1797,planned,prévu,0.2
+1798,ashamed,honteux,0.0
+1799,avoid,éviter de,0.3333333333333333
+1800,boring,ennuyeuse,0.0
+1801,crash,crash,1.0
+1802,lower,plus bas,0.16666666666666666
+1803,bath,bain,0.3333333333333333
+1804,romantic,romantique,0.8
+1805,repeat,répéter,0.5
+1806,fortune,fortune,1.0
+1807,secrets,secrets,1.0
+1808,century,siècle,0.0
+1809,warning,attention,0.2
+1810,jason,jason,1.0
+1811,insurance,assurance,0.8
+1812,airport,aéroport,0.8
+1813,complicated,compliqué,0.5714285714285714
+1814,grown,grandi,0.5
+1815,suck,sucer,0.6666666666666666
+1816,familiar,familier,1.0
+1817,reached,atteint,0.0
+1818,rome,rome,1.0
+1819,higher,plus haut,0.16666666666666666
+1820,mentioned,mentionné,0.6666666666666666
+1821,gosh,ça alors,0.0
+1822,results,résultats,0.7142857142857143
+1823,filled,rempli,0.0
+1824,woods,les bois,0.2
+1825,temple,temple,1.0
+1826,likely,probable,0.0
+1827,rights,droits,0.4
+1828,younger,plus jeune,0.0
+1829,belongs,fait parti,0.0
+1830,knowledge,connaissances,0.125
+1831,map,carte,0.0
+1832,competition,concurrence,0.2857142857142857
+1833,finds,trouve,0.0
+1834,photos,photos,1.0
+1835,indistinct,indistinct,1.0
+1836,yelling,cris,0.0
+1837,defense,la défense,0.5714285714285714
+1838,carefully,avec attention,0.125
+1839,useless,inutile,0.0
+1840,guests,invités,0.4
+1841,goodness,bonté,0.2
+1842,per,par,1.0
+1843,bleep,bip,0.6666666666666666
+1844,including,y compris,0.14285714285714285
+1845,jobs,travaux,0.0
+1846,china,chine,1.0
+1847,event,un événement,0.3333333333333333
+1848,humans,humains,1.0
+1849,glasses,lunettes,0.2
+1850,annie,annie,1.0
+1851,attacked,attaqué,0.4
+1852,waited,attendu,0.5
+1853,stops,s'arrête,0.16666666666666666
+1854,period,période,0.75
+1855,shape,forme,0.0
+1856,beeping,bip,0.5
+1857,proper,correct,0.2
+1858,depends,dépend,0.6
+1859,telephone,téléphone,0.7142857142857143
+1860,celebrate,célébrer,0.5714285714285714
+1861,request,demande,0.0
+1862,fixed,fixé,0.6666666666666666
+1863,political,politique,0.6
+1864,assume,présumer,0.3333333333333333
+1865,grant,accorder,0.2
+1866,affair,aventure,0.25
+1867,sexy,sexy,1.0
+1868,led,led,1.0
+1869,matt,mat,0.6666666666666666
+1870,grave,la tombe,0.0
+1871,officers,officiers,1.0
+1872,giant,géant,0.75
+1873,plant,plante,1.0
+1874,eventually,finalement,0.16666666666666666
+1875,fought,combattu,0.2
+1876,hired,embauché,0.0
+1877,site,placer,0.0
+1878,pounds,livres sterling,0.09090909090909091
+1879,speaks,parle,0.25
+1880,delicious,délicieuse,0.8
+1881,statement,déclaration,0.14285714285714285
+1882,millions,des millions,0.625
+1883,rise,monter,0.0
+1884,jacket,veste,0.25
+1885,kelly,kelly,1.0
+1886,badly,mal,0.25
+1887,tall,haut,0.0
+1888,alice,alice,1.0
+1889,mercy,miséricorde,0.42857142857142855
+1890,whore,putain,0.0
+1891,saving,économie,0.25
+1892,f,f,1.0
+1893,suffer,souffrir,0.8
+1894,switch,changer,0.0
+1895,deliver,livrer,0.5
+1896,royal,royal,1.0
+1897,meal,repas,0.0
+1898,direction,direction,1.0
+1899,families,familles,0.8
+1900,odd,étrange,0.0
+1901,walls,des murs,0.16666666666666666
+1902,sexual,sexuel,1.0
+1903,forces,les forces,0.5714285714285714
+1904,particular,particulier,1.0
+1905,data,les données,0.125
+1906,horn,klaxon,0.25
+1907,golden,d'or,0.0
+1908,chase,chasse,0.75
+1909,powers,pouvoirs,0.75
+1910,attorney,avocat,0.0
+1911,official,officiel,1.0
+1912,rat,rat,1.0
+1913,pizza,pizza,1.0
+1914,confused,confus,0.8
+1915,faces,visages,0.25
+1916,positive,positif,0.75
+1917,becomes,devient,0.0
+1918,shock,choc,0.5
+1919,soup,le potage,0.2
+1920,emily,emilie,0.6666666666666666
+1921,offered,offert,0.75
+1922,wherever,partout où,0.0
+1923,courage,courage,1.0
+1924,doin,faire,0.0
+1925,answers,réponses,0.16666666666666666
+1926,yellow,jaune,0.0
+1927,patients,les patients,0.625
+1928,raised,soulevé,0.0
+1929,changing,en changeant,0.625
+1930,location,emplacement,0.42857142857142855
+1931,jerk,secousse,0.0
+1932,chocolate,chocolat,1.0
+1933,image,image,1.0
+1934,regular,habituel,0.0
+1935,screwed,vissé,0.0
+1936,hunt,chasse,0.25
+1937,carrying,porter,0.16666666666666666
+1938,taxi,taxi,1.0
+1939,watched,regardé,0.0
+1940,appear,apparaître,0.5
+1941,knocking,cognement,0.16666666666666666
+1942,piss,pisse,1.0
+1943,committed,engagé,0.0
+1944,disgusting,répugnant,0.14285714285714285
+1945,clever,intelligent,0.14285714285714285
+1946,wound,plaie,0.0
+1947,arthur,arthur,1.0
+1948,plate,assiette,0.25
+1949,television,télévision,0.7142857142857143
+1950,gods,dieux,0.3333333333333333
+1951,lips,lèvres,0.4
+1952,monday,lundi,0.5
+1953,picking,cueillette,0.0
+1954,freak,freak,1.0
+1955,traffic,circulation,0.16666666666666666
+1956,headed,à tête,0.0
+1957,india,inde,1.0
+1958,dawn,aube,0.0
+1959,leo,leo,1.0
+1960,poison,poison,1.0
+1961,charges,des charges,0.625
+1962,sat,assis,0.3333333333333333
+1963,kicked,donné un coup de pied,0.14285714285714285
+1964,scary,angoissant,0.16666666666666666
+1965,mystery,mystère,0.6666666666666666
+1966,indian,indien,1.0
+1967,pure,pur,1.0
+1968,bang,pan,0.3333333333333333
+1969,disease,maladie,0.0
+1970,italian,italien,1.0
+1971,march,mars,0.5
+1972,drove,a conduit,0.0
+1973,laura,laura,1.0
+1974,role,rôle,0.6666666666666666
+1975,shots,coups,0.25
+1976,butt,bout,0.6666666666666666
+1977,victory,la victoire,0.5
+1978,touched,touché,0.75
+1979,dealing,transaction,0.14285714285714285
+1980,trap,piège,0.0
+1981,nation,nation,1.0
+1982,healthy,en bonne santé,0.0
+1983,babies,bébés,0.6
+1984,shopping,achats,0.16666666666666666
+1985,stood,se trouvait,0.3333333333333333
+1986,desire,désir,0.75
+1987,aside,de côté,0.0
+1988,midnight,minuit,0.5
+1989,physical,physique,0.6666666666666666
+1990,jury,jury,1.0
+1991,checking,vérification,0.14285714285714285
+1992,appointment,rendez-vous,0.0
+1993,songs,chansons,0.3333333333333333
+1994,awake,éveillé,0.0
+1995,carl,carl,1.0
+1996,honour,honneur,0.75
+1997,swim,baignade,0.0
+1998,dies,meurt,0.0
+1999,mail,courrier,0.0
