@@ -1,0 +1,2001 @@
+﻿,Spanish,French,Distances
+0,si,et,0.0
+1,bien,bien,1.0
+2,aquí,ici,0.0
+3,ahora,à présent,0.125
+4,así,alors,0.0
+5,vamos,on le fera,0.0
+6,bueno,bon,1.0
+7,sé,voir,0.0
+8,cómo,quoi,0.0
+9,ser,être,0.3333333333333333
+10,puedo,est-ce-que je peux,0.09090909090909091
+11,quiero,je veux,0.0
+12,hacer,fais,0.0
+13,gracias,merci,0.5
+14,vez,tour,0.0
+15,sólo,seul,0.6666666666666666
+16,creo,je pense,0.0
+17,voy,j'y vais,0.16666666666666666
+18,sabes,vous connaissez,0.2222222222222222
+19,puede,il peut,0.25
+20,usted,tu,0.3333333333333333
+21,entonces,ensuite,0.2
+22,hola,heure,0.5
+23,solo,seulement,0.4
+24,verdad,vérité,0.4
+25,casa,loger,0.0
+26,tan,bronzer,0.2
+27,quién,qui,0.3333333333333333
+28,tiempo,météo,0.0
+29,dos,de,0.5
+30,nunca,jamais,0.0
+31,dónde,où,0.0
+32,va,et,0.0
+33,oh,oh,1.0
+34,favor,favoriser,0.6
+35,quieres,tu veux,0.0
+36,siento,je me sens,0.2857142857142857
+37,señor,monsieur,0.25
+38,mejor,mieux,0.3333333333333333
+39,hace,est-ce que,0.16666666666666666
+40,decir,raconter,0.4
+41,dios,dieu,0.5
+42,puedes,tu peux,0.0
+43,ver,à voir,0.5
+44,hombre,hommes,0.5
+45,vida,la vie,0.0
+46,alguien,quelqu'un,0.4
+47,cosas,choses,0.75
+48,siempre,toujours,0.0
+49,ahí,là,0.0
+50,ir,et,0.0
+51,años,années,0.25
+52,día,journée,0.0
+53,noche,nuit,0.3333333333333333
+54,hecho,fait,0.0
+55,acuerdo,accord,0.75
+56,trabajo,travaillé,0.3333333333333333
+57,parece,regards,0.2
+58,gente,personnes,0.16666666666666666
+59,padre,père,0.6666666666666666
+60,mira,mira,1.0
+61,mismo,même,0.6666666666666666
+62,dijo,a dit,0.3333333333333333
+63,nadie,personne,0.2
+64,quiere,veut,0.0
+65,podría,pourrait,0.5
+66,hablar,parler,0.5
+67,vas,ton,0.0
+68,sr.,sr.,1.0
+69,tal,de,0.0
+70,pasa,arrive,0.0
+71,después,après,0.2
+72,dinero,argent,0.25
+73,mundo,monde,1.0
+74,claro,dégager,0.2
+75,momento,temps,0.25
+76,tener,avoir,0.3333333333333333
+77,mañana,matin,0.6666666666666666
+78,madre,mère,0.6666666666666666
+79,vale,vallée,0.5
+80,lugar,place,0.0
+81,haciendo,fabrication,0.16666666666666666
+82,seguro,sûr,0.6666666666666666
+83,sabe,tu sais,0.25
+84,podemos,nous pouvons,0.2857142857142857
+85,espera,attendez,0.0
+86,nuevo,nouveau,1.0
+87,sido,a été,0.0
+88,cosa,qu'est-ce,0.16666666666666666
+89,hijo,fils,0.0
+90,allí,là bas,0.2
+91,menos,pas moins,0.5
+92,tipo,taper,0.6666666666666666
+93,amigo,ami,0.5
+94,gran,génial,0.5
+95,mujer,femme,0.0
+96,mamá,maman,0.6666666666666666
+97,luego,alors,0.3333333333333333
+98,papá,père,0.3333333333333333
+99,días,jours,0.3333333333333333
+100,dice,dé,0.5
+101,hoy,aujourd'hui,0.0
+102,tres,trois,1.0
+103,buena,bonne,0.6666666666666666
+104,necesito,nécessaire,0.5
+105,dije,a dit,0.3333333333333333
+106,oye,comprendre,0.0
+107,gusta,comme,0.0
+108,quería,recherché,0.14285714285714285
+109,haber,avoir,0.3333333333333333
+110,parte,partie,1.0
+111,todas,tout,0.3333333333333333
+112,crees,penses-tu,0.16666666666666666
+113,buen,bien,1.0
+114,conmigo,avec moi,0.25
+115,nombre,nom,0.5
+116,mierda,merde,1.0
+117,mal,mal,1.0
+118,debe,devoir,0.3333333333333333
+119,realmente,vraiment,0.6
+120,aún,même,0.0
+121,toda,tout,0.5
+122,hacerlo,fais le,0.25
+123,cada,chaque,0.3333333333333333
+124,visto,voir,0.3333333333333333
+125,importa,cela compte,0.2857142857142857
+126,contigo,avec vous,0.2
+127,razón,raison,0.5
+128,alguna,quelque,0.0
+129,saber,connaître,0.16666666666666666
+130,hizo,ceux,0.0
+131,veces,fois,0.3333333333333333
+132,serio,serieux,0.6666666666666666
+133,ven,viens,0.6666666666666666
+134,idea,idée,0.5
+135,eh,hein,0.5
+136,tarde,après midi,0.2857142857142857
+137,problema,problème,0.8333333333333334
+138,hora,heure,1.0
+139,cierto,certain,0.75
+140,dicho,en disant,0.16666666666666666
+141,demasiado,aussi,0.25
+142,amor,aimer,1.0
+143,ve,je,0.0
+144,pasado,passé,0.5
+145,familia,famille,0.75
+146,policía,policier,0.75
+147,debería,devrait,0.5
+148,ustedes,ton,0.25
+149,chica,fille,0.0
+150,chicos,garçons,0.2
+151,cuenta,compte,0.5
+152,haces,tu fais,0.25
+153,todavía,encore,0.0
+154,salir,sortir,0.5
+155,algún,quelques,0.0
+156,vaya,wow,0.0
+157,veo,je vois,0.25
+158,amigos,copains,0.25
+159,hermano,frère,0.25
+160,pensé,pensé,1.0
+161,sabía,je savais,0.2
+162,cabeza,tête,0.0
+163,ah,ah,1.0
+164,cariño,affection,0.2
+165,digo,je dis,0.25
+166,van,de,0.0
+167,hombres,pour des hommes,0.2
+168,buenas,bien,0.6666666666666666
+169,cualquier,n'importe quel,0.1111111111111111
+170,forma,formulaire,0.6
+171,mientras,alors que,0.0
+172,lado,côté,0.0
+173,debo,je vais,0.0
+174,caso,cas,1.0
+175,pueden,ils peuvent,0.2857142857142857
+176,pasó,je passe,0.4
+177,primera,première,0.8
+178,genial,génial,0.75
+179,chico,chico,1.0
+180,supuesto,censé,0.25
+181,hice,je l'ai fait,0.0
+182,pues,bien,0.0
+183,adiós,adieu,0.3333333333333333
+184,muchas,de nombreux,0.14285714285714285
+185,personas,personnes,0.8333333333333334
+186,señora,madame,0.0
+187,volver,revenir,0.25
+188,quizá,peut être,0.0
+189,camino,route,0.0
+190,hablando,en parlant,0.2857142857142857
+191,manera,façon,0.0
+192,muerto,morte,1.0
+193,persona,la personne,0.5714285714285714
+194,rápido,vite,0.0
+195,cuál,qui,0.0
+196,ayuda,aide,0.5
+197,historia,l'histoire,0.6666666666666666
+198,iba,les autres,0.0
+199,supongo,je suppose,0.3333333333333333
+200,nueva,nouveau,1.0
+201,entiendo,je comprends,0.2222222222222222
+202,dentro,à l'intérieur,0.3333333333333333
+203,casi,presque,0.25
+204,puerta,portail,0.75
+205,ves,connaître,0.0
+206,pasar,marché,0.0
+207,primero,premier,1.0
+208,significa,moyens,0.2
+209,semana,la semaine,0.6
+210,hacia,envers,0.0
+211,quizás,peut être,0.0
+212,espero,je l'espère,0.375
+213,juntos,ensemble,0.0
+214,año,an,0.0
+215,niños,des gamins,0.14285714285714285
+216,pronto,prêt,0.75
+217,tío,l'oncle,0.0
+218,suerte,chance,0.0
+219,ciudad,ville,0.0
+220,siquiera,même,0.0
+221,feliz,heureux,0.0
+222,venir,venir,1.0
+223,hija,est,0.0
+224,gustaría,aimerait,0.2
+225,minutos,minutes,1.0
+226,cuánto,combien,0.25
+227,hey,hé,0.5
+228,muerte,décès,0.0
+229,dejar,laisser,0.25
+230,realidad,réalité,0.4
+231,deja,déjà,0.5
+232,problemas,problèmes,0.8571428571428571
+233,vi,nous,0.0
+234,da,et,0.0
+235,importante,important,1.0
+236,dijiste,a dit,0.25
+237,corazón,coeur,0.4
+238,miedo,craindre,0.2
+239,jefe,chef,0.3333333333333333
+240,agua,eau,0.0
+241,haré,je ferai,0.0
+242,justo,juste,1.0
+243,horas,heures,1.0
+244,poder,pouvoir,0.6666666666666666
+245,buenos,bons,1.0
+246,esposa,épouse,0.6666666666666666
+247,manos,mains,1.0
+248,debes,tu devrais,0.3333333333333333
+249,viene,il vient,0.4
+250,venga,viens,0.6666666666666666
+251,ojos,les yeux,0.2
+252,adelante,avant,0.5
+253,encontrar,rencontrer,0.8571428571428571
+254,mano,mano,1.0
+255,cinco,cinq,0.6666666666666666
+256,niño,petit garçon,0.0
+257,ninguna,rien,0.25
+258,cara,méthode,0.0
+259,cuidado,mise en garde,0.125
+260,bajo,bas,0.5
+261,cerca,clôture,0.2
+262,viejo,agé de,0.0
+263,déjame,laisse moi,0.2
+264,noches,nuits,0.5
+265,bastante,assez,0.2
+266,fin,ailette,0.0
+267,tomar,prendre,0.2
+268,único,célibataire,0.0
+269,misma,même,0.6666666666666666
+270,escucha,ecoutez,0.25
+271,ningún,rien,0.2
+272,suficiente,suffisant,0.6666666666666666
+273,punto,indiquer,0.0
+274,cuándo,lorsque,0.0
+275,sigue,suivre,0.3333333333333333
+276,equipo,équipe,0.6666666666666666
+277,grande,grande,1.0
+278,necesita,a besoin de,0.16666666666666666
+279,llegar,arriver,0.25
+280,incluso,même,0.0
+281,doctor,docteur,1.0
+282,difícil,difficile,0.8
+283,aunque,même si,0.0
+284,primer,première,0.8
+285,coche,entraîneur,0.0
+286,hago,je fais,0.0
+287,clase,classe,0.75
+288,cuatro,quatre,0.6666666666666666
+289,mas,mais,1.0
+290,dices,vous dites,0.3333333333333333
+291,pequeño,peu,0.3333333333333333
+292,llama,appelle,0.25
+293,toma,prise,0.0
+294,hiciste,a fait,0.25
+295,allá,là,0.3333333333333333
+296,última,dernière,0.0
+297,arriba,en haut,0.0
+298,tierra,terre,1.0
+299,guerra,guerre,1.0
+300,pensar,pense,0.75
+301,pueda,boîte,0.0
+302,igual,égal,0.6666666666666666
+303,loco,à la place de,0.2222222222222222
+304,sangre,du sang,0.4
+305,mujeres,femmes,0.25
+306,vuelta,tour,0.0
+307,trabajar,travailler,0.5
+308,juego,jouer,0.5
+309,deberías,tu devrais,0.3333333333333333
+310,cuerpo,corps,0.75
+311,entrar,connexion,0.2
+312,cree,croire,0.6666666666666666
+313,podía,pourrait,0.25
+314,debemos,devoir,0.25
+315,oportunidad,chance,0.16666666666666666
+316,teléfono,téléphone,0.5714285714285714
+317,necesitamos,nous avons besoin,0.3
+318,final,final,1.0
+319,listo,liste,1.0
+320,fiesta,fête,0.6666666666666666
+321,quieren,vouloir,0.0
+322,vete,soi,0.0
+323,auto,auto,1.0
+324,dar,mais,0.0
+325,vivir,vivre,1.0
+326,posible,possible,0.8
+327,ok,d'accord,0.0
+328,hermana,sœur,0.0
+329,número,numéro,0.5
+330,meses,mois,0.6666666666666666
+331,exactamente,exactement,1.0
+332,culpa,défaut,0.0
+333,abajo,vers le bas,0.125
+334,escuela,école,0.6666666666666666
+335,ido,œil,0.0
+336,fuerte,fort,1.0
+337,diciendo,en disant,0.3333333333333333
+338,habla,parole,0.3333333333333333
+339,ello,ce,0.0
+340,pregunta,question,0.2
+341,chicas,les filles,0.14285714285714285
+342,unas,clou,0.0
+343,pasando,aller,0.0
+344,atrás,retour,0.25
+345,malo,place,0.3333333333333333
+346,capitán,capitaine,0.8
+347,sra.,sr.,1.0
+348,bebé,bébé,0.75
+349,segundo,deuxième,0.0
+350,sabemos,nous savons,0.2857142857142857
+351,mayor,maire,0.6666666666666666
+352,comida,aliments,0.2
+353,morir,mourir,1.0
+354,conozco,connaître,0.3333333333333333
+355,dame,dame,1.0
+356,fácil,facile,0.75
+357,comer,manger,0.25
+358,vino,vin,1.0
+359,lista,liste,1.0
+360,haga,fabriquer,0.0
+361,necesitas,vous avez besoin,0.1111111111111111
+362,hijos,fils,0.3333333333333333
+363,probablemente,probablement,1.0
+364,padres,les pères,0.42857142857142855
+365,habitación,chambre,0.0
+366,creer,croire,1.0
+367,pensando,en pensant,0.5714285714285714
+368,dime,dîme,0.6666666666666666
+369,trata,sur,0.3333333333333333
+370,buscando,chercher,0.16666666666666666
+371,tampoco,soit,0.0
+372,amo,amour,0.5
+373,joven,un jeune homme,0.125
+374,podrías,pouvez-vous,0.3333333333333333
+375,sola,unique,0.0
+376,par,par,1.0
+377,única,seulement,0.2
+378,hacen,fabriquer,0.0
+379,seguir,suivre,0.6666666666666666
+380,dr.,dr.,1.0
+381,simplemente,simplement,1.0
+382,dicen,ils disent,0.2857142857142857
+383,medio,moyen,0.3333333333333333
+384,puta,pute,1.0
+385,saben,par,0.0
+386,hagas,tu fais,0.25
+387,segura,sûr,0.6666666666666666
+388,esperar,attendre à,0.14285714285714285
+389,lejos,loin,0.3333333333333333
+390,arma,arme,1.0
+391,alto,haute,0.5
+392,pequeña,petite,0.3333333333333333
+393,dólares,dollars,0.8
+394,seis,six,0.5
+395,seguridad,sécurité,0.3333333333333333
+396,maldita,zut,0.25
+397,preocupes,inquiétude,0.0
+398,palabra,mot,0.0
+399,esperando,attendre,0.2
+400,queda,restes,0.0
+401,oficina,bureau,0.0
+402,matar,la femme,0.0
+403,iré,j'irai,0.0
+404,cama,lit,0.0
+405,además,en outre,0.0
+406,último,dernière,0.0
+407,oído,oreille,0.0
+408,dio,partie,0.0
+409,recuerdo,souvenir,0.0
+410,siendo,étant,0.25
+411,acerca,sur,0.3333333333333333
+412,luz,lumière,0.25
+413,correcto,c'est correct,0.5
+414,ud.,dehors.,0.4
+415,demonios,démons,0.8
+416,verte,verte,1.0
+417,dormir,dormir,1.0
+418,sitio,place,0.0
+419,ayudar,aider,0.6666666666666666
+420,conseguir,obtenir,0.2
+421,di,de,1.0
+422,marido,mari,0.6666666666666666
+423,paz,paix,0.5
+424,idiota,idiot,1.0
+425,plan,planifier,0.6
+426,dado,dé,0.5
+427,cuanto,combien,0.25
+428,peor,pire,1.0
+429,murió,il est mort,0.25
+430,pueblo,village,0.25
+431,vivo,vivo,1.0
+432,venido,je viens,0.4
+433,john,jean,0.6666666666666666
+434,basta,c'est juste,0.25
+435,paso,marcher,0.0
+436,deberíamos,nous devrions,0.25
+437,música,chanson,0.2
+438,diga,dire,0.5
+439,minuto,minutes,0.75
+440,anoche,la nuit dernière,0.1
+441,llamar,appeler,0.25
+442,piensa,pense,1.0
+443,país,pays,0.6666666666666666
+444,digas,vous dites,0.3333333333333333
+445,rey,roi,0.5
+446,perdón,pardon,0.8
+447,mucha,beaucoup,0.3333333333333333
+448,falta,manque,0.0
+449,pienso,je pense,0.6
+450,diablos,les diables,0.5714285714285714
+451,perdido,perdu,0.75
+452,niña,fille,0.0
+453,señorita,mademoiselle,0.0
+454,diez,dix,0.5
+455,lleva,porte,0.0
+456,hospital,hôpital,0.8
+457,grandes,de grands,0.7142857142857143
+458,maldito,allez au diable,0.25
+459,llamado,appelé,0.0
+460,hacemos,nous faisons,0.14285714285714285
+461,llevar,apporter,0.2
+462,fuego,feu,0.5
+463,aqui,ici,0.0
+464,poner,"mettre, poser",0.2222222222222222
+465,calle,rue,0.0
+466,acaba,prend fin,0.0
+467,prueba,test,0.0
+468,increíble,incroyable,0.8333333333333334
+469,real,réel,0.6666666666666666
+470,libro,livre,0.6666666666666666
+471,orden,ordre,0.6666666666666666
+472,semanas,semaines,1.0
+473,especial,spécial,0.8
+474,café,café,1.0
+475,duro,supporter,0.16666666666666666
+476,empezar,début,0.0
+477,afuera,à l'extérieur,0.1111111111111111
+478,queremos,nous voulons,0.14285714285714285
+479,perro,chien,0.0
+480,cielo,ciel,1.0
+481,jack,jack,1.0
+482,puesto,étal de marché,0.0
+483,viaje,voyage,0.3333333333333333
+484,detrás,derrière,0.4
+485,cuarto,quatrième,0.2
+486,querida,mon chéri,0.0
+487,haría,ferait,0.3333333333333333
+488,preguntas,des questions,0.25
+489,piensas,tu penses,0.6666666666666666
+490,querido,cher,0.0
+491,libre,libre,1.0
+492,buscar,chercher,0.3333333333333333
+493,diré,je dirai,0.25
+494,suena,des sons,0.3333333333333333
+495,jugar,jouer,0.6666666666666666
+496,cambio,changement,0.2857142857142857
+497,película,film,0.2
+498,millones,des millions,0.625
+499,llamada,appel,0.0
+500,resto,le repos,0.2
+501,vemos,nous voyons,0.2857142857142857
+502,extraño,bizarre,0.25
+503,mala,elle avait,0.2
+504,presidente,président,0.8571428571428571
+505,srta.,m / s.,0.16666666666666666
+506,irme,s'en aller,0.0
+507,ropa,vêtements,0.0
+508,perder,perdre,1.0
+509,vuelve,revenir,0.25
+510,agente,agent,1.0
+511,palabras,mots,0.2
+512,información,informations,0.5714285714285714
+513,raro,vers le bas,0.125
+514,hará,ça ira,0.0
+515,entiendes,vous comprenez,0.0
+516,éste,est,0.6666666666666666
+517,trabajando,travail,0.3333333333333333
+518,tratando,traiter,0.6
+519,general,général,0.6666666666666666
+520,trato,accord,0.25
+521,usar,utiliser,0.5
+522,perfecto,parfait,0.8
+523,derecho,droit,0.5
+524,modo,façon,0.0
+525,ayer,hier,0.5
+526,conoces,vous connaissez,0.3333333333333333
+527,demás,le reste,0.2
+528,quieras,vouloir,0.0
+529,podríamos,nous pourrions,0.25
+530,noticias,informations,0.42857142857142855
+531,asesino,assassin,0.6
+532,encontrado,trouvé,0.16666666666666666
+533,control,contrôler,0.7142857142857143
+534,odio,détester,0.16666666666666666
+535,frente,de face,0.0
+536,sexo,sexe,1.0
+537,decirle,raconter,0.2
+538,divertido,drôle,0.4
+539,armas,armes,1.0
+540,recuerdas,rappelles toi,0.25
+541,amiga,amiga,1.0
+542,grupo,groupe,1.0
+543,asunto,aventure,0.5
+544,acabo,terminé,0.0
+545,mensaje,message,0.5
+546,encima,sur,0.0
+547,atención,attention,0.4
+548,diferente,différent,0.7142857142857143
+549,uh,euh,1.0
+550,cállate,fermer,0.0
+551,daño,dégâts,0.16666666666666666
+552,sucede,arrive,0.0
+553,cambiar,changer,0.4
+554,siguiente,prochain,0.0
+555,sino,par ailleurs,0.0
+556,the,la,0.0
+557,médico,docteur,0.0
+558,boca,boca,1.0
+559,dejó,laisser,0.0
+560,error,erreur,1.0
+561,jamás,jamais,0.75
+562,largo,long,0.6666666666666666
+563,pena,la plume,0.2
+564,voz,voix,0.5
+565,futuro,avenir,0.3333333333333333
+566,secreto,secret,1.0
+567,baño,bain,0.5
+568,mil,mille,0.6666666666666666
+569,decirte,te dire,0.0
+570,sam,lui-même,0.2
+571,pensaba,pensait,0.75
+572,novia,petite amie,0.0
+573,propia,posséder,0.16666666666666666
+574,sueño,rêve,0.0
+575,haz,dangereux,0.0
+576,fuerza,force,0.6666666666666666
+577,deben,devraient,0.4
+578,supone,censé,0.0
+579,ambos,les deux,0.0
+580,ay,ouais,0.0
+581,encontré,j'ai trouvé,0.42857142857142855
+582,vuelto,tourné,0.0
+583,dolor,la douleur,0.6
+584,dile,dis-le,0.5
+585,encanta,aime,0.0
+586,edad,âge,0.0
+587,darle,donne lui,0.4
+588,pie,tarte,0.0
+589,negro,nègre,0.75
+590,ganar,gain,0.6666666666666666
+591,york,york,1.0
+592,aire,aire,1.0
+593,lamento,suis désolé,0.0
+594,verlo,le voir,0.25
+595,asesinato,meurtre,0.0
+596,vio,il a vu,0.25
+597,adónde,où aller,0.0
+598,llegado,arrivé,0.0
+599,disculpe,pardon,0.0
+600,s,s,1.0
+601,cita,une autre,0.25
+602,sistema,système,0.6666666666666666
+603,gusto,comme,0.0
+604,pobre,pauvre,0.6666666666666666
+605,negocio,entreprise,0.16666666666666666
+606,mente,dérange,0.2
+607,campo,champ,0.75
+608,mire,boue,0.0
+609,situación,situation,0.6
+610,tras,après,0.5
+611,hotel,hôtel,0.75
+612,funciona,ça marche,0.16666666666666666
+613,foto,photo,0.3333333333333333
+614,abogado,avocat,0.0
+615,loca,lieu,0.5
+616,propio,posséder,0.16666666666666666
+617,alrededor,autour de,0.4
+618,próxima,suivant,0.0
+619,terminado,achevé,0.0
+620,hablas,parler,0.25
+621,pagar,payer,0.6666666666666666
+622,mató,tué,0.3333333333333333
+623,llamo,appelé,0.25
+624,personal,personnel,0.8333333333333334
+625,sientes,tu sens,0.4
+626,ocurre,se produit,0.16666666666666666
+627,ésta,est,0.6666666666666666
+628,recuerda,rappelles toi,0.125
+629,mitad,demi,0.0
+630,quiera,vouloir,0.3333333333333333
+631,pelo,fourrure,0.0
+632,viste,connaissait,0.3333333333333333
+633,oficial,officiel,0.75
+634,llegó,j'arrive,0.0
+635,compañía,compagnie,0.6
+636,relación,relation,0.6
+637,conoce,connu,0.6666666666666666
+638,pase,que,0.0
+639,montón,parcelle,0.0
+640,mejores,haut,0.0
+641,creí,je croyais,0.3333333333333333
+642,cena,cena,1.0
+643,sentir,sentir,1.0
+644,través,à travers,0.5714285714285714
+645,accidente,accident,1.0
+646,i,je,0.0
+647,caja,caisse,0.3333333333333333
+648,tranquilo,calme,0.0
+649,bonito,jolie,0.0
+650,asi,mais,0.5
+651,pudo,pourrait,0.25
+652,vive,vivement,0.4
+653,vista,vue,0.3333333333333333
+654,estúpido,stupide,0.8
+655,línea,ligne,0.6666666666666666
+656,caballeros,messieurs,0.3333333333333333
+657,haremos,sera,0.25
+658,dan,et,0.0
+659,quédate,rester,0.0
+660,tienda,boutique,0.0
+661,comprar,achat,0.2
+662,entendido,c'est compris,0.1
+663,centro,centre,1.0
+664,salvo,enregistré,0.14285714285714285
+665,mes,moi,0.5
+666,joe,joe,1.0
+667,sol,sol,1.0
+668,tonto,tonto,1.0
+669,hambre,faim,0.25
+670,michael,michael,1.0
+671,mesa,mesa,1.0
+672,respuesta,réponse,0.4
+673,completamente,totalement,0.5
+674,david,david,1.0
+675,carta,papier,0.0
+676,totalmente,totalement,1.0
+677,imposible,impossible,0.8333333333333334
+678,pruebas,essais,0.25
+679,novio,copain,0.0
+680,normal,ordinaire,0.0
+681,gustan,gustan,1.0
+682,frank,franc,0.75
+683,pude,je pourrais,0.16666666666666666
+684,charlie,charlie,1.0
+685,traje,dure,0.3333333333333333
+686,dirección,adresse,0.3333333333333333
+687,siete,sept,0.6666666666666666
+688,dijeron,ils ont dit,0.125
+689,placer,placer,1.0
+690,barco,bateau,0.3333333333333333
+691,blanco,blanc,1.0
+692,tom,à m,0.3333333333333333
+693,profesor,professeur,0.8333333333333334
+694,servicio,service,1.0
+695,muchacho,jeune gars,0.0
+696,reunión,rencontre,0.5
+697,dejado,la gauche,0.0
+698,ley,droit,0.0
+699,quisiera,je voudrais,0.16666666666666666
+700,george,george,1.0
+701,programa,programme,0.8333333333333334
+702,carrera,course,0.5
+703,cumpleaños,date d'anniversaire,0.09090909090909091
+704,muchachos,garçons,0.16666666666666666
+705,culo,cul,1.0
+706,canción,chanson,0.4
+707,hermosa,belle,0.0
+708,universidad,l'universitè,0.5
+709,boda,mariage,0.0
+710,decirme,dites-moi,0.4
+711,cualquiera,n'importe quel,0.1111111111111111
+712,hacía,envers,0.0
+713,sala,salon,0.6666666666666666
+714,llevo,usure,0.0
+715,decisión,décision,0.6
+716,espere,attendez,0.0
+717,don,enfiler,0.0
+718,necesario,nécessaire,0.6666666666666666
+719,sal,devoir,0.0
+720,entra,va dans,0.0
+721,prisa,se ruer,0.25
+722,carajo,merde,0.3333333333333333
+723,embargo,embargo,1.0
+724,interesante,intéressant,0.75
+725,escuchar,escuchar,1.0
+726,abuela,grand-mère,0.0
+727,hicieron,ils ont fabriqué,0.09090909090909091
+728,detective,détective,0.8333333333333334
+729,horrible,horrible,1.0
+730,suelo,d'habitude je,0.0
+731,fotos,photos,0.5
+732,cárcel,prison,0.2
+733,acá,ici,0.5
+734,io,io,
+735,mike,mike,1.0
+736,siéntate,assis-toi,0.4
+737,decía,il a dit,0.0
+738,intentando,en essayant,0.2857142857142857
+739,vámonos,allons-y,0.16666666666666666
+740,maldición,zut,0.0
+741,silencio,le silence,0.6666666666666666
+742,muerta,morte,1.0
+743,capaz,pouvoir,0.0
+744,salió,il est parti,0.125
+745,club,club,1.0
+746,terminar,finir,0.4
+747,temo,matière,0.25
+748,broma,plaisanter,0.0
+749,gobierno,gouvernement,0.42857142857142855
+750,prometo,promettre,0.6666666666666666
+751,cámara,caméra,0.5
+752,media,médias,0.5
+753,terrible,terrible,1.0
+754,llamó,j'appelle,0.0
+755,regalo,cadeau,0.0
+756,amable,aimable,1.0
+757,dulce,sucré,0.0
+758,muertos,morte,0.75
+759,querías,tu voulais,0.2
+760,ataque,attaque,0.6666666666666666
+761,das,la,0.0
+762,navidad,noël,0.25
+763,negocios,entreprise,0.3333333333333333
+764,pudiera,pourrait,0.5
+765,ocho,huit,0.0
+766,avión,avion,0.6666666666666666
+767,investigación,rechercher,0.125
+768,acabó,terminé,0.0
+769,juro,droit,0.3333333333333333
+770,mantener,tenir,0.6
+771,ejército,armée,0.2
+772,papel,papier,0.6666666666666666
+773,partes,les pièces,0.2857142857142857
+774,ten,dix,0.0
+775,gracioso,drôle,0.25
+776,diría,dirait,0.6666666666666666
+777,principio,début,0.0
+778,delante,devant de,0.5
+779,teniente,lieutenant,0.8
+780,deseo,désir,0.5
+781,vayas,aller,0.0
+782,nave,nef,0.5
+783,sale,vendre,0.0
+784,basura,déchets,0.0
+785,vine,vigne,0.6666666666666666
+786,contacto,contact,1.0
+787,esposo,époux,0.3333333333333333
+788,tren,former,0.25
+789,encontramos,nous trouvons,0.5
+790,dale,vallée,0.25
+791,verdadero,réel,0.2
+792,alma,alma,1.0
+793,hazlo,fais le,0.25
+794,disculpa,pardon,0.0
+795,junto,ensemble,0.0
+796,anda,tu,0.0
+797,matrimonio,mariage,0.4
+798,saberlo,connaître,0.0
+799,locura,folie,0.0
+800,oro,oro,1.0
+801,permiso,autorisation,0.2
+802,director,directeur,1.0
+803,peligro,danger,0.5
+804,libertad,liberté,0.8
+805,alegro,content,0.0
+806,baja,court,0.0
+807,derecha,droite,0.5
+808,encuentra,trouver,0.2
+809,pies,tartes,0.25
+810,segunda,lundi,0.5
+811,maravilloso,merveilleux,0.8333333333333334
+812,espacio,espace,1.0
+813,rato,souris,0.3333333333333333
+814,abuelo,grand-père,0.0
+815,esperaba,j'esperais,0.5
+816,mirando,regarder,0.2
+817,salud,santé,0.25
+818,sorpresa,surprendre,0.5714285714285714
+819,ninguno,rien,0.25
+820,miren,mire,0.6666666666666666
+821,triste,triste,1.0
+822,aun,toujours,0.0
+823,pensado,pensait,0.75
+824,maestro,maestro,1.0
+825,según,selon,0.5
+826,infierno,enfer,0.75
+827,podrían,pourrait,0.4
+828,tipos,les types,0.42857142857142855
+829,tía,tante,0.3333333333333333
+830,crimen,la criminalité,0.4444444444444444
+831,conocido,connu,0.5
+832,consejo,conseil,0.75
+833,iglesia,église,0.75
+834,intento,essayer,0.0
+835,mayoría,plus,0.0
+836,doy,donner,0.25
+837,peter,pierre,0.6666666666666666
+838,hicimos,nous faisions,0.14285714285714285
+839,escena,scène,0.75
+840,piso,appartement,0.14285714285714285
+841,señal,pancarte,0.0
+842,honor,honneur,0.75
+843,llamas,les lamas,0.6666666666666666
+844,abre,ouvert,0.3333333333333333
+845,cerebro,cerveau,0.5
+846,veras,tu verras,0.5
+847,viendo,voyant,0.5
+848,pone,des endroits,0.125
+849,pregunto,je demande,0.16666666666666666
+850,cocina,cuisine,0.6666666666666666
+851,vestido,robe,0.0
+852,inteligente,intelligent,0.8571428571428571
+853,vieja,vieille,0.3333333333333333
+854,caballo,cheval,0.5
+855,vienen,ils viennent,0.375
+856,vidas,des vies,0.2
+857,bar,bar,1.0
+858,corte,couper,0.3333333333333333
+859,sucedió,passé,0.0
+860,adentro,à l'intérieur,0.3333333333333333
+861,drogas,drogues,1.0
+862,enseguida,tout de suite,0.14285714285714285
+863,busca,chercher,0.16666666666666666
+864,agradable,agréable,0.8
+865,carne,viande,0.0
+866,parecía,ressemblait,0.0
+867,departamento,département,0.875
+868,lindo,jolie,0.0
+869,mar,mar,1.0
+870,duda,doute,0.5
+871,edificio,imeuble,0.0
+872,conocer,connaître,0.5
+873,cargo,cargaison,0.6
+874,víctima,victime,0.8
+875,luna,lune,1.0
+876,energía,énergie,0.5
+877,frío,froid,0.6666666666666666
+878,hablo,a parlé,0.2
+879,baile,domicile,0.25
+880,trabaja,œuvres,0.0
+881,misión,mission,0.75
+882,listos,prêt,0.0
+883,ayudarte,t'aider,0.25
+884,izquierda,gauche,0.0
+885,paul,paul,1.0
+886,beber,boire,0.6666666666666666
+887,deje,passe,0.0
+888,finalmente,finalement,1.0
+889,simple,facile,0.25
+890,daré,je donnerai,0.16666666666666666
+891,sabías,le saviez-vous,0.25
+892,puedas,tu peux,0.0
+893,puso,cœur,0.0
+894,creía,a cru,0.3333333333333333
+895,regresar,rendre,0.4
+896,llega,arrive,0.0
+897,entender,comprendre,0.42857142857142855
+898,mirar,regarder,0.4
+899,sacar,se rétracter,0.3333333333333333
+900,cambiado,modifié,0.0
+901,trae,apporte,0.25
+902,hermoso,beau,0.0
+903,opinión,opinion,0.75
+904,verás,tu verras,0.5
+905,linda,linda,1.0
+906,apenas,seulement,0.2
+907,segundos,secondes,0.8
+908,cerveza,bière,0.0
+909,harás,vous ferez,0.0
+910,creen,croire,0.6666666666666666
+911,oír,écouter,0.25
+912,cuántos,de nombreux,0.14285714285714285
+913,hablado,parlé,0.25
+914,hablamos,nous parlons,0.25
+915,reina,reine,1.0
+916,temprano,tôt,0.2
+917,tema,thème,0.5
+918,prisión,prison,0.8
+919,porqué,parce que,0.4
+920,vuelva,revenir,0.25
+921,público,publique,0.6
+922,ocurrió,c'est arrivé,0.3333333333333333
+923,veré,je verrai,0.4
+924,salvar,sauver,0.75
+925,partido,cassé,0.0
+926,bonita,jolie,0.0
+927,joder,merde,0.0
+928,causa,cause,1.0
+929,caliente,chaud,0.25
+930,sargento,sergent,1.0
+931,cenar,le dîner,0.3333333333333333
+932,compañero,collaborateur,0.2857142857142857
+933,llevó,usure,0.0
+934,banco,banque,0.6666666666666666
+935,existe,existe,1.0
+936,ben,ben,1.0
+937,zona,zone,1.0
+938,destino,destin,1.0
+939,base,base,1.0
+940,solía,habitué,0.0
+941,cliente,client,1.0
+942,irse,pars,0.6666666666666666
+943,perra,chienne,0.0
+944,james,james,1.0
+945,encuentro,rencontre,0.8333333333333334
+946,encontró,il a trouvé,0.2857142857142857
+947,pelea,lutte,0.0
+948,san,san,1.0
+949,norte,nord,0.6666666666666666
+950,quise,je voulais,0.2
+951,coronel,colonel,0.75
+952,apuesto,beau,0.0
+953,peligroso,dangereux,0.4
+954,viva,vive,1.0
+955,max,maximum,0.5
+956,vienes,tu viens,0.6
+957,necesitan,ils ont besoin,0.2222222222222222
+958,té,thé,0.6666666666666666
+959,excepto,à l'exception,0.4444444444444444
+960,juicio,jugement,0.2
+961,podamos,nous pouvons,0.2857142857142857
+962,llave,clé,0.3333333333333333
+963,equivocado,mauvais,0.25
+964,posición,position,0.6
+965,trasero,arrière,0.5
+966,irnos,s'en aller,0.14285714285714285
+967,espalda,dos,0.0
+968,excelente,génial,0.2
+969,éxito,succès,0.0
+970,modos,modes,1.0
+971,ventana,la fenêtre,0.2857142857142857
+972,veamos,voyons voir,0.2857142857142857
+973,especie,espèces,0.6
+974,diferencia,différence,0.7142857142857143
+975,formas,formes,1.0
+976,pedir,interroger,0.16666666666666666
+977,últimos,dernière,0.0
+978,escúchame,écoutez-moi,0.3333333333333333
+979,ejemplo,exemple,0.75
+980,ése,ce,0.0
+981,radio,radio,1.0
+982,lee,lee,1.0
+983,calma,calmes,0.75
+984,hogar,foyer,0.3333333333333333
+985,volveré,je reviendrai,0.14285714285714285
+986,fondo,fond,1.0
+987,humano,humain,1.0
+988,henry,henri,0.75
+989,tí,de,0.0
+990,iremos,nous irons,0.3333333333333333
+991,unidos,uni,0.3333333333333333
+992,jesús,jésus,0.5
+993,planeta,planète,0.8
+994,verme,ne donne pas,0.0
+995,respecto,qui concerne,0.14285714285714285
+996,regreso,revenir,0.25
+997,debido,exigible,0.25
+998,leer,dossier,0.25
+999,parar,arrêter,0.4
+1000,lleno,plein,0.6666666666666666
+1001,dejé,pars,0.0
+1002,respeto,respect,0.8
+1003,debajo,en dessous de,0.125
+1004,harry,harry,1.0
+1005,escribir,écrire,0.6
+1006,estación,station,0.6
+1007,pidió,a demandé,0.16666666666666666
+1008,alta,haute,0.5
+1009,pista,piste,1.0
+1010,estrella,etoile,0.4
+1011,enfermo,malade,0.0
+1012,duele,fait mal,0.2
+1013,sueños,rêves,0.25
+1014,veremos,on verra,0.2
+1015,miles,milles,0.75
+1016,darme,donne-moi,0.4
+1017,órdenes,ordres,0.6
+1018,ocupado,occupé,0.5
+1019,sigues,es-tu encore,0.14285714285714285
+1020,corre,corre,1.0
+1021,podido,j'ai,0.0
+1022,dejes,laisser,0.25
+1023,nivel,niveau,0.6666666666666666
+1024,experiencia,vivre,0.2
+1025,darte,pour te donner,0.2222222222222222
+1026,salida,sortir,0.25
+1027,decirlo,dis-le,0.5
+1028,confiar,confiance,0.6
+1029,hacerte,te faire,0.0
+1030,necesitaba,nécessaire,0.5
+1031,hermanos,frères,0.4
+1032,zapatos,des chaussures,0.1111111111111111
+1033,color,couleur,1.0
+1034,vistazo,coup d'œil,0.0
+1035,nena,petite fille,0.0
+1036,tratar,traiter avec,0.5714285714285714
+1037,parecer,sembler,0.2
+1038,juez,juge,0.5
+1039,próximo,suivant,0.0
+1040,paciente,patient,0.75
+1041,bolsa,si,0.3333333333333333
+1042,arte,art,1.0
+1043,mary,marie,0.6666666666666666
+1044,jugando,en jouant,0.2
+1045,llevas,tu portes,0.16666666666666666
+1046,alegra,content,0.0
+1047,bailar,danser,0.25
+1048,diablo,diablo,1.0
+1049,oí,j'ai entendu,0.0
+1050,sepa,sepa,1.0
+1051,sur,sur,1.0
+1052,banda,bande,1.0
+1053,aprender,apprendre,0.8333333333333334
+1054,precio,le prix,0.4
+1055,completo,achevée,0.2
+1056,santo,saint,1.0
+1057,culpable,coupable,0.8
+1058,ganas,désir,0.25
+1059,you,tu,0.0
+1060,verla,la voir,0.25
+1061,volvió,est revenu,0.16666666666666666
+1062,libros,livres,0.75
+1063,ojo,ressembler,0.0
+1064,cielos,cieux,0.3333333333333333
+1065,matado,tué,0.3333333333333333
+1066,azul,bleu,0.5
+1067,diferentes,beaucoup de différents,0.42857142857142855
+1068,irte,s'en aller,0.0
+1069,ia,entre autres,0.0
+1070,comandante,le commandant,0.6666666666666666
+1071,acción,action,0.5
+1072,reglas,règles,0.8
+1073,obra,constructions,0.1111111111111111
+1074,esperanza,espoir,0.6
+1075,cuestión,question,0.6
+1076,molesta,bouleversé,0.3333333333333333
+1077,bill,facture,0.0
+1078,informe,rapport,0.2
+1079,jimmy,jimmy,1.0
+1080,río,fleuve,0.0
+1081,bienvenido,accueillir,0.0
+1082,abrir,ouvert,0.3333333333333333
+1083,tocar,toucher,0.75
+1084,bob,bob,1.0
+1085,contar,raconter,0.8
+1086,sigo,je suis,0.25
+1087,interior,intérieur,0.8
+1088,apartamento,appartement,0.8571428571428571
+1089,vea,voir,0.5
+1090,preocupa,des soucis,0.16666666666666666
+1091,tomó,je prends,0.0
+1092,principal,directeur,0.3333333333333333
+1093,empieza,commencer,0.16666666666666666
+1094,londres,londres,1.0
+1095,empezó,ça a commencé,0.1111111111111111
+1096,vayan,aller,0.0
+1097,jim,jim,1.0
+1098,llaman,appel,0.0
+1099,ojalá,je souhaite,0.2
+1100,perdona,pardon,1.0
+1101,vuelvo,je reviens,0.16666666666666666
+1102,golpe,souffler,0.2
+1103,quedarme,rester,0.0
+1104,llamaré,je vais appeler,0.0
+1105,acabado,terminer,0.0
+1106,estilo,style,0.75
+1107,nueve,neuf,0.5
+1108,definitivamente,absolument,0.375
+1109,quedar,rester,0.25
+1110,cartas,cartes,1.0
+1111,bomba,bombe,1.0
+1112,guardia,gardien,0.75
+1113,pistola,pistolet,0.8
+1114,probar,tester,0.25
+1115,majestad,majesté,0.8
+1116,traer,apporter,0.4
+1117,marcha,mars,0.5
+1118,pareces,tu sembles,0.14285714285714285
+1119,común,commun,0.75
+1120,aquel,ce,0.0
+1121,hacerle,fais-lui,0.25
+1122,vuelo,voyage en avion,0.125
+1123,nota,remarque,0.0
+1124,danny,danny,1.0
+1125,humanos,humains,1.0
+1126,valor,évaluer,0.75
+1127,objetivo,objectif,0.6
+1128,repente,soudain,0.25
+1129,debía,devrait,0.25
+1130,rojo,rouge,0.5
+1131,bromeando,plaisanterie,0.16666666666666666
+1132,irá,sera,0.0
+1133,entrada,interdit,0.8
+1134,doble,double,1.0
+1135,dejaré,je vais partir,0.1111111111111111
+1136,evitar,éviter de,0.5
+1137,máquina,machine,0.5
+1138,cuello,cou,0.3333333333333333
+1139,conocí,j'ai rencontre,0.2222222222222222
+1140,tiempos,temps,1.0
+1141,tome,tome,1.0
+1142,nick,pseudo,0.0
+1143,animales,les animaux,0.16666666666666666
+1144,alex,alex,1.0
+1145,acaso,chance,0.25
+1146,pareja,partenaire,0.4
+1147,verano,été,0.0
+1148,escuché,ecoutez,0.2
+1149,ama,ou,0.0
+1150,mentira,mentir,1.0
+1151,tarjeta,carte,0.5
+1152,hagan,hagan,1.0
+1153,perdí,j'ai raté,0.16666666666666666
+1154,correr,cours,0.5
+1155,steve,steve,1.0
+1156,traído,amené,0.0
+1157,llegue,je suis arrivé,0.0
+1158,preparado,préparé,0.6666666666666666
+1159,haberlo,l'avoir,0.0
+1160,tony,tony,1.0
+1161,usa,cerf,0.0
+1162,intentar,tentative,0.4
+1163,ayudarme,aide-moi,0.5
+1164,flores,flores,1.0
+1165,dando,donnant,0.4
+1166,vos,vos,1.0
+1167,opción,option,0.5
+1168,isla,île,0.5
+1169,cierra,proche,0.25
+1170,piel,peau,0.5
+1171,enemigo,ennemi,0.3333333333333333
+1172,dejo,la gauche,0.0
+1173,exacto,exact,1.0
+1174,imbécil,idiot,0.0
+1175,jóvenes,jeunes,0.6
+1176,pedido,demande,0.25
+1177,larga,long,0.6666666666666666
+1178,entiende,comprend,0.3333333333333333
+1179,justicia,justice,1.0
+1180,nuevos,nouveau,0.6666666666666666
+1181,obviamente,évidemment,0.5714285714285714
+1182,despierta,réveillez-vous,0.0
+1183,pido,je demande,0.16666666666666666
+1184,calor,chauffer,0.4
+1185,luces,lumières,0.4
+1186,refiero,je veux dire,0.14285714285714285
+1187,batalla,bataille,1.0
+1188,déjalo,laisser seul,0.14285714285714285
+1189,intenta,essayer,0.0
+1190,sarah,sarah,1.0
+1191,fantástico,fantastique,0.7142857142857143
+1192,brazo,bras,0.6666666666666666
+1193,absolutamente,tout à fait,0.14285714285714285
+1194,llena,plein,0.6666666666666666
+1195,hacerme,faîtes-moi,0.16666666666666666
+1196,salga,dehors,0.0
+1197,recordar,rappeler,0.4
+1198,escapar,va-t-en,0.0
+1199,bosque,forêt,0.0
+1200,gay,homosexuel,0.0
+1201,señores,messieurs,0.6
+1202,quedan,rester,0.0
+1203,piernas,les jambes,0.14285714285714285
+1204,visita,visite,1.0
+1205,parís,paris,0.75
+1206,usando,utilisant,0.4
+1207,ganado,bétail,0.0
+1208,movimiento,mouvement,1.0
+1209,blanca,blanche,0.8
+1210,rico,rico,1.0
+1211,inocente,innocent,0.8
+1212,pesar,peser,1.0
+1213,absoluto,absolu,0.75
+1214,vacaciones,des vacances,0.375
+1215,um,un,0.0
+1216,mismos,eux-mêmes,0.5
+1217,tomado,pris,0.0
+1218,planes,avions,0.5
+1219,cine,qui,0.0
+1220,toca,toucher,0.5
+1221,brillante,scintillant,0.5
+1222,confianza,confiance,0.8
+1223,nombres,des noms,0.16666666666666666
+1224,especialmente,surtout,0.2857142857142857
+1225,fbi,fbi,1.0
+1226,embarazada,enceinte,0.0
+1227,esperen,attendez,0.0
+1228,pantalones,pantalons,1.0
+1229,defensa,défendre,0.5
+1230,terminó,terme,0.6
+1231,salido,sorti,0.3333333333333333
+1232,estupendo,formidable,0.0
+1233,jane,jeanne,0.6666666666666666
+1234,presión,pression,0.8
+1235,inmediatamente,immédiatement,0.75
+1236,testigo,témoin,0.25
+1237,deberían,ils devraient,0.25
+1238,olvidado,oublié,0.0
+1239,soldados,soldats,0.8
+1240,resulta,résultat,0.6666666666666666
+1241,tommy,tommy,1.0
+1242,depende,"en fonction, dépendemment",0.2222222222222222
+1243,motivo,raison,0.0
+1244,inglés,anglais,0.8
+1245,estudio,étude,0.6666666666666666
+1246,acabar,finir,0.3333333333333333
+1247,sentimientos,sentiments,1.0
+1248,tomando,prise,0.0
+1249,dieron,ils ont donné,0.2
+1250,parecen,ils ressemblent à,0.15384615384615385
+1251,llaves,clés,0.5
+1252,perros,chiens,0.25
+1253,propósito,objectif,0.0
+1254,noticia,nouvelles,0.2
+1255,partir,pars,0.5
+1256,metros,mètres,0.8
+1257,santa,père noël,0.14285714285714285
+1258,quedarse,rester,0.0
+1259,clientes,clients,1.0
+1260,podrá,pourra,0.5
+1261,cuántas,combien,0.2
+1262,ridículo,ridicule,0.8
+1263,damas,damas,1.0
+1264,tranquila,calme,0.0
+1265,operación,opération,0.4
+1266,come,viens,0.0
+1267,empresa,compagnie,0.4
+1268,ayúdame,aide-moi,0.25
+1269,laboratorio,laboratoire,1.0
+1270,elección,choix,0.2
+1271,menudo,souvent,0.25
+1272,beso,embrasser,0.3333333333333333
+1273,copa,tasse,0.0
+1274,conversación,conversation,0.75
+1275,brazos,les bras,0.3333333333333333
+1276,espíritu,esprit,0.8
+1277,dejas,danse,0.6666666666666666
+1278,cansado,fatigué,0.0
+1279,interesa,intéressant,0.5
+1280,refieres,tu veux dire,0.0
+1281,casado,marié,0.0
+1282,enorme,énorme,0.75
+1283,asuntos,affaires,0.25
+1284,fe,fe,1.0
+1285,muestra,goûter,0.5
+1286,trampa,piège,0.0
+1287,ray,rayon,0.6666666666666666
+1288,billy,gamelle,0.25
+1289,memoria,mémoire,0.75
+1290,johnny,johnny,1.0
+1291,contrario,contraire,1.0
+1292,soldado,soldat,0.75
+1293,subir,remonter,0.2
+1294,turno,décalage,0.0
+1295,encantaría,aimerait,0.16666666666666666
+1296,preocupado,préoccupé,0.5714285714285714
+1297,restaurante,restaurant,1.0
+1298,saliendo,sortir,0.25
+1299,escrito,écrit,0.75
+1300,cálmate,allez-y doucement,0.18181818181818182
+1301,bienvenida,accueillir,0.0
+1302,caer,tomber,0.25
+1303,llevaré,je vais prendre,0.2
+1304,leche,le lait,0.25
+1305,estrellas,étoiles,0.5
+1306,prefiero,je préfère,0.5
+1307,red,rouge,0.5
+1308,viejos,agé de,0.0
+1309,solamente,seulement,1.0
+1310,oiga,ecoutez,0.0
+1311,cuentas,perles,0.25
+1312,taxi,taxi,1.0
+1313,anillo,anneau,0.3333333333333333
+1314,richard,richard,1.0
+1315,preguntar,demander,0.3333333333333333
+1316,victoria,victoria,1.0
+1317,quiénes,qui est-ce,0.16666666666666666
+1318,héroe,héros,0.75
+1319,pequeños,petits,0.5
+1320,decidido,décidé,0.6
+1321,películas,films,0.3333333333333333
+1322,responsable,responsable,1.0
+1323,trago,je bois,0.0
+1324,volverá,retourner à,0.14285714285714285
+1325,árbol,arbre,0.5
+1326,ibas,tu allais,0.2
+1327,dientes,les dents,0.5714285714285714
+1328,encantado,charmé,0.0
+1329,camión,un camion,0.4
+1330,vender,vendre,1.0
+1331,llame,j'ai appelé,0.14285714285714285
+1332,detente,détente,0.8
+1333,luchar,lutte,0.25
+1334,cabo,câble,0.5
+1335,ruido,bruit,0.3333333333333333
+1336,lucha,lutter,0.25
+1337,muere,va mourir,0.4
+1338,reloj,l'horloge,0.3333333333333333
+1339,gato,chat,0.3333333333333333
+1340,averiguar,déterminer,0.2857142857142857
+1341,volar,voler,1.0
+1342,vayamos,allons-y,0.16666666666666666
+1343,tanta,tellement de,0.375
+1344,vendrá,viendra,0.8
+1345,corriendo,pressé,0.2
+1346,yendo,aller,0.0
+1347,colegio,collège,0.6
+1348,sonido,du son,0.25
+1349,caballero,chevalier,0.6
+1350,pasada,pasada,1.0
+1351,código,code,0.5
+1352,hagamos,faisons,0.25
+1353,imagen,image,0.6666666666666666
+1354,riesgo,risque,0.6666666666666666
+1355,llegamos,nous sommes arrivés,0.15384615384615385
+1356,alguno,quelques,0.25
+1357,pan,poêle,0.3333333333333333
+1358,millón,million,0.8
+1359,malas,malas,1.0
+1360,dama,harcèlement,0.125
+1361,hielo,glace,0.3333333333333333
+1362,coño,cône,0.3333333333333333
+1363,cayó,c'est tombé,0.1111111111111111
+1364,prensa,presse,0.75
+1365,querer,vouloir,0.3333333333333333
+1366,vengan,viens,0.5
+1367,eddie,eddie,1.0
+1368,caminar,marcher,0.2
+1369,televisión,la télé,0.0
+1370,pasará,ça va arriver,0.125
+1371,momentos,des moments,0.625
+1372,coger,prendre,0.2
+1373,posibilidad,possibilité,0.5714285714285714
+1374,mark,marque,0.6666666666666666
+1375,asiento,siège,0.3333333333333333
+1376,herido,blessée,0.0
+1377,maría,marie,0.6666666666666666
+1378,seguramente,sûrement,0.8333333333333334
+1379,proyecto,projet,0.6
+1380,pared,épuré,0.5
+1381,sentí,feutre,0.25
+1382,sospechoso,méfiant,0.0
+1383,naturaleza,la nature,0.2
+1384,ésa,cette,0.0
+1385,silla,chaise,0.0
+1386,perdió,perdu,0.75
+1387,robert,robert,1.0
+1388,policías,flics,0.6
+1389,arreglar,organiser,0.4
+1390,sentado,assise,0.25
+1391,papi,papa,1.0
+1392,ideas,des idées,0.3333333333333333
+1393,obtener,obtenir,1.0
+1394,felices,heureux,0.0
+1395,señoría,seigneurie,0.25
+1396,cantidad,montant,0.4
+1397,bebe,bébé,0.5
+1398,mírame,regardez-moi,0.2857142857142857
+1399,chris,chris,1.0
+1400,papa,papa,1.0
+1401,llorar,faire le deuil,0.14285714285714285
+1402,quedó,séjourné,0.0
+1403,familiar,familier,1.0
+1404,desastre,un sinistre,0.5714285714285714
+1405,locos,locomotives,0.5
+1406,escuche,j'ai écouté,0.14285714285714285
+1407,quedarte,rester,0.0
+1408,política,politique,0.6
+1409,pedí,j'ai demandé,0.125
+1410,will,sera,0.0
+1411,enfermedad,maladies,0.16666666666666666
+1412,encontraron,ils ont trouvé,0.3
+1413,colega,collaborateur,0.2857142857142857
+1414,príncipe,prince,0.6666666666666666
+1415,verde,vert,0.6666666666666666
+1416,bajar,descendre,0.16666666666666666
+1417,nervioso,nerveux,0.75
+1418,vengo,je viens,0.4
+1419,inspector,inspecteur,1.0
+1420,sirve,ça sert,0.4
+1421,puertas,des portes,0.5714285714285714
+1422,fuerzas,les forces,0.42857142857142855
+1423,playa,playa,1.0
+1424,cantar,chanter,0.8
+1425,déjeme,laisse moi,0.2
+1426,velocidad,la rapidité,0.14285714285714285
+1427,total,total,1.0
+1428,cabello,cheveu,0.25
+1429,suficientemente,suffisamment,0.625
+1430,huellas,empreintes de pas,0.09090909090909091
+1431,haberte,avez-vous,0.0
+1432,debí,j'aurais dû,0.0
+1433,unidad,unité,0.3333333333333333
+1434,estan,elles sont,0.2857142857142857
+1435,cuchillo,couteau,0.2
+1436,t,t,1.0
+1437,oigan,hé,0.0
+1438,gana,assez,0.0
+1439,tonterías,et mince,0.16666666666666666
+1440,emergencia,urgence,0.8
+1441,perfecta,parfaite,0.8
+1442,hable,j'ai parlé,0.14285714285714285
+1443,gustaba,aimait,0.25
+1444,lugares,des endroits,0.25
+1445,ryan,ryan,1.0
+1446,show,afficher,0.2
+1447,robo,robot,0.6666666666666666
+1448,permite,permet,1.0
+1449,parque,parc,0.6666666666666666
+1450,uds.,ous.,0.6666666666666666
+1451,roto,à l'intérieur,0.1111111111111111
+1452,serie,série,0.6666666666666666
+1453,puse,demi,0.0
+1454,nuevas,nouveau,0.6666666666666666
+1455,evidencia,preuve,0.0
+1456,conocerte,te connais,0.16666666666666666
+1457,estúpida,stupide,0.8
+1458,preocupe,inquiétude,0.0
+1459,perdone,pardon,1.0
+1460,botella,bouteille,1.0
+1461,viento,vent,1.0
+1462,mando,j'envoie,0.25
+1463,extraña,étrange,0.4
+1464,historias,histoires,1.0
+1465,aquella,celle-la,0.4
+1466,solos,solos,1.0
+1467,apoyo,support,0.2
+1468,bala,lis,0.0
+1469,verdadera,vrai,0.4
+1470,tiro,tiro,1.0
+1471,época,ère,0.0
+1472,puente,pont,1.0
+1473,olvídalo,oublie,0.2
+1474,distancia,distance,1.0
+1475,desea,vouloir,0.0
+1476,dejarlo,quitter,0.0
+1477,pelear,se battre,0.16666666666666666
+1478,pierna,jambe,0.0
+1479,echar,jeter,0.3333333333333333
+1480,descanso,le repos,0.2
+1481,américa,amérique,0.75
+1482,área,région,0.0
+1483,orgulloso,fier,0.0
+1484,datos,les données,0.25
+1485,espectáculo,afficher,0.14285714285714285
+1486,sube,monte,0.0
+1487,dejaste,vous avez quitté,0.1
+1488,acabas,vous avez terminé,0.0
+1489,verá,verra,0.6666666666666666
+1490,magia,la magie,0.5
+1491,nacional,nationale,0.75
+1492,universo,univers,1.0
+1493,llevaba,portait,0.0
+1494,necesitar,avoir besoin,0.0
+1495,nariz,nez,0.6666666666666666
+1496,aquellos,ceux,0.0
+1497,clases,cours,0.5
+1498,jake,jacques,0.25
+1499,casas,maisons,0.5
+1500,vergüenza,la honte,0.16666666666666666
+1501,monstruo,monstre,1.0
+1502,princesa,princesse,0.8333333333333334
+1503,autobús,bus,0.5
+1504,cuidar,prenez soin de vous,0.08333333333333333
+1505,ei,non,0.0
+1506,huevos,des œufs,0.16666666666666666
+1507,pocos,peu,0.3333333333333333
+1508,podrás,tu peux,0.0
+1509,enferma,malade,0.0
+1510,paseo,marche,0.0
+1511,detalles,détails,0.6
+1512,llamadas,appels,0.2
+1513,belleza,beauté,0.25
+1514,francia,france,1.0
+1515,abierto,ouvert,0.6666666666666666
+1516,viviendo,vivant,0.75
+1517,envió,expédition,0.0
+1518,puntos,points,1.0
+1519,ministro,ministre,1.0
+1520,conducir,balade,0.2
+1521,aceptar,accepter,0.8
+1522,borracho,ivre,0.2
+1523,animal,animal,1.0
+1524,caballos,les chevaux,0.0
+1525,trajo,il a apporté,0.125
+1526,contrato,contrat,1.0
+1527,viernes,vendredi,0.2
+1528,bobby,policier,0.0
+1529,martin,martin,1.0
+1530,amy,amy,1.0
+1531,bienvenidos,accueillir,0.0
+1532,ex,ex,1.0
+1533,hechos,les faits,0.16666666666666666
+1534,sociedad,société,0.4
+1535,dra.,usure.,0.6666666666666666
+1536,quede,rester,0.0
+1537,inglaterra,angleterre,1.0
+1538,carga,charge,0.75
+1539,diste,vous avez donné,0.1
+1540,puto,pense,0.3333333333333333
+1541,lleve,j'ai porté,0.0
+1542,presente,cadeau,0.0
+1543,conocía,connaissait,0.3333333333333333
+1544,uso,utilisation,0.2
+1545,dedos,des doigts,0.42857142857142855
+1546,oferta,offrir,0.5
+1547,sentía,feutre,0.25
+1548,proteger,protéger,0.8333333333333334
+1549,daniel,daniel,1.0
+1550,date,date,1.0
+1551,hiciera,ferait,0.0
+1552,hablé,j'ai parlé,0.2857142857142857
+1553,recibir,recevoir,0.75
+1554,agradezco,j'apprécie,0.14285714285714285
+1555,robar,voler,0.3333333333333333
+1556,enamorado,aimé,0.25
+1557,sepas,vous connaissez,0.2222222222222222
+1558,oeste,ouest,1.0
+1559,herida,plaie,0.0
+1560,despacio,tout doucement,0.125
+1561,ayude,aider,0.0
+1562,supe,superbe,0.5
+1563,directamente,directement,1.0
+1564,inmediato,immédiat,0.6
+1565,profesional,professionnelle,0.6666666666666666
+1566,oscuro,sombre,0.5
+1567,mercado,marché,0.6
+1568,cerdo,porc,0.3333333333333333
+1569,tardes,après midi,0.2857142857142857
+1570,líder,chef,0.0
+1571,grave,la tombe,0.0
+1572,llegué,je suis arrivé,0.1111111111111111
+1573,jurado,jury,0.6666666666666666
+1574,casos,cas,0.6666666666666666
+1575,acuerdas,te souviens tu,0.125
+1576,ahi,ahi,1.0
+1577,desaparecido,disparu,0.6666666666666666
+1578,debió,devrait,0.25
+1579,últimamente,dernièrement,0.375
+1580,piedra,pierre,0.6666666666666666
+1581,habló,parler,0.25
+1582,charles,charles,1.0
+1583,paga,payer,0.3333333333333333
+1584,secretos,secrets,1.0
+1585,digamos,disons,0.5
+1586,intención,intention,0.6666666666666666
+1587,humor,humour,1.0
+1588,dura,dure-mère,0.3333333333333333
+1589,dará,va donner,0.16666666666666666
+1590,seguros,assurance,0.4
+1591,leo,leo,1.0
+1592,adam,adam,1.0
+1593,and,et,0.0
+1594,ángeles,anges,0.6
+1595,querría,je voudrais,0.16666666666666666
+1596,cerrar,fermer,0.5
+1597,conseguido,atteint,0.0
+1598,peso,lester,0.25
+1599,víctimas,victimes,0.8333333333333334
+1600,asesinado,assassiné,0.5
+1601,humana,humain,1.0
+1602,directo,droit,0.75
+1603,central,central,1.0
+1604,termina,prend fin,0.2857142857142857
+1605,compañeros,compagnons,0.5714285714285714
+1606,escuchado,écouté,0.2
+1607,contento,heureux,0.0
+1608,llevan,ils portent,0.25
+1609,podré,je serai capable,0.1111111111111111
+1610,oscuridad,obscurité,0.5
+1611,actuar,loi,0.0
+1612,siga,suivre,0.3333333333333333
+1613,llevado,led,0.5
+1614,comenzó,a débuté,0.0
+1615,regresa,revenu,0.25
+1616,privado,privé,0.75
+1617,mirada,voir,0.3333333333333333
+1618,demonio,mauvais,0.0
+1619,abierta,ouvert,0.6666666666666666
+1620,kevin,kévin,0.75
+1621,m,m,1.0
+1622,llámame,appelez-moi,0.3333333333333333
+1623,siguen,suivre,0.3333333333333333
+1624,romper,pause,0.25
+1625,cambia,changements,0.25
+1626,fiscal,fiscal,1.0
+1627,jardín,cour,0.2
+1628,natural,naturel,1.0
+1629,gratis,libre,0.0
+1630,cuesta,coût,0.6666666666666666
+1631,amenaza,menace,0.6666666666666666
+1632,pon,pon,1.0
+1633,marca,marque,0.6666666666666666
+1634,comenzar,commencer,0.6666666666666666
+1635,ponte,pont,1.0
+1636,medicina,médicament,0.5714285714285714
+1637,podremos,nous pourrons,0.375
+1638,tomé,prendre,0.0
+1639,preciosa,précieux,0.6
+1640,sexual,sexuel,1.0
+1641,acceso,allumé,0.0
+1642,necesidad,besoin,0.2
+1643,dueño,propriétaire,0.0
+1644,merece,mériter,0.4
+1645,rayos,rayon,0.6666666666666666
+1646,d,ré,0.0
+1647,mintiendo,mensonge,0.6
+1648,tantas,tant,0.75
+1649,imagino,j'imagine,0.6
+1650,fantasma,fantôme,0.8
+1651,creerlo,crois le,0.6
+1652,llamé,j'ai appelé,0.14285714285714285
+1653,ponga,mettre,0.0
+1654,brian,brian,1.0
+1655,dé,dé,1.0
+1656,pollo,poulet,0.6666666666666666
+1657,varios,plusieurs,0.4
+1658,efecto,effet,0.6666666666666666
+1659,felicidad,félicité,0.5
+1660,espada,épée,0.3333333333333333
+1661,relaciones,rapports,0.3333333333333333
+1662,entró,j'entre,0.4
+1663,resultado,résultat,0.6666666666666666
+1664,sombrero,sombrero,1.0
+1665,menor,plus petit,0.0
+1666,recibido,reçu,0.25
+1667,negra,le noir,0.25
+1668,to,à,0.0
+1669,limpio,propre,0.25
+1670,china,chine,1.0
+1671,juegos,jeux,0.3333333333333333
+1672,correo,courrier,0.75
+1673,confía,confiance,0.6
+1674,video,vidéo,0.6666666666666666
+1675,perfectamente,à la perfection,0.4
+1676,harán,ils feront,0.14285714285714285
+1677,teatro,théâtre,0.5
+1678,dormido,endormi,0.5
+1679,local,local,1.0
+1680,quedado,la gauche,0.0
+1681,lástima,pitié,0.2
+1682,calles,des rues,0.2
+1683,créeme,fais-moi confiance,0.1
+1684,responsabilidad,responsabilité,0.7777777777777778
+1685,búsqueda,recherche,0.0
+1686,dedo,doigt,0.3333333333333333
+1687,tonta,agé de,0.0
+1688,recuerdos,cordialement,0.2857142857142857
+1689,razones,les raisons,0.42857142857142855
+1690,escuchando,écoute,0.16666666666666666
+1691,eric,éric,0.6666666666666666
+1692,elegir,choisir,0.25
+1693,amas,amas,1.0
+1694,huele,sent,0.0
+1695,almuerzo,déjeuner,0.0
+1696,cien,cent,0.6666666666666666
+1697,adn,et,0.0
+1698,tantos,de nombreux,0.14285714285714285
+1699,pago,paiement,0.25
+1700,normalmente,d'habitude,0.0
+1701,mr,m,0.5
+1702,pastel,pastel,1.0
+1703,bastardo,bâtard,0.8
+1704,cinta,aimer,0.0
+1705,pasé,arrive,0.0
+1706,dígame,dites-moi,0.4
+1707,anna,anna,1.0
+1708,costa,costa,1.0
+1709,levántate,se lever,0.0
+1710,llamando,appel,0.0
+1711,cerrado,fermé,0.25
+1712,interés,intérêt,0.5
+1713,enfermera,infirmière,0.8333333333333334
+1714,comienzo,début,0.0
+1715,olvidé,oublié,0.25
+1716,militar,militaire,1.0
+1717,polvo,poussière,0.2
+1718,bella,bella,1.0
+1719,quedo,je reste,0.0
+1720,kate,kate,1.0
+1721,encontraste,par contre,0.2857142857142857
+1722,voluntad,sera,0.0
+1723,varias,plusieurs,0.4
+1724,teoría,la théorie,0.16666666666666666
+1725,roja,rouge,0.5
+1726,cuento,histoire,0.25
+1727,escenario,décor,0.25
+1728,diario,du quotidien,0.16666666666666666
+1729,propiedad,propriété,0.42857142857142855
+1730,agujero,trou,0.3333333333333333
+1731,aspecto,aspect,1.0
+1732,campamento,camp,0.5
+1733,descansar,le repos,0.16666666666666666
+1734,matarme,tue-moi,0.5
+1735,metido,bloqué,0.0
+1736,quiso,recherché,0.0
+1737,ángel,ange,0.5
+1738,enviar,nous faire parvenir,0.2727272727272727
+1739,impresionante,impressionnant,0.7777777777777778
+1740,proceso,traiter,0.25
+1741,intentado,a essayé,0.0
+1742,mio,mon,0.5
+1743,fuente,police de caractère,0.08333333333333333
+1744,alcalde,alcalde,1.0
+1745,ocurrido,passé,0.0
+1746,malos,mal,0.6666666666666666
+1747,carretera,autoroute,0.4
+1748,desapareció,il a disparu,0.2857142857142857
+1749,desayuno,petit-déjeuner,0.2222222222222222
+1750,débil,faible,0.5
+1751,roma,rome,1.0
+1752,sabido,connu,0.0
+1753,comienza,commence,0.6
+1754,tambien,aussi,0.0
+1755,intentarlo,essayez-le,0.16666666666666666
+1756,miembro,membre,1.0
+1757,perdiendo,perdant,0.8
+1758,resultados,résultats,0.7142857142857143
+1759,jerry,jerry,1.0
+1760,mata,mata,1.0
+1761,sr,sr,1.0
+1762,valiente,braver,0.0
+1763,deber,devoir,0.6666666666666666
+1764,pecho,buste,0.0
+1765,gustó,goûter,0.5
+1766,oyes,entendez-vous,0.125
+1767,thomas,thomas,1.0
+1768,periódico,un journal,0.0
+1769,mami,maman,0.6666666666666666
+1770,piensan,ils pensent,0.5
+1771,washington,washington,1.0
+1772,tv,la télé,0.16666666666666666
+1773,cansada,fatigué,0.0
+1774,limpiar,nettoyer,0.2
+1775,crear,créer,0.75
+1776,explicar,explique,0.6
+1777,robado,volé,0.0
+1778,resolver,résoudre,0.4
+1779,maté,maté,1.0
+1780,guapo,beau,0.0
+1781,continuar,continuer,1.0
+1782,sheriff,shérif,0.6
+1783,funcionar,travailler,0.16666666666666666
+1784,extra,en plus,0.0
+1785,primo,premier,0.75
+1786,manejar,manipuler,0.6
+1787,primeros,première,0.6
+1788,acto,loi,0.0
+1789,poniendo,mettre en place,0.1
+1790,números,nombres,0.6
+1791,kilómetros,kilomètres,0.7142857142857143
+1792,andy,andy,1.0
+1793,llevará,porter,0.2
+1794,rachel,rachel,1.0
+1795,niñas,les filles,0.14285714285714285
+1796,premio,décerner,0.16666666666666666
+1797,internet,l'internet,0.7142857142857143
+1798,harías,ferais tu,0.2
+1799,inútil,inutile,0.75
+1800,domingo,dimanche,0.6
+1801,tomas,thomas,0.75
+1802,sensación,sensation,0.6666666666666666
+1803,alcohol,de l'alcool,0.2857142857142857
+1804,tercera,troisième,0.4
+1805,agentes,agents,1.0
+1806,disculpas,excuses,0.3333333333333333
+1807,antiguo,ancien,0.3333333333333333
+1808,guapa,jolie,0.0
+1809,asustado,peur,0.0
+1810,puedan,boîte,0.0
+1811,sexy,sexy,1.0
+1812,genio,génie,0.6666666666666666
+1813,recuperar,récupérer,0.7142857142857143
+1814,creemos,nous croyons,0.375
+1815,lengua,langue,1.0
+1816,ladrón,voleur,0.2
+1817,intenté,j'ai essayé,0.14285714285714285
+1818,examen,examen,1.0
+1819,deprisa,dépêche toi,0.25
+1820,montaña,montagne,0.6
+1821,durmiendo,en train de dormir,0.16666666666666666
+1822,disparar,tirer,0.4
+1823,entrenador,entraîneur,0.6666666666666666
+1824,queso,queso,1.0
+1825,entero,entier,1.0
+1826,papeles,papiers,0.75
+1827,pones,tu mets,0.2
+1828,modelo,maquette,0.25
+1829,fútbol,football,0.6
+1830,detener,ayant,0.25
+1831,lados,côtés,0.2
+1832,miembros,membres,1.0
+1833,sábado,samedi,0.5
+1834,pongo,je mets,0.0
+1835,mataron,ils ont tué,0.125
+1836,vuelvas,revenir,0.0
+1837,talento,talent,1.0
+1838,descubrir,découvrir,0.6666666666666666
+1839,gordo,gordo,1.0
+1840,tribunal,tribunal,1.0
+1841,toque,toucher,0.25
+1842,wow,wow,1.0
+1843,hables,parler,0.25
+1844,conocemos,nous savons,0.14285714285714285
+1845,haberme,prend moi,0.16666666666666666
+1846,dispuesto,prêt,0.2
+1847,tamaño,taille,0.3333333333333333
+1848,dejen,la pâte,0.0
+1849,maravillosa,magnifique,0.16666666666666666
+1850,invitado,invité,0.75
+1851,importantes,important,0.8571428571428571
+1852,derechos,droits,0.6
+1853,scott,scott,1.0
+1854,declaración,déclaration,0.5714285714285714
+1855,claramente,clairement,1.0
+1856,pacientes,les patients,0.5
+1857,pérdida,perte,0.4
+1858,in,dans,0.3333333333333333
+1859,iban,allaient,0.25
+1860,pudiste,vous pourriez,0.14285714285714285
+1861,profundo,profond,1.0
+1862,gas,gaz,0.5
+1863,aeropuerto,aéroport,0.8
+1864,consigue,obtenir,0.0
+1865,olvidar,oubliez,0.0
+1866,gloria,gloire,1.0
+1867,olvides,oubliez,0.0
+1868,volviendo,revenir,0.4
+1869,coge,prendre,0.0
+1870,fué,il a été,0.16666666666666666
+1871,llamaba,appelé,0.0
+1872,pete,peter,0.6666666666666666
+1873,instituto,institut,1.0
+1874,disparo,tir,0.25
+1875,encuentras,tu trouves,0.3333333333333333
+1876,querían,recherché,0.14285714285714285
+1877,hablemos,parlons,0.4
+1878,dia,dia,1.0
+1879,enviado,expédié,0.2
+1880,pertenece,fait parti,0.16666666666666666
+1881,sienta,s'asseoir,0.2
+1882,pensó,pensait,0.75
+1883,cadáver,corps,0.2
+1884,gracia,la grâce,0.5
+1885,doctora,docteur,1.0
+1886,escuchen,ecoutez,0.2
+1887,amante,amoureux,0.3333333333333333
+1888,temporada,saison,0.0
+1889,kim,kim,1.0
+1890,cuerpos,corps,1.0
+1891,amigas,copains,0.25
+1892,larry,larry,1.0
+1893,preguntaba,je demandais,0.14285714285714285
+1894,francés,français,0.6666666666666666
+1895,mataste,tu as tué,0.3333333333333333
+1896,techo,le plafond,0.0
+1897,íbamos,nous allions,0.14285714285714285
+1898,protección,protection,0.7142857142857143
+1899,médicos,médecins,0.8333333333333334
+1900,lisa,lisa,1.0
+1901,venganza,vengeance,0.8
+1902,pensamos,nous pensons,0.5
+1903,walter,walter,1.0
+1904,contó,dénombré,0.14285714285714285
+1905,discutir,discuter,1.0
+1906,comprendo,comprendre,0.8571428571428571
+1907,idiotas,idiots,1.0
+1908,enemigos,ennemis,0.5
+1909,camisa,chemise,0.75
+1910,superior,supérieur,0.8
+1911,criminal,criminel,1.0
+1912,preocupada,concerné,0.16666666666666666
+1913,bote,bateau,1.0
+1914,escribió,a écrit,0.2
+1915,llevamos,nous portons,0.125
+1916,testigos,les témoins,0.375
+1917,recoger,ranger,0.75
+1918,emily,emilie,0.6666666666666666
+1919,truco,tour,0.6666666666666666
+1920,jason,jason,1.0
+1921,original,original,1.0
+1922,pide,demande,0.25
+1923,jeff,jeff,1.0
+1924,rosa,rose,1.0
+1925,mama,maman,0.6666666666666666
+1926,negros,les noirs,0.3333333333333333
+1927,sobrevivir,survivre,0.8333333333333334
+1928,rostro,visage,0.25
+1929,crédito,le crédit,0.7142857142857143
+1930,compartir,partager,0.5
+1931,saca,en sort,0.2
+1932,irás,tu iras,0.25
+1933,pequeñas,peu,0.25
+1934,veía,vu,0.5
+1935,empezando,départ,0.0
+1936,registro,inscription,0.14285714285714285
+1937,continúa,continue,0.8
+1938,grandioso,génial,0.4
+1939,viniste,est tu venu? t'es venu,0.2
+1940,esquina,coin,0.3333333333333333
+1941,contado,dénombré,0.14285714285714285
+1942,cientos,des centaines,0.5
+1943,tormenta,tempête,0.4
+1944,relájate,détends-toi,0.125
+1945,siéntese,s'asseoir,0.2
+1946,chocolate,chocolat,1.0
+1947,matt,mat,0.6666666666666666
+1948,pedazo,pièce,0.3333333333333333
+1949,tomo,moi,0.5
+1950,olor,sentir,0.25
+1951,ciencia,la science,0.5
+1952,kelly,kelly,1.0
+1953,conexión,lien,0.2
+1954,vieron,vu,0.3333333333333333
+1955,salón,salon,0.75
+1956,sucio,sale,0.5
+1957,firma,entreprise,0.16666666666666666
+1958,vimos,vu,0.3333333333333333
+1959,pidiendo,demander,0.4
+1960,casarse,se marrier,0.16666666666666666
+1961,bebida,boisson,0.25
+1962,tercer,troisième,0.4
+1963,propios,posséder,0.16666666666666666
+1964,fuertes,puissant,0.0
+1965,lluvia,pluie,0.3333333333333333
+1966,recién,nouvellement,0.14285714285714285
+1967,tomaré,je vais prendre,0.1
+1968,complicado,compliqué,0.6666666666666666
+1969,europa,l'europe ,0.3333333333333333
+1970,toques,touche,0.3333333333333333
+1971,cámaras,appareils photo,0.1111111111111111
+1972,visión,vision,0.75
+1973,llego,arrivé,0.0
+1974,americano,américain,0.8
+1975,diversión,amusement,0.16666666666666666
+1976,pareció,il semblait,0.0
+1977,libras,livres sterling,0.2727272727272727
+1978,curso,cours,1.0
+1979,disco,disco,1.0
+1980,probable,probable,1.0
+1981,precioso,précieux,0.6
+1982,tenia,cela a,0.0
+1983,lago,l'aiguille,0.4
+1984,leído,lis,0.3333333333333333
+1985,consiguió,a obtenu,0.0
+1986,parecido,similaire,0.0
+1987,material,matériel,0.8
+1988,discurso,parole,0.2
+1989,entera,ensemble,0.2
+1990,it,ce,0.0
+1991,corta,court,1.0
+1992,completa,achevée,0.2
+1993,decirles,dis leur,0.4
+1994,lunes,lundi,0.6666666666666666
+1995,efectivo,en espèces,0.0
+1996,cura,traitement,0.16666666666666666
+1997,antigua,antigua,1.0
+1998,hablan,ils parlent,0.25
+1999,juntas,planches,0.3333333333333333
