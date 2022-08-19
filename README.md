@@ -26,8 +26,8 @@ However, there are several issues and areas of neglect that may arise from this 
  ## Examples
  According to Ethnologue, English and German are 60% similar and English and French are 27% similar. Below are two articles, one in German from _Der Spiegel_ and the other in French from _Le Monde_. The French clipping contains more cognates.
  
- ![Le Monde](/images/monde.png)  
- ![Der Spiegel](/images/spiegel.png)
+ ![Le Monde](/images/presentations/monde.png)  
+ ![Der Spiegel](/images/presentations/spiegel.png)
 
 # Our Proposition 
 In response to current methods of lexical similarity, we proposed a method that added several details to already established practices:
@@ -51,7 +51,7 @@ In response to current methods of lexical similarity, we proposed a method that 
 ## Example
 The results of bi-directional comparisons for the 1000 most common words found for English, French, German, and Spanish in the Open Subtitles Corpora.
 
-![OpenSubtitlesFreq](/images/tablewithtitles.png)
+![OpenSubtitlesFreq](/images/tables/opensub1000cool.png)
 
 # Quick Start
 linguistic-distance is written in Python. Below, you'll find links to install Python and Jupyter Notebook, a platform used to run Python code. 
@@ -68,6 +68,8 @@ Folders
 * [Discover USC Poster (Spring 2022)](https://emailsc.sharepoint.com/:p:/s/COTEAM-LING-DUBINSK-LCP-LexicalDistanceProject/EQL_nMNK9GpNhjN9iTK-w4sBxYElFhlKQQ9x_1Ocp2Y1Ow?e=0FHXlv, "Discover USC Poster")^
 * [United Nations Parallel Corpus](https://opus.nlpl.eu/UNPC.php, "United Nations Parallel Corpus")
 * [Open Subtitles Corpora](https://opus.nlpl.eu/OpenSubtitles2018.php, "Open Subtitles Corpora")
+* [Installing Jupyter Notebook](https://jupyter.org/install, "Installing Jupyter Notebook")
+* [Installing Python](https://www.python.org/downloads/, "Installing Python")
 
 ^Requires USC account
 
