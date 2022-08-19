@@ -53,6 +53,14 @@ The results of bi-directional comparisons for the 1000 most common words found f
 
 ![OpenSubtitlesFreq](/images/tablewithtitles.png)
 
+# Quick Start
+linguistic-distance is written in Python. Below, you'll find links to install Python and Jupyter Notebook, a platform used to run Python code. 
+
+Folders
+* alignment_docs - place data sources here, within appropriate folder
+* images/notes - for documentation/presentation purposes
+* package-testing - used to build lcp_python_libs package
+* ldistances - houses spreadsheets with l-distance data
 
 # Links
 * [Language Conflict Project](https://www.languageconflict.org/, "Language Conflict Project")
