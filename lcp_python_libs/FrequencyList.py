@@ -13,6 +13,18 @@ Class notes:
 This class contains all of the methods used to calculate the Levenshtein distance for frequency lists
 """
 class FrequencyList():
+    '''
+    Inputs: A string "strArg" to be devowelized
+    Outpus: A string "strRet" which is "strArg" without vowels
+    Utility: Removing vowels from words for Ldistance computations
+    '''
+    def stringDevowelize(strArg):
+        strRet = ""
+        listVowels = ['a', 'e', 'i', 'o', 'u']
+        for n in strArg:
+            if n not in listVowels:
+                strRet += n
+        return strRet
     
     '''
     Inputs: A string "strSrcLangFile" which is the file path of the frequency list in the source language,
