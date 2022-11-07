@@ -58,6 +58,7 @@ linguistic-distance is written in Python. Below, you'll find links to install Py
 
 Folders
 * alignment_docs - place data sources here, within appropriate folder
+ * both source data and analysis are stored here
 * images/notes - for documentation/presentation purposes
 * package-testing - used to build lcp_python_libs package
 * ldistances - houses spreadsheets with l-distance data
